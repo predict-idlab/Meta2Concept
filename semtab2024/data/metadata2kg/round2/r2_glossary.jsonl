@@ -1,0 +1,1192 @@
+{"id": "0", "label": "Visitor ID", "desc": "A unique identifier for the visitor"}
+{"id": "1", "label": "Basket Click", "desc": "Did the visitor click on the shopping basket icon?"}
+{"id": "2", "label": "List Add", "desc": "Did the visitor add a product to their shopping cart on the 'list' page?"}
+{"id": "3", "label": "Detail Add", "desc": "Did the visitor add a product to their shopping cart on the 'detail' page?"}
+{"id": "4", "label": "Sort Products", "desc": "Did the visitor sort products on a page?"}
+{"id": "5", "label": "Image Picker", "desc": "Did the visitor use the image picker?"}
+{"id": "6", "label": "Account Page", "desc": "Did the visitor visit their account page?"}
+{"id": "7", "label": "Promo Banner", "desc": "Did the visitor click on a promo banner?"}
+{"id": "8", "label": "Wishlist Add", "desc": "Did the visitor add a product to their wishlist from the 'detail' page?"}
+{"id": "9", "label": "Product Dropdown", "desc": "Did the visitor interact with a product dropdown?"}
+{"id": "10", "label": "Mini Basket Close", "desc": "Did the visitor close their mini shopping basket?"}
+{"id": "11", "label": "Delivery FAQ", "desc": "Did the visitor view the delivery FAQ area on a product page?"}
+{"id": "12", "label": "Returns FAQ", "desc": "Did the visitor check the returns FAQ area on a product page?"}
+{"id": "13", "label": "Sign In", "desc": "Did the visitor sign in to the website?"}
+{"id": "14", "label": "Checkout View", "desc": "Did the visitor view the checkout?"}
+{"id": "15", "label": "Size Chart", "desc": "Did the visitor view a product size chart?"}
+{"id": "16", "label": "Delivery FAQ Page", "desc": "Did the visitor view the delivery FAQ page?"}
+{"id": "17", "label": "Account Upgrade", "desc": "Did the visitor view the account upgrade page?"}
+{"id": "18", "label": "Homepage View", "desc": "Did the visitor view the website homepage?"}
+{"id": "19", "label": "Mobile Device", "desc": "Was the visitor on a mobile device?"}
+{"id": "20", "label": "Desktop Device", "desc": "Was the visitor on a desktop device?"}
+{"id": "21", "label": "Tablet Device", "desc": "Was the visitor on a table device?"}
+{"id": "22", "label": "New/Returning", "desc": "Was the visitor new or returning?"}
+{"id": "23", "label": "UK Location", "desc": "Was the visitor located in the UK, based on their IP address?"}
+{"id": "24", "label": "Order Placed", "desc": "Did the customer place an order?"}
+{"id": "25", "label": "Username", "desc": "The name of the user, as they\u2019ve defined it."}
+{"id": "26", "label": "Location", "desc": "The user-defined location for this account\u2019s profile."}
+{"id": "27", "label": "Bio", "desc": "The user-defined UTF-8 string describing their account."}
+{"id": "28", "label": "Creation Date", "desc": "Time and date, when the account was created."}
+{"id": "29", "label": "Followers", "desc": "The number of followers an account currently has."}
+{"id": "30", "label": "Friends", "desc": "The number of friends an account currently has."}
+{"id": "31", "label": "Favourites", "desc": "The number of favourites an account currently has."}
+{"id": "32", "label": "Verified", "desc": "When true, indicates that the user has a verified account"}
+{"id": "33", "label": "Tweet Date", "desc": "UTC time and date when the Tweet was created"}
+{"id": "34", "label": "Tweet Text", "desc": "The actual UTF-8 text of the Tweet"}
+{"id": "35", "label": "Hashtags", "desc": "All the other hashtags posted in the tweet along with #covidvaccine"}
+{"id": "36", "label": "Source", "desc": "Utility used to post the Tweet, Tweets from the Twitter website have a source value - web"}
+{"id": "37", "label": "Retweeted", "desc": "Indicates whether this Tweet has been Retweeted by the authenticating user."}
+{"id": "38", "label": "Tracking Number", "desc": "The tracking number used to refer to this application or permit record in various DPD tracking systems."}
+{"id": "39", "label": "Land Use Type", "desc": "Type of Land Use components covered by the application (SEPA, Platting action, etc.)."}
+{"id": "40", "label": "Address", "desc": "Street address of the work site."}
+{"id": "41", "label": "Approval Description", "desc": "Brief description of the approval that is sought with this application. This is subject to change prior to issuance of the permit, but generally more stable if an issue date exists. Very long descriptions have been truncated."}
+{"id": "42", "label": "Building Use", "desc": "The broad category of use or occupancy for the building where work is proposed. Valid choices are Commercial, Industrial, Institutional, Multifamily, and Single Family/Duplex. Mixed use structures are generally represented as Commercial."}
+{"id": "43", "label": "Master Use Permit Type", "desc": "The Type of Master Use Permit (which generally indicates an increasing degree of public comment involved in the process)"}
+{"id": "44", "label": "Design Review", "desc": "Indicates if Design Review is part of the application process for this permit."}
+{"id": "45", "label": "Work Value", "desc": "The value of the work being reviewed (generally an estimate for the value of the future work) For example, the future construction cost of the building subject to Environmental review. Value is not collected for all permit types."}
+{"id": "46", "label": "Primary Applicant", "desc": "The name of the person or company listed on the application as the \u201cprimary applicant\u201d. This may be the property owner, contractor, design professional, or other type of agent."}
+{"id": "47", "label": "Application Date", "desc": "The date the application was accepted as a complete application. If no Application Date exists this generally means the application is in a very early stage."}
+{"id": "48", "label": "Decision Date", "desc": "The date the Decision was published. If an Application Date exists but no Decision Date exists, this generally means the application is still under review."}
+{"id": "49", "label": "Appeal Received", "desc": "Indicates whether an appeal to the published decision has been received."}
+{"id": "50", "label": "Issue Date", "desc": "The date the application was issued as a valid Master Use Permit."}
+{"id": "51", "label": "Status", "desc": "The current status in the application/review/publication lifecycle. Indicates the last process step that was fully completed."}
+{"id": "52", "label": "Contractors", "desc": "Contractor(s) who are associated with this permit."}
+{"id": "53", "label": "Permit Link", "desc": "Link to view full details and current status information about this permit at DPD\u2019s website"}
+{"id": "54", "label": "Latitude", "desc": "Latitude of the worksite where permit activity occurs"}
+{"id": "55", "label": "Longitude", "desc": "Longitude of the worksite where permit activity occurs"}
+{"id": "56", "label": "Mapping Coordinates", "desc": "Mapping coordinates for the permit address."}
+{"id": "57", "label": "Clinical Trial ID", "desc": "clinical trial ID in clinicaltrials.gov"}
+{"id": "58", "label": "Segment", "desc": "segment of the original description of the entity in the clinical trial eligibility criteria source text"}
+{"id": "59", "label": "Concept ID", "desc": "mapped concept ID in the standard vocabulary of the entity"}
+{"id": "60", "label": "Concept Name", "desc": "mapped concept name in the standard vocabulary of the entity"}
+{"id": "61", "label": "Domain", "desc": "domain ('Drug','Condition','Procedure','Device','Measurement') of the concept"}
+{"id": "62", "label": "Start Position", "desc": "the position in the criteria source text where the entity starts"}
+{"id": "63", "label": "End Position", "desc": "the position in the criteria source text where the entity ends"}
+{"id": "64", "label": "Temporal Attribute", "desc": "segment of the corresponded temporal attribute of the entity in original criteria text"}
+{"id": "65", "label": "Normalized Temporal Attribute", "desc": "normalized temporal attribute as the number of days"}
+{"id": "66", "label": "Numerical Attribute", "desc": "segment of the corresponded numerical attribute of the entity in original criteria text"}
+{"id": "67", "label": "Lower Bound", "desc": "lower bound of the normalized numerical attribute"}
+{"id": "68", "label": "Upper Bound", "desc": "upper bound of the normalized numerical attribute"}
+{"id": "69", "label": "Criteria Type", "desc": "1' for exclusion criteria and '0' for inclusion criteria"}
+{"id": "70", "label": "Activity Type", "desc": "Type of activity covered by the permit."}
+{"id": "71", "label": "Work Description", "desc": "Brief description of the work that will be done under this permit. This is subject to change prior to issuance of the permit, but generally more stable if an issue date exists. Very long descriptions have been truncated."}
+{"id": "72", "label": "Work Subclass", "desc": "Subclassification for type of work being proposed. Valid choices will vary depending on the permit type."}
+{"id": "73", "label": "Project Complexity", "desc": "An indicator of the complexity of the project proposed. Easier projects can be issued without plan review; more complex projects generally require plan submittal and review."}
+{"id": "74", "label": "Work Value", "desc": "The value of the work being proposed. The value displayed (if any) represents the best available information to date, and is subject to change as more information becomes available. Value is not collected for all permit types."}
+{"id": "75", "label": "Application Date", "desc": "The date the application was accepted as a complete submittal. If no Application Date exists this generally means the application is in a very early stage."}
+{"id": "76", "label": "Issue Date", "desc": "The date the application was issued as a valid permit. If an Application Date exists but no Issue Date exists, this generally means the application is still under review."}
+{"id": "77", "label": "Final Date", "desc": "The date the permit had all its inspections completed. If an Issue Date exists but no Final Date exists, this generally means the permit is still under inspection."}
+{"id": "78", "label": "Expiration Date", "desc": "The date the application is due to expire. Generally, this is the date by which work is supposed to be completed (baring renewals or further extensions). If no Expiration Date exists, this generally means the application is has not been issued yet."}
+{"id": "79", "label": "Status", "desc": "The current status in the application/review/inspection lifecycle. Indicates the last process step that was fully completed."}
+{"id": "80", "label": "Latitude", "desc": "Latitude of the worksite where permit activity occurs. May be missing for a small number of permits considered \"Unaddressable\""}
+{"id": "81", "label": "Longitude", "desc": "Longitude of the worksite where permit activity occurs. May be missing for a small number of permits considered \"Unaddressable\""}
+{"id": "82", "label": "Defaulted", "desc": "1 = client defaulted on loan 0 = loan repaid"}
+{"id": "83", "label": "Loan Amount", "desc": "Amount of the loan request"}
+{"id": "84", "label": "Mortgage Due", "desc": "Amount due on existing mortgage"}
+{"id": "85", "label": "Property Value", "desc": "Value of current property"}
+{"id": "86", "label": "Loan Purpose", "desc": "DebtCon = debt consolidation HomeImp = home improvement"}
+{"id": "87", "label": "Occupation", "desc": "Six occupational categories"}
+{"id": "88", "label": "Job Years", "desc": "Years at present job"}
+{"id": "89", "label": "Derogatory Reports", "desc": "Number of major derogatory reports"}
+{"id": "90", "label": "Delinquent Lines", "desc": "Number of delinquent credit lines"}
+{"id": "91", "label": "Oldest Trade", "desc": "Age of oldest trade line in months"}
+{"id": "92", "label": "Recent Lines", "desc": "Number of recent credit lines"}
+{"id": "93", "label": "Total Lines", "desc": "Number of credit lines"}
+{"id": "94", "label": "DTI Ratio", "desc": "Debt-to-income ratio"}
+{"id": "95", "label": "Index", "desc": "unique index"}
+{"id": "96", "label": "File Path", "desc": "relative path to the file"}
+{"id": "97", "label": "Has Bee", "desc": "1 if the photo contains a bee"}
+{"id": "98", "label": "Has Wasp", "desc": "1 if the photo contains a wasp"}
+{"id": "99", "label": "Has Insect", "desc": "1 if the photo contains other insect"}
+{"id": "100", "label": "No Insect", "desc": "1 if the photo does not contain bee, wasp or insect"}
+{"id": "101", "label": "High Confidence", "desc": "1 for images considered to be high confidence, 0 otherwise"}
+{"id": "102", "label": "Validation", "desc": "use these observations as validation"}
+{"id": "103", "label": "Final Validation", "desc": "use these observations for final validation"}
+{"id": "104", "label": "Class Name", "desc": "text name of the class - bee, wasp, insect, other"}
+{"id": "105", "label": "Rank", "desc": "Official ranking, \"C\" denotes champion"}
+{"id": "106", "label": "Fighter", "desc": "Fighter name"}
+{"id": "107", "label": "Age", "desc": "Fighter age"}
+{"id": "108", "label": "Weight", "desc": "Fighter weight (in pounds)"}
+{"id": "109", "label": "Gender", "desc": "Fighter gender"}
+{"id": "110", "label": "Height", "desc": "Fighter height (in inches)"}
+{"id": "111", "label": "UFC Wins", "desc": "Wins in UFC organization"}
+{"id": "112", "label": "UFC Losses", "desc": "Loses in UFC organization"}
+{"id": "113", "label": "UFC Draws", "desc": "Draws in UFC organization. Blank if 0."}
+{"id": "114", "label": "UFC NC", "desc": "No contests in UFC organization. Blank if 0."}
+{"id": "115", "label": "Pro Wins", "desc": "Wins in any professional MMA organization."}
+{"id": "116", "label": "Pro Losses", "desc": "Loses in any professional MMA organization."}
+{"id": "117", "label": "Pro Draws", "desc": "Draws in any professional MMA organization. Blank if 0."}
+{"id": "118", "label": "Pro NC", "desc": "No contests in any professional MMA organization. Blank if 0."}
+{"id": "119", "label": "Shoe ID", "desc": "Shoe identifier"}
+{"id": "120", "label": "Cards Remaining", "desc": "Number of cards remaining in the shoe at the start of this round"}
+{"id": "121", "label": "Dealer Up", "desc": "Dealer's Up (visible) card"}
+{"id": "122", "label": "Player Cards", "desc": "Player's initial 2 cards before making any decisions"}
+{"id": "123", "label": "Dealer End", "desc": "Dealer's cards at the end of the round"}
+{"id": "124", "label": "Dealer Value", "desc": "Value of the Dealer's hand value at the end of the round"}
+{"id": "125", "label": "Player End", "desc": "Player's cards at the end of the round"}
+{"id": "126", "label": "Player Value", "desc": "Player's hand(s) value(s) at the end of the round"}
+{"id": "127", "label": "Player Actions", "desc": "Sequence of actions taken by the player"}
+{"id": "128", "label": "Hi-Lo Run", "desc": "Hi-Lo run count at the start of the round"}
+{"id": "129", "label": "Hi-Lo True", "desc": "Hi-Lo true count at the start of the round"}
+{"id": "130", "label": "Round Result", "desc": "Amount won/lost this round"}
+{"id": "131", "label": "Age Group", "desc": "Subject Age Group (10 year increments) as reported by the officer."}
+{"id": "132", "label": "Subject Key", "desc": "Key, generated daily, identifying unique subjects in the dataset using a character to character match of first name and last name. \"Null\" values indicate an \"anonymous\" or \"unidentified\" subject. Subjects of a Terry Stop are not required to present identification."}
+{"id": "133", "label": "Offense Number", "desc": "General Offense or Street Check number, relating the Terry Stop to the parent report. This field may have a one to many relationship in the data."}
+{"id": "134", "label": "Terry Stop Key", "desc": "Key identifying unique Terry Stop reports."}
+{"id": "135", "label": "Stop Resolution", "desc": "Resolution of the stop as reported by the officer."}
+{"id": "136", "label": "Weapon Type", "desc": "Type of weapon, if any, identified during a search or frisk of the subject. Indicates \"None\" if no weapons was found."}
+{"id": "137", "label": "Officer Key", "desc": "Key identifying unique officers in the dataset."}
+{"id": "138", "label": "Officer Birth Year", "desc": "Year of birth, as reported by the officer."}
+{"id": "139", "label": "Officer Gender", "desc": "Gender of the officer, as reported by the officer."}
+{"id": "140", "label": "Officer Race", "desc": "Race of the officer, as reported by the officer."}
+{"id": "141", "label": "Subject Race", "desc": "Perceived race of the subject, as reported by the officer."}
+{"id": "142", "label": "Subject Gender", "desc": "Perceived gender of the subject, as reported by the officer."}
+{"id": "143", "label": "Report Date", "desc": "Date the report was filed in the Records Management System (RMS). Not necessarily the date the stop occurred but generally within 1 day."}
+{"id": "144", "label": "Report Time", "desc": "Time the stop was reported in the Records Management System (RMS). Not the time the stop occurred but generally within 10 hours."}
+{"id": "145", "label": "Initial Call Type", "desc": "Initial classification of the call as assigned by 911."}
+{"id": "146", "label": "Final Call Type", "desc": "Final classification of the call as assigned by the primary officer closing the event."}
+{"id": "147", "label": "Call Receipt", "desc": "How the call was received by the communication center."}
+{"id": "148", "label": "Squad Assignment", "desc": "Functional squad assignment (not budget) of the officer as reported by the Data Analytics Platform (DAP)."}
+{"id": "149", "label": "Arrest Made", "desc": "Indicator of whether a \"physical arrest\" was made, of the subject, during the Terry Stop. Does not necessarily reflect a report of an arrest in the Records Management System (RMS)."}
+{"id": "150", "label": "Frisk Conducted", "desc": "Indicator of whether a \"frisk\" was conducted, by the officer, of the subject, during the Terry Stop."}
+{"id": "151", "label": "Precinct", "desc": "Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred."}
+{"id": "152", "label": "Sector", "desc": "Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred."}
+{"id": "153", "label": "Beat", "desc": "Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred."}
+{"id": "154", "label": "Ticker", "desc": "An arrangement of characters, often related to the company name representing publicly-traded securities on an exchange."}
+{"id": "155", "label": "Trade Category", "desc": "Categories for a stock under which trading can be done. EQ stands for equity and only permits intra-day transactions and equity delivery."}
+{"id": "156", "label": "Announcement Date", "desc": "The date on which a company announces important details about a decision that has a high impact on business, or the company's share holders."}
+{"id": "157", "label": "Announcement Details", "desc": "Important details about a decision that has a high impact on business, or the company's share holders announced by the company."}
+{"id": "158", "label": "Open Price", "desc": "The price of a security at the beginning of the trading day."}
+{"id": "159", "label": "High Price", "desc": "The maximum price of a security in a given time period."}
+{"id": "160", "label": "Low Price", "desc": "The minimum price of a security in a given time period."}
+{"id": "161", "label": "Last Trade Price", "desc": "The last price that a trade occurred in a futures contract."}
+{"id": "162", "label": "Previous Close", "desc": "A security's closing price on the preceding time period of the one being referenced."}
+{"id": "163", "label": "Price Change", "desc": "The absolute percentage price change of the security's price since the previous day's close."}
+{"id": "164", "label": "Volume Traded", "desc": "The total number of shares or contracts transacted for a specified security during a specified time period."}
+{"id": "165", "label": "Market Activity", "desc": "How much trading activity took place on a given business day in the market as a whole or individual stock, in lakhs."}
+{"id": "166", "label": "Retrieval Time", "desc": "Time of retrieval in DD-MM-YYYY HH:MM:SS."}
+{"id": "167", "label": "Diabetes Status", "desc": "0 = no diabetes 1 = prediabetes 2 = diabetes"}
+{"id": "168", "label": "High BP Status", "desc": "0 = no high BP 1 = high BP"}
+{"id": "169", "label": "High Cholesterol Status", "desc": "0 = no high cholesterol 1 = high cholesterol"}
+{"id": "170", "label": "Cholesterol Check", "desc": "0 = no cholesterol check in 5 years 1 = yes cholesterol check in 5 years"}
+{"id": "171", "label": "BMI", "desc": "Body Mass Index"}
+{"id": "172", "label": "Smoking History", "desc": "Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes] 0 = no 1 = yes"}
+{"id": "173", "label": "Stroke History", "desc": "(Ever told) you had a stroke. 0 = no 1 = yes"}
+{"id": "174", "label": "CHD/MI History", "desc": "coronary heart disease (CHD) or myocardial infarction (MI) 0 = no 1 = yes"}
+{"id": "175", "label": "Physical Activity", "desc": "physical activity in past 30 days - not including job 0 = no 1 = yes"}
+{"id": "176", "label": "Fruit Consumption", "desc": "Consume Fruit 1 or more times per day 0 = no 1 = yes"}
+{"id": "177", "label": "Vegetable Consumption", "desc": "Consume Vegetables 1 or more times per day 0 = no 1 = yes"}
+{"id": "178", "label": "Heavy Drinker", "desc": "Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week) 0 = no 1 = yes"}
+{"id": "179", "label": "Health Care Coverage", "desc": "Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes"}
+{"id": "180", "label": "Unaffordable Doctor Visit", "desc": "Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes"}
+{"id": "181", "label": "Self-Reported Health", "desc": "Would you say that in general your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor"}
+{"id": "182", "label": "Mental Health Days", "desc": "Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? scale 1-30 days"}
+{"id": "183", "label": "Physical Health Days", "desc": "Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? scale 1-30 days"}
+{"id": "184", "label": "Walking Difficulty", "desc": "Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes"}
+{"id": "185", "label": "Gender", "desc": "0 = female 1 = male"}
+{"id": "186", "label": "Age Category", "desc": "13-level age category (_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older"}
+{"id": "187", "label": "Education Level", "desc": "Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = Grades 1 through 8 (Elementary) 3 = Grades 9 through 11 (Some high school) 4 = Grade 12 or GED (High school graduate) 5 = College 1 year to 3 years (Some college or technical school) 6 = College 4 years or more (College graduate)"}
+{"id": "188", "label": "Income Level", "desc": "Income scale (INCOME2 see codebook) scale 1-8 1 = less than $10,000 5 = less than $35,000 8 = $75,000 or more"}
+{"id": "189", "label": "Heavy Drinker (Alt)", "desc": "(adult men >=14 drinks per week and adult women>=7 drinks per week) 0 = no 1 = yes"}
+{"id": "190", "label": "Poor Mental Health Days", "desc": "days of poor mental health scale 1-30 days"}
+{"id": "191", "label": "Physical Illness Days", "desc": "physical illness or injury days in past 30 days scale 1-30"}
+{"id": "192", "label": "Education Level (Alt)", "desc": "Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = elementary etc."}
+{"id": "193", "label": "Rank", "desc": "Ranking of movie"}
+{"id": "194", "label": "Year", "desc": "IMDB Top 250 List's year"}
+{"id": "195", "label": "IMDB URL", "desc": "movie's url on IMDB"}
+{"id": "196", "label": "Title", "desc": "title of movie"}
+{"id": "197", "label": "Release Year", "desc": "release year of movie"}
+{"id": "198", "label": "Runtime", "desc": "total runtime of movie (in movies)"}
+{"id": "199", "label": "Genres", "desc": "genres of movie"}
+{"id": "200", "label": "IMDB Score", "desc": "IMDB score of movie"}
+{"id": "201", "label": "Metascore", "desc": "Metascore score of movie"}
+{"id": "202", "label": "Votes", "desc": "total votes on IMDB for movie"}
+{"id": "203", "label": "Gross", "desc": "total gross of movie (Million Dollar)"}
+{"id": "204", "label": "Director", "desc": "director of movie"}
+{"id": "205", "label": "Performer 1", "desc": "performer 1 for movie"}
+{"id": "206", "label": "Performer 2", "desc": "performer 2 for movie"}
+{"id": "207", "label": "Performer 3", "desc": "performer 3 for movie"}
+{"id": "208", "label": "Performer 4", "desc": "performer 4 for movie"}
+{"id": "209", "label": "Activity Type", "desc": "Type of activity investigated by the case (Housing/Zoning case, Unfit Buildings, etc.)"}
+{"id": "210", "label": "Address", "desc": "Street address of the case investigation."}
+{"id": "211", "label": "Scope", "desc": "A brief description of the proposed scope for the case."}
+{"id": "212", "label": "Case Sub-Type", "desc": "The sub-type of the Case. For example, a \u201cHOUSING\u201d type of CITATION, etc."}
+{"id": "213", "label": "Open Date", "desc": "The date that the case was opened. (This date may have been preceded by inspections on an allegation, with the case opened only after determining that a violation exists)."}
+{"id": "214", "label": "Last Inspection Date", "desc": "The date of the last Compliance inspection so far."}
+{"id": "215", "label": "Last Inspection Result", "desc": "The result of the last Compliance inspection so far. Note that a \u201cFailed\u201d inspection may result when even a single item is not yet in compliance"}
+{"id": "216", "label": "Compliance Status", "desc": "Indicates the type of compliance achieved, or the final outcome of the case. \u201cOpen\u201d indicates that work is still in progress to achieve compliance."}
+{"id": "217", "label": "Latitude", "desc": "Latitude of the address where the case is being investigated."}
+{"id": "218", "label": "Longitude", "desc": "Longitude of the address where the case is being investigated."}
+{"id": "219", "label": "Coordinates", "desc": "Mapping coordinates of the address where the case is being investigated."}
+{"id": "220", "label": "Movie", "desc": "Name of Movie"}
+{"id": "221", "label": "Year", "desc": "Year Movie was released"}
+{"id": "222", "label": "Duration", "desc": "Time duration of Movie in minutes"}
+{"id": "223", "label": "Genre", "desc": "Different Genre of Movies"}
+{"id": "224", "label": "Rating", "desc": "Rating given to Movie"}
+{"id": "225", "label": "Votes", "desc": "Votes given to Movie"}
+{"id": "226", "label": "Director", "desc": "Director of the Movie"}
+{"id": "227", "label": "Actor 1", "desc": "Main Actor of Movie"}
+{"id": "228", "label": "Actor 2", "desc": "Second Main Actor of Movie"}
+{"id": "229", "label": "Actor 3", "desc": "Third Main Actor of Movie"}
+{"id": "230", "label": "County/LDSS", "desc": "Applicable county or Local District for Social Services (LDSS) in New York State. St. Regis Mohawk is a considered a LDSS and is reported as a separate county for this purpose."}
+{"id": "231", "label": "Reporting Year", "desc": "Reporting year for foster care activity."}
+{"id": "232", "label": "Adoptive Home Days", "desc": "This is the total number of care days provided for children in an adoptive home. Adoptive homes include adoptive and/or adoption subsidized homes."}
+{"id": "233", "label": "Agency Boarding Home Days", "desc": "This is the total number of care days provided for children in foster care residing in an Agency Operated Boarding Home."}
+{"id": "234", "label": "Relative Foster Home Days", "desc": "This is the total number of care days provided for children in foster care residing with a relative. The relative has been approved as a foster parent."}
+{"id": "235", "label": "Non-Relative Foster Home Days", "desc": "This is the total number of care days provided for children in foster care residing in a regular non-relative foster home."}
+{"id": "236", "label": "Congregate Care Home Days", "desc": "This is the total number of care days provided for children in foster care residing in a Congregate Care home."}
+{"id": "237", "label": "Group Residence Days", "desc": "This is the total number of care days provided for children in foster care residing in a group residence. These are also considered congregate care for youth."}
+{"id": "238", "label": "Institution Days", "desc": "This is the total number of care days provided for children in foster care residing in an Institution. This facility type is a larger facility for congregate care."}
+{"id": "239", "label": "Independent Living Days", "desc": "This is the total number of care days provided for children in foster care, but living on their own. These young adults have been approved by OCFS to live on their own."}
+{"id": "240", "label": "Residential Treatment Days", "desc": "This is the total number of care days provided for children in foster care residing in residential treatment facilities, skilled nursing facilities, specialized schools, etc."}
+{"id": "241", "label": "Total Facility Days", "desc": "This is the total number of care days provided for children in foster care residing in all facility types."}
+{"id": "242", "label": "Admissions", "desc": "Total children admitted to foster care in the calendar year."}
+{"id": "243", "label": "Discharges", "desc": "Total number of children discharged from care during the calendar year."}
+{"id": "244", "label": "Point in Time", "desc": "Total number of children in Foster Care on December 31 of the calendar year. This is point in time data."}
+{"id": "245", "label": "Children Served", "desc": "Total number of children served during the year. This includes children that were admitted in previous years as well as those admitted during the given year. As a result, this is usually higher than both admissions and point in time in care."}
+{"id": "246", "label": "CPS Reports Indicated", "desc": "This is the total number of Child Protective Services (CPS) reports that are indicated for abuse/maltreatment during a calendar year."}
+{"id": "247", "label": "Age", "desc": "Patient's Age in years (Numeric)"}
+{"id": "248", "label": "Gender", "desc": "Patient's Gender Male as 1 Female as 0 (Nominal)"}
+{"id": "249", "label": "Chest Pain", "desc": "Type of chest pain categorized into 1 typical, 2 typical angina, 3 non-anginal pain, 4 asymptomatic (Categorical)"}
+{"id": "250", "label": "Resting BP", "desc": "Level of blood pressure at resting mode in mm/HG (Numerical)"}
+{"id": "251", "label": "Cholesterol", "desc": "Serum cholestrol in mg/dl (Numeric)"}
+{"id": "252", "label": "Fasting BS", "desc": "Blood sugar levels on fasting > 120 mg/dl represents as 1 in case of true and 0 as false"}
+{"id": "253", "label": "ECG", "desc": "result of electrocardiogram while at rest are represented in 3 distinct values 0 : Normal 1: Abnormality in ST-T wave 2: Left ventricular hypertrophy"}
+{"id": "254", "label": "Max HR", "desc": "Maximum heart rate achieved (Numeric)"}
+{"id": "255", "label": "Angina", "desc": "Angina induced by exercise 0 depicting NO 1 depicting Yes (Nominal)"}
+{"id": "256", "label": "ST Depression", "desc": "Exercise induced ST-depression in comparison with the state of rest (Numeric)"}
+{"id": "257", "label": "ST Slope", "desc": "ST segment measured in terms of slope during peak exercise 0: Normal 1: Upsloping 2: Flat 3: Downsloping"}
+{"id": "258", "label": "Heart Risk", "desc": "Heart Risk 1 means heart disease 0 means normal"}
+{"id": "259", "label": "Date", "desc": "Date of observation"}
+{"id": "260", "label": "Country Code", "desc": "Three-character ISO 3166-1 country code"}
+{"id": "261", "label": "Currency Code", "desc": "Three-character ISO 4217 currency code"}
+{"id": "262", "label": "Country", "desc": "Country name"}
+{"id": "263", "label": "Local Price", "desc": "Price of a Big Mac in the local currency"}
+{"id": "264", "label": "Currency per USD", "desc": "Local currency units per dollar"}
+{"id": "265", "label": "USD Price", "desc": "Price of a Big Mac in dollars"}
+{"id": "266", "label": "Raw Index USD", "desc": "Raw index, relative to the US dollar"}
+{"id": "267", "label": "Raw Index EUR", "desc": "Raw index, relative to the Euro"}
+{"id": "268", "label": "Raw Index GBP", "desc": "Raw index, relative to the British pound"}
+{"id": "269", "label": "Raw Index JPY", "desc": "Raw index, relative to the Japanese yen"}
+{"id": "270", "label": "Raw Index CNY", "desc": "Raw index, relative to the Chinese yuan"}
+{"id": "271", "label": "GDP per Person", "desc": "GDP per person, in dollars"}
+{"id": "272", "label": "GDP-Adj Price", "desc": "GDP-adjusted price of a Big Mac, in dollars"}
+{"id": "273", "label": "Adj Index USD", "desc": "Adjusted index, relative to the US dollar"}
+{"id": "274", "label": "Adj Index EUR", "desc": "Adjusted index, relative to the Euro"}
+{"id": "275", "label": "Adj Index GBP", "desc": "Adjusted index, relative to the British pound"}
+{"id": "276", "label": "Adj Index JPY", "desc": "Adjusted index, relative to the Japanese yen"}
+{"id": "277", "label": "Adj Index CNY", "desc": "Adjusted index, relative to the Chinese yuan"}
+{"id": "278", "label": "Anime ID", "desc": "Anime Planet ID of the anime. (e.g. 1)."}
+{"id": "279", "label": "Anime Name", "desc": "full name of the anime. (e.g. FLCL)"}
+{"id": "280", "label": "Alternate Name", "desc": "another way to call the anime. (e.g. Furi Kuri)"}
+{"id": "281", "label": "Average Score", "desc": "average score of the anime given from all users in Anime Planet database. (e.g. 8.78)"}
+{"id": "282", "label": "Score Count", "desc": "number of users who give a score to the anime. (e.g. 1241)"}
+{"id": "283", "label": "Tags", "desc": "comma separated list of tags for this anime. (e.g. Comedy, Mecha, Sci Fi, Outer Space, Original Work)"}
+{"id": "284", "label": "Content Warnings", "desc": "comma separated list of content warning tags. (e.g. Explicit Violence, Mature Themes, Nudity)"}
+{"id": "285", "label": "Type", "desc": "TV, movie, OVA, etc. (e.g. TV)."}
+{"id": "286", "label": "Chapter Count", "desc": "number of chapters. (e.g. 26)"}
+{"id": "287", "label": "Finished", "desc": "True if the anime finished when I did the data scraping. False is the anime is on going in that moment."}
+{"id": "288", "label": "Duration", "desc": "duration of the anime in minutes (e.g 60)"}
+{"id": "289", "label": "Start Year", "desc": "year when the anime start the transmission. (e.g. 2016)"}
+{"id": "290", "label": "End Year", "desc": "year when the anime finish the transmission. (e.g. 2017)"}
+{"id": "291", "label": "Release Season", "desc": "season and year of release (e.g. Fall 2000)"}
+{"id": "292", "label": "Studios", "desc": "comma separated list of studios (e.g. Sunrise)"}
+{"id": "293", "label": "Synopsis", "desc": "synopsis of the anime"}
+{"id": "294", "label": "Anime URL", "desc": "url to the main page of anime in Anime Planet (e.g. https://www.anime-planet.com/anime/vandread)"}
+{"id": "295", "label": "Recommended Anime ID", "desc": "Anime Planet ID of the recommended anime. (e.g. 1)."}
+{"id": "296", "label": "Recommendation Agreement", "desc": "number of users that was agreed with the recommendation."}
+{"id": "297", "label": "User ID", "desc": "non identifiable randomly generated user id."}
+{"id": "298", "label": "Anime ID", "desc": "Anime-planet ID of the anime."}
+{"id": "299", "label": "User Score", "desc": "score between 1 to 5 given by the user in scale of 0.5. 0 if the user didn't assign a score."}
+{"id": "300", "label": "State ID", "desc": "state ID from this anime in the anime list of this user."}
+{"id": "301", "label": "Episodes Watched", "desc": "numbers of episodes watched by the user."}
+{"id": "302", "label": "Rated Anime ID", "desc": "Anime-planet ID of the anime that this user has rated."}
+{"id": "303", "label": "User Rating", "desc": "rating that this user has assigned."}
+{"id": "304", "label": "Status ID", "desc": "ID of the status"}
+{"id": "305", "label": "Status Description", "desc": "description of the status"}
+{"id": "306", "label": "Location", "desc": "Location where crime was reported."}
+{"id": "307", "label": "Year", "desc": "Year the crime incident was reported."}
+{"id": "308", "label": "County Population", "desc": "County population estimates provided by the FBI."}
+{"id": "309", "label": "Total Crimes", "desc": "Sum of the reported crimes: Murder, Rape, Robbery, Aggravated Assault, Burglary, Larceny and Motor Vehicle Theft"}
+{"id": "310", "label": "Crime Rate", "desc": "Index Crimes reported per 100,000 population."}
+{"id": "311", "label": "Violent Crimes", "desc": "Sum of the reported crimes: Murder, Rape, Robbery and Aggravated Assault."}
+{"id": "312", "label": "Violent Crime Rate", "desc": "Violent Crimes reported per 100,000 population."}
+{"id": "313", "label": "Property Crimes", "desc": "Sum of the reported crimes: Burglary, Larceny and Motor Vehicle Theft."}
+{"id": "314", "label": "Property Crime Rate", "desc": "Property crimes reported per 100,000 population."}
+{"id": "315", "label": "Firearm Crimes", "desc": "Count of violent crimes committed with a firearm."}
+{"id": "316", "label": "Firearm Crime Rate", "desc": "Firearm crimes reported per 100,000 population."}
+{"id": "317", "label": "Pok\u00e9mon", "desc": "Name of the Pokemon"}
+{"id": "318", "label": "Dex #", "desc": "The Pokemon's Pokedex Number"}
+{"id": "319", "label": "Norm. Dam.", "desc": "Damage Multiplier for Normal Types (attacks against the Pokemon)"}
+{"id": "320", "label": "Fire Dam.", "desc": "Damage Multiplier for Fire Types"}
+{"id": "321", "label": "Water Dam.", "desc": "Damage Multiplier for Water Types"}
+{"id": "322", "label": "Elec. Dam.", "desc": "Damage Multiplier for Electric Types"}
+{"id": "323", "label": "Grass Dam.", "desc": "Damage Multiplier for Grass Types"}
+{"id": "324", "label": "Ice Dam.", "desc": "Damage Multiplier for Ice Types"}
+{"id": "325", "label": "Fight Dam.", "desc": "Damage Multiplier for Fighting Types"}
+{"id": "326", "label": "Poison Dam.", "desc": "Damage Multiplier for Poison Types"}
+{"id": "327", "label": "Ground Dam.", "desc": "Damage Multiplier for Ground Types"}
+{"id": "328", "label": "Fly. Dam.", "desc": "Damage Multiplier for Flying Types"}
+{"id": "329", "label": "Psychic Dam.", "desc": "Damage Multiplier for Psychic Types"}
+{"id": "330", "label": "Bug Dam.", "desc": "Damage Multiplier for Bug Types"}
+{"id": "331", "label": "Rock Dam.", "desc": "Damage Multiplier for Rock Types"}
+{"id": "332", "label": "Ghost Dam.", "desc": "Damage Multiplier for Ghost Types"}
+{"id": "333", "label": "Dragon Dam.", "desc": "Damage Multiplier for Dragon Types"}
+{"id": "334", "label": "Dark Dam.", "desc": "Damage Multiplier for Dark Types"}
+{"id": "335", "label": "Steel Dam.", "desc": "Damage Multiplier for Steel Types"}
+{"id": "336", "label": "Fairy Dam.", "desc": "Damage Multiplier for Fairy Types"}
+{"id": "337", "label": "Map Name", "desc": "Names of the maps"}
+{"id": "338", "label": "Total Bans", "desc": "Total number of bans on a map"}
+{"id": "339", "label": "Day 1 Bans", "desc": "Bans on the map on day 1 of the tournament"}
+{"id": "340", "label": "Day 2 Bans", "desc": "Bans on the map on day 2 of the tournament"}
+{"id": "341", "label": "Day 3 Bans", "desc": "Bans on the map on day 3 of the tournament"}
+{"id": "342", "label": "Day 4 Bans", "desc": "Bans on the map on day 4 of the tournament"}
+{"id": "343", "label": "Day 5 Bans", "desc": "Bans on the map on day 5 of the tournament"}
+{"id": "344", "label": "Day 6 Bans", "desc": "Bans on the map on day 6 of the tournament"}
+{"id": "345", "label": "Day 7 Bans", "desc": "Bans on the map on day 7 of the tournament"}
+{"id": "346", "label": "Total Picks", "desc": "Total number of times a map was chosen"}
+{"id": "347", "label": "Day 1 Picks", "desc": "Number of times a map was picked on day 1"}
+{"id": "348", "label": "Day 2 Picks", "desc": "Number of times a map was picked on day 2"}
+{"id": "349", "label": "Day 3 Picks", "desc": "Number of times a map was picked on day 3"}
+{"id": "350", "label": "Day 4 Picks", "desc": "Number of times a map was picked on day 4"}
+{"id": "351", "label": "Day 5 Picks", "desc": "Number of times a map was picked on day 5"}
+{"id": "352", "label": "Day 6 Picks", "desc": "Number of times a map was picked on day 6"}
+{"id": "353", "label": "Day 7 Picks", "desc": "Number of times a map was picked on day 7"}
+{"id": "354", "label": "Player", "desc": "Name of the player."}
+{"id": "355", "label": "Country", "desc": "The country where the player belongs to."}
+{"id": "356", "label": "Team", "desc": "The team which the player represents."}
+{"id": "357", "label": "Agents Used", "desc": "All the agents used by each player in the tournament."}
+{"id": "358", "label": "Maps Played", "desc": "Number of times the maps were played (with repetition)."}
+{"id": "359", "label": "Kills", "desc": "Number of kills."}
+{"id": "360", "label": "Deaths", "desc": "Number of deaths."}
+{"id": "361", "label": "Assists", "desc": "Number of assists."}
+{"id": "362", "label": "K/D Ratio", "desc": "Kill/Death ratio"}
+{"id": "363", "label": "KD+A Ratio", "desc": "(Kills+(Assists/2))/Deaths ratio"}
+{"id": "364", "label": "ACS/Map", "desc": "Average Combat Score/Map ratio."}
+{"id": "365", "label": "Kills/Map", "desc": "Kills/Map ratio."}
+{"id": "366", "label": "Deaths/Map", "desc": "Deaths/Map ratio."}
+{"id": "367", "label": "Assists/Map", "desc": "Assists/Map ratio."}
+{"id": "368", "label": "Map Name", "desc": "Names of the maps."}
+{"id": "369", "label": "Attacking Wins", "desc": "Number of rounds won in the Attacking phase"}
+{"id": "370", "label": "Defending Wins", "desc": "Number of rounds won in the Defending phase"}
+{"id": "371", "label": "Levy Year", "desc": "The year in which school taxes are levied, generally in the Fall of the school year. For example, levy year 2014 refers to school year 2014-15."}
+{"id": "372", "label": "County", "desc": "The name of the county. \u201cNew York City\u201d includes the counties of Bronx, Kings, New York, Queens, and Richmond."}
+{"id": "373", "label": "County Code", "desc": "The code by which a county or group of counties, in the case of New York City (NYC), is identified within the Department. These two digits are also the first two digits in a parcel\u2019s SWIS code. NYC code 65 encompasses the codes 60 - 64 for Bronx, Kings, New York, Queens, and Richmond counties, respectively. Other State or local governmental agencies may utilize different county codes."}
+{"id": "374", "label": "Basic STAR Units", "desc": "Number of residential units claiming basic STAR exemption. (Basic STAR began in levy year 1999.) For LY16 forward: This does not include the number claiming the STAR advance payment personal income tax credit."}
+{"id": "375", "label": "Basic STAR Reimbursement", "desc": "Amount (in dollars) reimbursed by New York State to school districts for the reduction in school property tax revenue due to basic STAR exemptions in municipalities within that county. (Basic STAR began in levy year 1999.) For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued."}
+{"id": "376", "label": "Enhanced STAR Units", "desc": "Number of residential units claiming enhanced STAR exemption. For LY16 forward: This does not include the number claiming the STAR advance payment personal income tax credit"}
+{"id": "377", "label": "Enhanced STAR Reimbursement", "desc": "Amount (in dollars) reimbursed by New York State to school districts for the reduction in school property tax revenue due to enhanced STAR exemptions in municipalities within that county. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued."}
+{"id": "378", "label": "Total STAR Reimbursement", "desc": "Total Amount (in dollars) reimbursed by New York State to school districts for the total reduction in school property tax revenue due to basic and enhanced STAR exemptions in municipalities within that county. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued."}
+{"id": "379", "label": "Revision Date", "desc": "The date when current data was recompiled or revised."}
+{"id": "380", "label": "School District", "desc": "The name of the school district. \u201cNew York City School\u201d includes school districts in the counties of Bronx, Kings, New York, Queens, and Richmond."}
+{"id": "381", "label": "School District Code", "desc": "The code by which a school district is identified, as utilized by the Department\u2019s Office of Real Property Tax Services. Other State or local governmental agencies may utilize different school district codes."}
+{"id": "382", "label": "Basic STAR District Reimbursement", "desc": "Amount (in dollars) reimbursed by New York State to the school district for the reduction in school property tax revenue due to basic STAR exemptions. (Basic STAR began in levy year 1999.) For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued."}
+{"id": "383", "label": "Enhanced STAR District Reimbursement", "desc": "Number of residential units claiming enhanced STAR exemption. For LY16 forward: This does not include the number claiming the STAR advance payment personal income tax credit."}
+{"id": "384", "label": "Total STAR District Reimbursement", "desc": "Amount (in dollars) reimbursed by New York State to the school district for the reduction in school property tax revenue due to enhanced STAR exemptions. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued."}
+{"id": "385", "label": "Revision Date", "desc": "Total Amount (in dollars) reimbursed by New York State to the school district for the total reduction in school property tax revenue due to basic and enhanced STAR exemptions. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued."}
+{"id": "386", "label": "Active Cases India", "desc": "This column contains the total number of active cases in India on a particular day."}
+{"id": "387", "label": "Active Cases Change India", "desc": "This column contains the change in number of active cases in India on a particular day. (Can be positive/negative depending on whether the caseload increased or decreased)"}
+{"id": "388", "label": "Recovered India", "desc": "This column contains a cumulative total of people who have recovered (tested negative) from COVID-19 infection in India."}
+{"id": "389", "label": "Daily Recovered India", "desc": "This column contains the daily total number of people who have recovered (tested negative) from COVID-19 infection in India on a particular day."}
+{"id": "390", "label": "Deaths India", "desc": "This column contains a cumulative total of people who have died from COVID-19 infection in India."}
+{"id": "391", "label": "Daily Deaths India", "desc": "This column contains the daily total number of people who died from COVID-19 infection in India on a particular day."}
+{"id": "392", "label": "Tests Taken India", "desc": "This column contains total number of COVID-19 tests taken on the previous day in India."}
+{"id": "393", "label": "Total Infected India", "desc": "This column contains a cumulative total of people who have been infected with the COVID-19 virus in India."}
+{"id": "394", "label": "Source URL", "desc": "This column gives the source URL from where the API collects information, i.e., https://www.mohfw.gov.in/"}
+{"id": "395", "label": "Last Updated", "desc": "This column gives the data and time when the data was updated last."}
+{"id": "396", "label": "Misc Info", "desc": "Some misc information about the API, source, etc."}
+{"id": "397", "label": "State", "desc": "This column contains names of the states of India."}
+{"id": "398", "label": "Active Cases State", "desc": "This column contains total number of people who are currently infected with COVID-19 on a particular day in a particular state."}
+{"id": "399", "label": "Active Cases Change State", "desc": "This column contains the change in number of active cases in a particular state on a particular day."}
+{"id": "400", "label": "Recovered State", "desc": "This column contains a cumulative total of people who have recovered (tested negative) from COVID-19 infection in a particular state."}
+{"id": "401", "label": "Daily Recovered State", "desc": "This column contains the daily total number of people who have recovered (tested negative) from COVID-19 infection in a particular state on a particular day."}
+{"id": "402", "label": "Deaths State", "desc": "This column contains a cumulative total of people who have died from COVID-19 infection in a particular state."}
+{"id": "403", "label": "Daily Deaths State", "desc": "This column contains the daily total number of people who died from COVID-19 infection in a particular state on a particular day. h. regionData.totalInfected: This column contains a cumulative total of people who have been infected with the COVID-19 virus in a particular state."}
+{"id": "404", "label": "Total Infected State", "desc": "This column contains a cumulative total of people who have been infected with the COVID-19 virus in a particular state."}
+{"id": "405", "label": "Generation Date", "desc": "Date and Time when data was generated (e.g. \u201c12/19/2014 09:45:21\u201d)"}
+{"id": "406", "label": "Quarter", "desc": "Date Indicating to which calendar quarter the data pertains (e.g. 9/1/2016, 1/1/2017)"}
+{"id": "407", "label": "Indicator Set", "desc": "The Indicator Set Name (i.e. Polypharmacy)"}
+{"id": "408", "label": "Indicator Name", "desc": "Self-descriptive name of Indicator - 'Antipsychotic polypharmacy of two or more agents [2AP]\u2019 and 'Antipsychotic polypharmacy of three or more agents [3AP]'"}
+{"id": "409", "label": "Age Group", "desc": "Population Age Group (i.e. 0-17 or 18+)"}
+{"id": "410", "label": "Data Level", "desc": "Level of reported data (i.e. Provider, Plan, County, Region, or Statewide)"}
+{"id": "411", "label": "County", "desc": "OMH County Name (contains the county name for count level of detail; contains \u2018Region\u2019 for regional data and \u2018Statewide\u2019 for statewide datasets)"}
+{"id": "412", "label": "Region", "desc": "Region Name (contains Central NY, Hudson River, Long Island, New York City, Western, and Statewide values)"}
+{"id": "413", "label": "Provider", "desc": "Contains the Provider name for Provider-specific data; contains \u2018Region\u2019 for regional data and \u2018Statewide\u2019 for statewide datasets)"}
+{"id": "414", "label": "Eligible Population", "desc": "Number of Medicaid enrollees who are currently in the given population. Please refer to the supporting document for details on any Inclusion or Exclusion criteria."}
+{"id": "415", "label": "Polypharmacy Count", "desc": "Number of Medicaid enrollees who meet the threshold for each of the given Polypharmacy indicators. Please refer to the supporting document for details on any Inclusion or Exclusion criteria."}
+{"id": "416", "label": "Polypharmacy Percent", "desc": "Percentage of Medicaid enrollees meeting the threshold requirement for the given indicator divided by the Eligible Population."}
+{"id": "417", "label": "Above Statewide Avg", "desc": "For Provider-specific datasets, if the \u2018% of Population\u2019 value is greater than the Statewide percentage, then \u2018Yes\u2019 else \u2018No\u2019. N/A is used if the entry is an aggregated value or if the ELIGIBLE POPULATION value is less than 20."}
+{"id": "418", "label": "Regional Flag", "desc": "Regional percentage flagged for the given indicator"}
+{"id": "419", "label": "Date", "desc": "Date in a standard format"}
+{"id": "420", "label": "Open", "desc": "Price at time of market opening"}
+{"id": "421", "label": "High", "desc": "Highest price within interval 1 Day"}
+{"id": "422", "label": "Low", "desc": "Lowest price within interval 1 Day"}
+{"id": "423", "label": "Close", "desc": "Price at time of market closing"}
+{"id": "424", "label": "Adj Close", "desc": "Adj. Price at time of market closing"}
+{"id": "425", "label": "Volume", "desc": "Total traded volume within interval 1 Day"}
+{"id": "426", "label": "Open 15m", "desc": "Price at beginning of interval (15 Min)"}
+{"id": "427", "label": "High 15m", "desc": "Highest price at beginning of interval (15 Min)"}
+{"id": "428", "label": "Low 15m", "desc": "Lowest price at beginning of interval (15 Min)"}
+{"id": "429", "label": "Close 15m", "desc": "Price at end of interval (15 Min)"}
+{"id": "430", "label": "Volume 15m", "desc": "Total traded volume at the within interval (15 Min)"}
+{"id": "431", "label": "Vehicle Type", "desc": "The type of vehicle. BOAT = Boat; SNOW = Snowmobile; TRL = Trailer; VEH = All other vehicles"}
+{"id": "432", "label": "VIN", "desc": "The Vehicles Identification Number as assigned by the vehicle manufacturer or by NYS DMV if the original VIN was compromised."}
+{"id": "433", "label": "Registration Class", "desc": "An alpha code that is used to classify the registration. (see complete list of registration classes at the end of the data dictionary)"}
+{"id": "434", "label": "Mailing City", "desc": "A city name for mailing purposes; appears in the last line of an address on a mail piece."}
+{"id": "435", "label": "Mailing State", "desc": "The official USPS abbreviation for the name of a mailing state, U.S. territory, Canadian Province, Commonwealth or armed forces ZIP Code designation. If APO/FPO/DPO, then the state abbreviation will be \u201cAA,\u201d \u201cAE,\u201d or \u201cAP.\u201d"}
+{"id": "436", "label": "ZIP Code", "desc": "A code that identifies a specific geographic mail delivery area. ZIP Codes can represent an area within a foreign country, a state, or a single building or company that has a very high mail volume. The zip code appears in the last line of the address on a mail piece. Example: 12345"}
+{"id": "437", "label": "County", "desc": "The New York State county name that is the county of residence or use."}
+{"id": "438", "label": "Model Year", "desc": "The manufacturer model year of vehicle."}
+{"id": "439", "label": "Make", "desc": "The DMV code for the make of a vehicle that appears on the registration. The DMV make code is the first 5 letters of the vehicle\u2019s make name. If the vehicle make is more than one word, the make code is the first 2 letters of the first two words with a slash in between. (Examples, CHEVR, HA/DA)"}
+{"id": "440", "label": "Body Type", "desc": "The body type of a vehicle. (see the complete list of body types at the end of the data dictionary)"}
+{"id": "441", "label": "Fuel Type", "desc": "The fuel type of a vehicle."}
+{"id": "442", "label": "Unloaded Weight", "desc": "The weight of a passenger vehicle without any load."}
+{"id": "443", "label": "Gross Weight", "desc": "The maximum weight that a commercial vehicle is permitted to carry."}
+{"id": "444", "label": "Passenger Capacity", "desc": "The number of passengers that a for-hire vehicle can transport, excluding the driver."}
+{"id": "445", "label": "Registration Date", "desc": "The date DMV issued the most recent registration document."}
+{"id": "446", "label": "Expiration Date", "desc": "The date when the registration expires."}
+{"id": "447", "label": "Vehicle Color", "desc": "The color of the vehicle. This is the DMV code not the NCIC code. (see the color codes at the end of the data dictionary)"}
+{"id": "448", "label": "Scofflaw Stop", "desc": "Indicates if a parking or red light scofflaw stop is in effect. (Y/N)."}
+{"id": "449", "label": "Suspension", "desc": "Indicates if a suspension is in effect. (Y/N)."}
+{"id": "450", "label": "Revocation", "desc": "Indicates if a revocation is in effect. (Y/N)."}
+{"id": "451", "label": "Bond Girl", "desc": "\"Bond girl\" actor name (string)"}
+{"id": "452", "label": "Age", "desc": "\"Bond girl\" actor age (int)"}
+{"id": "453", "label": "Movie", "desc": "Movie title featuring \"Bond girl\" (string)"}
+{"id": "454", "label": "Year", "desc": "Movie year featuring \"Bond girl\" (int)"}
+{"id": "455", "label": "Bond Actor", "desc": "Actor portraying James Bond in movie featuring \"Bond girl\" (string)"}
+{"id": "456", "label": "Bond Actor Age", "desc": "Age of actor portraying James Bond in movie featuring \"Bond girl\" (int)"}
+{"id": "457", "label": "Director", "desc": "Director of movie featuring \"Bond girl\" (string)"}
+{"id": "458", "label": "Box Office", "desc": "Box office earning in U.S. dollars (float)"}
+{"id": "459", "label": "Adjusted Box Office", "desc": "2005 adjusted box office earning in U.S. dollars (float)"}
+{"id": "460", "label": "Budget", "desc": "Film budget in U.S. dollars (string)"}
+{"id": "461", "label": "Adjusted Budget", "desc": "2005 adjusted film budget in U.S. dollars (string)"}
+{"id": "462", "label": "Trip ID", "desc": "a unique identifier for each trip"}
+{"id": "463", "label": "Provider Code", "desc": "a code indicating the provider associated with the trip record"}
+{"id": "464", "label": "Meter Engaged", "desc": "date and time when the meter was engaged"}
+{"id": "465", "label": "Meter Disengaged", "desc": "date and time when the meter was disengaged"}
+{"id": "466", "label": "Passengers", "desc": "the number of passengers in the vehicle (driver entered value)"}
+{"id": "467", "label": "Engage Lon", "desc": "the longitude where the meter was engaged"}
+{"id": "468", "label": "Engage Lat", "desc": "the latitude where the meter was engaged"}
+{"id": "469", "label": "Disengage Lon", "desc": "the longitude where the meter was disengaged"}
+{"id": "470", "label": "Disengage Lat", "desc": "the latitude where the meter was disengaged"}
+{"id": "471", "label": "Store & Forward", "desc": "This flag indicates whether the trip record was held in the vehicle memory before sending to the vendor because the vehicle did not have a connection to the server - Y=store and forward; N=not a store and forward trip"}
+{"id": "472", "label": "Trip Duration", "desc": "duration of the trip in seconds"}
+{"id": "473", "label": "pH", "desc": "pH of water"}
+{"id": "474", "label": "Soap Precipitation", "desc": "Capacity of water to precipitate soap in mg/L"}
+{"id": "475", "label": "TDS", "desc": "Total dissolved solids in ppm"}
+{"id": "476", "label": "Chloramines", "desc": "Amount of Chloramines in ppm"}
+{"id": "477", "label": "Sulfates", "desc": "Amount of Sulfates dissolved in mg/L"}
+{"id": "478", "label": "Conductivity", "desc": "Electrical conductivity of water in \u03bcS/cm"}
+{"id": "479", "label": "Organic Carbon", "desc": "Amount of organic carbon in ppm"}
+{"id": "480", "label": "THMs", "desc": "Amount of Trihalomethanes in \u03bcg/L"}
+{"id": "481", "label": "Turbidity", "desc": "Measure of light emiting property of water in NTU (Nephelometric Turbidity Units)"}
+{"id": "482", "label": "Safe for Consumption", "desc": "Indicates if water is safe for human consumption"}
+{"id": "483", "label": "Danceability", "desc": "Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable."}
+{"id": "484", "label": "Energy", "desc": "Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy."}
+{"id": "485", "label": "Key", "desc": "The key the track is in. Integers map to pitches using standard Pitch Class notation . E.g. 0 = C, 1 = C\u266f/D\u266d, 2 = D, and so on."}
+{"id": "486", "label": "Loudness", "desc": "The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db."}
+{"id": "487", "label": "Mode", "desc": "Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0."}
+{"id": "488", "label": "Speechiness", "desc": "Speechiness detects the presence of spoken words in a track."}
+{"id": "489", "label": "Acousticness", "desc": "A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic."}
+{"id": "490", "label": "Instrumentalness", "desc": "Predicts whether a track contains no vocals. \u201cOoh\u201d and \u201caah\u201d sounds are treated as instrumental in this context."}
+{"id": "491", "label": "Liveness", "desc": "Detects the presence of an audience in the recording."}
+{"id": "492", "label": "Valence", "desc": "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track."}
+{"id": "493", "label": "Tempo", "desc": "The overall estimated tempo of a track in beats per minute (BPM)"}
+{"id": "494", "label": "Duration", "desc": "The duration of the track in milliseconds."}
+{"id": "495", "label": "Time Signature", "desc": "An estimated overall time signature of a track."}
+{"id": "496", "label": "Liked", "desc": "1 for liked songs , 0 for disliked songs"}
+{"id": "497", "label": "Serial No", "desc": "Serial Number"}
+{"id": "498", "label": "Gender", "desc": "Gender- Male='M',Female='F'"}
+{"id": "499", "label": "10th %", "desc": "Secondary Education percentage- 10th Grade"}
+{"id": "500", "label": "Board", "desc": "Board of Education- Central/ Others"}
+{"id": "501", "label": "12th %", "desc": "Higher Secondary Education percentage- 12th Grade"}
+{"id": "502", "label": "HSE Spec", "desc": "Specialization in Higher Secondary Education"}
+{"id": "503", "label": "Degree %", "desc": "Degree Percentage"}
+{"id": "504", "label": "Degree Type", "desc": "Under Graduation(Degree type)- Field of degree education"}
+{"id": "505", "label": "Work Exp", "desc": "Work Experience"}
+{"id": "506", "label": "Employability %", "desc": "Employability test percentage ( conducted by college)"}
+{"id": "507", "label": "MBA Spec", "desc": "Post Graduation(MBA)- Specialization"}
+{"id": "508", "label": "MBA %", "desc": "MBA percentage"}
+{"id": "509", "label": "Placement", "desc": "Status of placement- Placed/Not placed"}
+{"id": "510", "label": "Salary Offered", "desc": "Salary offered by corporate to candidates"}
+{"id": "511", "label": "Country Code", "desc": "ISO 3166 county code (alpha 2)"}
+{"id": "512", "label": "State Code", "desc": "ISO 3166 state code (alpha 2)"}
+{"id": "513", "label": "Region", "desc": "County/Region name"}
+{"id": "514", "label": "Bed Type", "desc": "Type of beds: [TOTAL, ICU, ACUTE, PSYCHIATRIC, OTHER]"}
+{"id": "515", "label": "Measure Type", "desc": "Type of measure: 1000HAB - per 1000 inhabitants"}
+{"id": "516", "label": "Beds per 1000", "desc": "Number of beds per 1000 inhabitants"}
+{"id": "517", "label": "Population", "desc": "Population of location"}
+{"id": "518", "label": "Source Year", "desc": "source year for beds and population"}
+{"id": "519", "label": "Data Source", "desc": "source of data"}
+{"id": "520", "label": "Source URL", "desc": "URL of the original source"}
+{"id": "521", "label": "Season", "desc": "Football season year"}
+{"id": "522", "label": "Position", "desc": "Final position of the team for that season"}
+{"id": "523", "label": "Team", "desc": "Name of the team"}
+{"id": "524", "label": "Games", "desc": "Number of games played"}
+{"id": "525", "label": "Wins", "desc": "Number of wins"}
+{"id": "526", "label": "Draws", "desc": "Number of draws"}
+{"id": "527", "label": "Losses", "desc": "Number of losses"}
+{"id": "528", "label": "Goals Scored", "desc": "Number of goals scored"}
+{"id": "529", "label": "Goals Conceded", "desc": "Number of goals conceded"}
+{"id": "530", "label": "GD", "desc": "Goal Difference"}
+{"id": "531", "label": "Points", "desc": "Number of points in that season"}
+{"id": "532", "label": "Qualification", "desc": "Qualified for European cup or relegated to a lower tier league"}
+{"id": "533", "label": "Facility", "desc": "The name of the local correctional facility where the inmate is housed."}
+{"id": "534", "label": "Report Year", "desc": "Year that the average daily jail census was reported."}
+{"id": "535", "label": "Total Inmates", "desc": "The total number of inmates for which the county is responsible. These inmates included: Boarded Out and In House."}
+{"id": "536", "label": "Boarded Out", "desc": "The average daily census of inmates under a facility\u2019s jurisdiction that are boarded out to another county's correctional facility. These inmates are not reflected in the In-House Census."}
+{"id": "537", "label": "Boarded In", "desc": "The average daily census of inmates from other jurisdictions housed in a county jail who are boarded in from another county facility or other authorities. Federal prisoners are not included in this count. Boarded In inmates also are included in one of the other inmate types (e.g., Sentenced, Civil, Technical Parole Violators, etc.)."}
+{"id": "538", "label": "In-House Census", "desc": "Housed at County Facility. The average daily census that the county is responsible for housing. These inmates include: Sentenced, Civil, Federal, Technical Parole Violators, State-Readies, and Other Unsentenced."}
+{"id": "539", "label": "Sentenced", "desc": "Housed at County Facility. The average daily census of inmates that have been convicted and sentenced to a county jail term and are physically located in the facility at the time of the count."}
+{"id": "540", "label": "Civil", "desc": "Housed at County Facility. The average daily census of inmates in the county jail as the result of a Civil Process, Family Court, Contempt or Material Witness status who are physically located in the facility at the time of the count."}
+{"id": "541", "label": "Federal", "desc": "Housed at County Facility. The average daily census of inmates that are physically located in the facility and are being held under an agreement with a U.S. Government Agency."}
+{"id": "542", "label": "Parole Violators", "desc": "Housed at County Facility. The average daily census of inmates held in a local jail as a result of a violation of a condition of Parole. Inmates in this category are being held for no reason other than the Parole Warrant."}
+{"id": "543", "label": "State-Readies", "desc": "Housed at County Facility. The average daily census of inmates sentenced by the court to a state prison term, but have not been transported to the NYS Department of Corrections and Community Supervision (DOCCS). All paperwork for inmates in this category has been completed and they are ready for transport to DOCCS."}
+{"id": "544", "label": "Unsentenced", "desc": "Housed at County Facility. The average daily census of inmates awaiting either arraignment, trial, awaiting sentencing by the court, or are Parole Violators with New Arrests."}
+{"id": "545", "label": "County", "desc": "Name of New York State County. In addition to New York\u2019s 62 Counties, the dataset also includes separate entries for offshore open waters that are part of New York State but that are not within the jurisdiction of any county: Lake Ontario, Lake Erie, and Atlantic Ocean/Long Island Sound."}
+{"id": "546", "label": "Category", "desc": "Category of the species or community: Animal, Plant, or Natural Community."}
+{"id": "547", "label": "Taxonomic Group", "desc": "For animals and plants, the taxonomic phylum, class, or order to which the species belongs. Groups are not always equivalent to a single taxonomic group, and they are given English names. For natural communities, group is the system to which the natural community belongs. Natural communities are grouped into seven systems: marine, tidal wetlands (estuarine), rivers and streams (riverine), lakes and ponds (lacustrine), freshwater nontidal wetlands (palustrine), uplands (terrestrial), and subterranean (caves)."}
+{"id": "548", "label": "Subgroup", "desc": "For animals and plants, a lower level of taxonomic group than the Taxonomic Group (above). The subgroup is the taxonomic phylum, class, order, or family to which the species belong. Subgroups are not always equivalent to a single taxonomic group, and they are given English names. For natural communities, subgroup is the subsystem to which the natural community belongs. Marine and tidal wetland systems are divided into subtidal and intertidal subsystems. The freshwater nontidal wetlands system is divided into open mineral soil wetlands, forested mineral soil wetlands, open peatlands, and forested peatlands. The uplands system is divided into open uplands, barrens and woodlands, and forested uplands. The rivers and streams, lakes and ponds, and subterranean systems each have one subsystem."}
+{"id": "549", "label": "Scientific Name", "desc": "For plants and animals, the scientific name used in the database of the New York Natural Heritage Program. Names are based on generally accepted references, augmented by recent scientific literature and expert opinion. For natural communities, the names of community types are documented in New York Natural Heritage\u2019s \u201cEcological Communities of New York State, Second Edition\u201d (draft)."}
+{"id": "550", "label": "Common Name", "desc": "For plants and animals, the common name is its \u201cplain English\u201d name, as used in the database of the New York Natural Heritage Program. Names are based on generally accepted references, augmented by recent scientific literature and expert opinion. For natural communities, the names of community types are documented in New York Natural Heritage\u2019s \u201cEcological Communities of New York State, Second Edition\u201d (draft)."}
+{"id": "551", "label": "Last Observed", "desc": "The most recent year the species or community type was observed in the given county, as documented in the dataset\u2019s source databases. A value of \u201c2000 \u2013 2005\u201d indicates that the species was most recently documented during the second NYS Breeding Bird Atlas Project, conducted from 2000 to 2005. A value of \u201c1990-1999\u201d indicates that the species was most recently documented during the NY Amphibian and Reptile Atlas Project, conducted from 1990 to 1999. A value of \u201cnot available\u201d indicates that the species or community type has been recorded in the given county, but no date is available."}
+{"id": "552", "label": "State Protection Status", "desc": "For animals and plants, the legal protected status under New York State Environmental Conservation Law (ECL) and under New York State regulations. The highest level of protection is given to species listed by New York State as Endangered or Threatened. Regulations regarding animals are administered by NYS DEC\u2019s Division of Fish, Wildlife, and Marine Resources. Regulations regarding plants are administered by NYS DEC\u2019s Division of Lands and Forests. For Animals, categories of Endangered, Threatened, and Special Concern species are defined in New York State ECL \u00a711-0535. Endangered, Threatened, and Special Concern species are listed in regulation 6NYCRR 182.5, and at http://www.dec.ny.gov/animals/7494.html. For Plants, categories of Endangered, Threatened, Rare, and Exploitably Vulnerable are defined in ECL \u00a79-1503. Plants in these categories are protected against picking, removal, or damaging with herbicides without the consent of the landowner. Endangered, Threatened, Rare, and Exploitably Vulnerable species are listed in regulation 6NYCRR 193.3, and at http://www.dec.ny.gov/regs/15522.html."}
+{"id": "553", "label": "Federal Protection Status", "desc": "For animals and plants, the listing status under the U.S. Endangered Species Act, as it applies to populations of the species in New York State. Listing provides legal protection for this species at the federal level. Listing categories are Endangered, Threatened, or Candidate. As defined by the Act, endangered refers to species that are \"in danger of extinction within the foreseeable future throughout all or a significant portion of its range,\" while threatened refers to \u201cthose animals and plants likely to become endangered within the foreseeable future throughout all or a significant portion of their ranges.\u201d"}
+{"id": "554", "label": "State Conservation Rank", "desc": "A rank assigned by New York Natural Heritage to each species and community type indicating how imperiled it is in New York State. The state conservation rank is based on how rare or abundant the species or community type is in New York, its distribution, and on population trends and threats. As new information becomes available, ranks may be revised. The ranks are based on a one to five scale, ranging from S1 = critically imperiled to S5 = demonstrably secure (common and widespread). Natural Heritage conservation status ranks carry no legal or regulatory weight. Basic state conservation ranks are: S1 \u2013 Critically Imperiled in New York State S2 \u2013 Imperiled in New York State S3 \u2013 Vulnerable in New York State S4 \u2013 Apparently Secure in New York State S5 \u2013 Definitely Secure in New York State (common and widespread) SH \u2013 Historical in New York: not seen since before 1980, but could still be present SX\u2014Extirpated: no longer present in New York SU \u2013 Unrankable: Currently unrankable due to lack of information or due to substantially conflicting information about status or trends. SNR \u2013 Not Ranked: state conservation status not yet assessed. SNA \u2013 Not Applicable, because the species is not a suitable target for conservation activities (e.g., species is a hybrid, a domesticated species, not native to New York, an accidental or infrequent visitor outside of its normal range, a transient migrant just passing through the state, or a species with only unconfirmed or doubtful reports). Variations of these ranks include: \u2022 Range ranks, such as S1S2, indicate not enough information is available to distinguish between two single ranks. \u2022 ? after a rank, such as S2?, indicates some uncertainty about the true rank, but is most likely the assigned rank. \u2022 B after a rank, such as S2B, indicates the rank applies to the breeding populations in New York of a migratory animal. \u2022 N after a rank, such as S3N, indicates the rank applies to the non-breeding populations in New York of a migratory animal."}
+{"id": "555", "label": "Global Conservation Rank", "desc": "A rank assigned by New York Natural Heritage to each species and community type indicating how imperiled the species or community type is throughout the world. The global conservation rank is based on how rare the species or community type is across its global range, and on population trends and threats. For species, these ranks provide an estimate of extinction risk; while for natural communities, they provide an estimate of the risk of elimination. As new information becomes available, ranks may be revised. The ranks are based on a one to five scale, ranging from G1 = critically imperiled to G5 = demonstrably secure (common and widespread). Natural Heritage conservation status ranks carry no legal or regulatory weight. Basic global conservation ranks are: G1 \u2013 Critically Imperiled (very high risk of extinction) G2 \u2013 Imperiled (high risk of extinction) G3 \u2013 Vulnerable (moderate risk of extinction) G4 \u2013 Apparently Secure (uncommon but not rare) G5 \u2013 Definitely Secure (common and widespread) GH \u2013 Possibly Extinct: not seen anywhere in last 30, but could still exist GX \u2013 Extinct: no longer present anywhere in the world GU \u2013 Unrankable: Currently unrankable due to lack of information or due to substantially conflicting information about status or trends. GNR \u2013 Not Ranked: global conservation status not yet assessed. GNA \u2013 Not Applicable, because the species is not a suitable target for conservation activities (e.g., species is a hybrid, or a domesticated species). Variations of these ranks include: \u2022 Range ranks, such as G1G2, indicate not enough information is available to distinguish between two single ranks. \u2022 ? after a rank, such as G2?, indicates some uncertainty about the true rank, but is most likely the assigned rank. \u2022 T ranks, such as T3, indicate the rank applies to a subspecies or variety, but not to the species as a whole."}
+{"id": "556", "label": "County Presence Status", "desc": "Status of the presence of the species or natural community type in the given county, as recorded in the dataset\u2019s source databases. Values are: Recently confirmed = Documented, with confirmed identification, since 1980. Historically confirmed = Last documented, with confirmed identification, before 1980; current presence is unknown, but could still be present. Possible, but not confirmed = Has not been documented but has been confirmed nearby, or has been reported but identification has not been confirmed. Extirpated = Has been documented in the past, but is now believed to no longer occur in the given county."}
+{"id": "557", "label": "Name", "desc": "billionaires name"}
+{"id": "558", "label": "Net Worth", "desc": "billionaires net worth"}
+{"id": "559", "label": "Country", "desc": "billionaires country"}
+{"id": "560", "label": "Source", "desc": "billionaires source of wealth"}
+{"id": "561", "label": "Forbes Rank", "desc": "billionaires rank in forbes list"}
+{"id": "562", "label": "Age", "desc": "billionaires age in 2021"}
+{"id": "563", "label": "Residency", "desc": "billionaires residency"}
+{"id": "564", "label": "Citizenship", "desc": "billionaires citizenship"}
+{"id": "565", "label": "Marital Status", "desc": "billionaires marital status"}
+{"id": "566", "label": "Children", "desc": "no. of billionaires childeren"}
+{"id": "567", "label": "Education", "desc": "billionaires educated at"}
+{"id": "568", "label": "Self Made", "desc": "is billionaire self made ?"}
+{"id": "569", "label": "Residency Point", "desc": "point of billionaires residency"}
+{"id": "570", "label": "Date", "desc": "Date of the Superbowl Final"}
+{"id": "571", "label": "Title", "desc": "Superbowl Title"}
+{"id": "572", "label": "Winning Team", "desc": "Name of the winning team"}
+{"id": "573", "label": "Winning Points", "desc": "Points of the winning team"}
+{"id": "574", "label": "Losing Team", "desc": "Name of the losing team"}
+{"id": "575", "label": "Losing Points", "desc": "Points of the losing team"}
+{"id": "576", "label": "MVP", "desc": "Most Valuable Player"}
+{"id": "577", "label": "Stadium", "desc": "Location - Stadium"}
+{"id": "578", "label": "City", "desc": "Location - City"}
+{"id": "579", "label": "State", "desc": "Location - State"}
+{"id": "580", "label": "School", "desc": "student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)"}
+{"id": "581", "label": "Sex", "desc": "student's sex (binary: 'F' - female or 'M' - male)"}
+{"id": "582", "label": "Age", "desc": "student's age (numeric: from 15 to 22)"}
+{"id": "583", "label": "Address Type", "desc": "student's home address type (binary: 'U' - urban or 'R' - rural)"}
+{"id": "584", "label": "Family Size", "desc": "family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)"}
+{"id": "585", "label": "Parents Cohabitation", "desc": "parent's cohabitation status (binary: 'T' - living together or 'A' - apart)"}
+{"id": "586", "label": "Mother's Education", "desc": "mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 \u00e2\u20ac\u201c 5th to 9th grade, 3 \u00e2\u20ac\u201c secondary education or 4 \u00e2\u20ac\u201c higher education)"}
+{"id": "587", "label": "Father's Education", "desc": "father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 \u00e2\u20ac\u201c 5th to 9th grade, 3 \u00e2\u20ac\u201c secondary education or 4 \u00e2\u20ac\u201c higher education)"}
+{"id": "588", "label": "Mother's Job", "desc": "mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')"}
+{"id": "589", "label": "Father's Job", "desc": "father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')"}
+{"id": "590", "label": "Reason to Choose School", "desc": "reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')"}
+{"id": "591", "label": "Guardian", "desc": "student's guardian (nominal: 'mother', 'father' or 'other')"}
+{"id": "592", "label": "Travel Time", "desc": "home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)"}
+{"id": "593", "label": "Study Time", "desc": "weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)"}
+{"id": "594", "label": "Past Class Failures", "desc": "number of past class failures (numeric: n if 1<=n<3, else 4)"}
+{"id": "595", "label": "Extra Educational Support", "desc": "extra educational support (binary: yes or no)"}
+{"id": "596", "label": "Family Educational Support", "desc": "family educational support (binary: yes or no)"}
+{"id": "597", "label": "Extra Paid Classes", "desc": "extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)"}
+{"id": "598", "label": "Extra-Curricular Activities", "desc": "extra-curricular activities (binary: yes or no)"}
+{"id": "599", "label": "Attended Nursery", "desc": "attended nursery school (binary: yes or no)"}
+{"id": "600", "label": "Wants Higher Education", "desc": "wants to take higher education (binary: yes or no)"}
+{"id": "601", "label": "Internet Access", "desc": "Internet access at home (binary: yes or no)"}
+{"id": "602", "label": "Romantic Relationship", "desc": "with a romantic relationship (binary: yes or no)"}
+{"id": "603", "label": "Family Relationships", "desc": "quality of family relationships (numeric: from 1 - very bad to 5 - excellent)"}
+{"id": "604", "label": "Free Time", "desc": "free time after school (numeric: from 1 - very low to 5 - very high)"}
+{"id": "605", "label": "Going Out with Friends", "desc": "going out with friends (numeric: from 1 - very low to 5 - very high)"}
+{"id": "606", "label": "Workday Alcohol Consumption", "desc": "workday alcohol consumption (numeric: from 1 - very low to 5 - very high)"}
+{"id": "607", "label": "Weekend Alcohol Consumption", "desc": "weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)"}
+{"id": "608", "label": "Current Health Status", "desc": "current health status (numeric: from 1 - very bad to 5 - very good)"}
+{"id": "609", "label": "School Absences", "desc": "number of school absences (numeric: from 0 to 93)"}
+{"id": "610", "label": "First Period Grade", "desc": "first period grade (numeric: from 0 to 20)"}
+{"id": "611", "label": "Second Period Grade", "desc": "second period grade (numeric: from 0 to 20)"}
+{"id": "612", "label": "Final Grade", "desc": "final grade (numeric: from 0 to 20, output target)"}
+{"id": "613", "label": "Player", "desc": "Player name"}
+{"id": "614", "label": "GP", "desc": "Games played"}
+{"id": "615", "label": "MPG", "desc": "Mean number of minutes played"}
+{"id": "616", "label": "PTS", "desc": "Mean number of points scored"}
+{"id": "617", "label": "FGM", "desc": "Mean number of field goals scored"}
+{"id": "618", "label": "FGA", "desc": "Mean number of field goals attempted"}
+{"id": "619", "label": "3PM", "desc": "Mean number of 3-point shots made"}
+{"id": "620", "label": "3PA", "desc": "Mean number of 3-point shots attempted"}
+{"id": "621", "label": "FTM", "desc": "Mean number of free throws made"}
+{"id": "622", "label": "FTA", "desc": "Mean number of free throws attempted"}
+{"id": "623", "label": "OREB", "desc": "Mean number of offensive rebounds"}
+{"id": "624", "label": "DREB", "desc": "Mean number of defensive rebounds"}
+{"id": "625", "label": "AST", "desc": "Mean number of assists"}
+{"id": "626", "label": "STL", "desc": "Mean number of steals"}
+{"id": "627", "label": "BLK", "desc": "Mean number of blocks"}
+{"id": "628", "label": "TOV", "desc": "Mean number of turnovers"}
+{"id": "629", "label": "Active", "desc": "0: not playing after 5 years, 1: playing after 5 years"}
+{"id": "630", "label": "Law Code", "desc": "Law code of the violation for which the ticket was issued."}
+{"id": "631", "label": "Violation Description", "desc": "Description of the violation for which the ticket was issued."}
+{"id": "632", "label": "Year Issued", "desc": "Calendar year in which the ticket was issued."}
+{"id": "633", "label": "Month Issued", "desc": "Month in which the ticket was issued. 1=January; 12=December."}
+{"id": "634", "label": "Day of Week", "desc": "Day of the week on which the ticket was issued."}
+{"id": "635", "label": "Age", "desc": "Age, in years, of the person to whom the ticket was issued on the date of ticket issuance."}
+{"id": "636", "label": "Gender", "desc": "Gender of person to whom ticket was issued. M = Male ; F = Female; C = Organization; U = Unknown"}
+{"id": "637", "label": "License State", "desc": "Name of the state, district, territory, province or country that issued the driver license presented by the motorist at the time of ticket issuance."}
+{"id": "638", "label": "Agency", "desc": "The name of the law enforcement agency that issued the ticket."}
+{"id": "639", "label": "Court", "desc": "Court where the ticket was answerable."}
+{"id": "640", "label": "Processing System", "desc": "Processing system used by the courts to record and track tickets from issuance to disposition: TSLED = \u201cTraffic Safety Law Enforcement & Disposition Program\u201d used by local courts throughout most of NYS. TVB = used by NYSDMV Traffic Violation Bureaus in NYC, western Suffolk County, Rochester and Buffalo."}
+{"id": "641", "label": "Record Number", "desc": "corresponds to the record (row) number and has no effect on the output."}
+{"id": "642", "label": "Random Values", "desc": "contains random values and has no effect on customer leaving the bank."}
+{"id": "643", "label": "Surname", "desc": "the surname of a customer has no impact on their decision to leave the bank."}
+{"id": "644", "label": "Credit Score", "desc": "can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank."}
+{"id": "645", "label": "Location", "desc": "a customer\u2019s location can affect their decision to leave the bank."}
+{"id": "646", "label": "Gender", "desc": "it\u2019s interesting to explore whether gender plays a role in a customer leaving the bank."}
+{"id": "647", "label": "Age", "desc": "this is certainly relevant, since older customers are less likely to leave their bank than younger ones."}
+{"id": "648", "label": "Years as Client", "desc": "refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank."}
+{"id": "649", "label": "Account Balance", "desc": "also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances."}
+{"id": "650", "label": "Number of Products", "desc": "refers to the number of products that a customer has purchased through the bank."}
+{"id": "651", "label": "Has Credit Card", "desc": "denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank."}
+{"id": "652", "label": "Active Customer", "desc": "active customers are less likely to leave the bank."}
+{"id": "653", "label": "Salary", "desc": "as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries."}
+{"id": "654", "label": "Left Bank", "desc": "whether or not the customer left the bank."}
+{"id": "655", "label": "Symbol", "desc": "The symbol or the reference number of the company"}
+{"id": "656", "label": "Company", "desc": "Name of the company"}
+{"id": "657", "label": "Trading Name", "desc": "The trading name of the company"}
+{"id": "658", "label": "Sector", "desc": "The sector in which the company operates"}
+{"id": "659", "label": "Date", "desc": "The date of the stock price"}
+{"id": "660", "label": "High", "desc": "The highest price of the stock at that day"}
+{"id": "661", "label": "Low", "desc": "The lowest price of the stock at that day"}
+{"id": "662", "label": "Change", "desc": "The change in price from the last day"}
+{"id": "663", "label": "Change %", "desc": "The percentage of the change"}
+{"id": "664", "label": "Volume", "desc": "The volume of the trades for the day"}
+{"id": "665", "label": "Value", "desc": "The value of the trades for the day"}
+{"id": "666", "label": "Trades", "desc": "The number of trades for the day"}
+{"id": "667", "label": "Run #", "desc": "The run number of the event."}
+{"id": "668", "label": "Event #", "desc": "The event number."}
+{"id": "669", "label": "E1 (GeV)", "desc": "The total energy of the electron 1 (GeV)."}
+{"id": "670", "label": "Px1 (GeV)", "desc": "First component of the momemtum of the electron 1 (GeV)."}
+{"id": "671", "label": "Py1 (GeV)", "desc": "Second component of the momemtum of the electron 1 (GeV)."}
+{"id": "672", "label": "Pz1 (GeV)", "desc": "Third component of the momemtum of the electron 1 (GeV)."}
+{"id": "673", "label": "Pt1 (GeV)", "desc": "The transverse momentum of the electron 1 (GeV)."}
+{"id": "674", "label": "Eta1", "desc": "The pseudorapidity of the electron 1."}
+{"id": "675", "label": "Phi1 (rad)", "desc": "The phi angle of the electron 1 (rad)."}
+{"id": "676", "label": "Q1", "desc": "The charge of the electron 1."}
+{"id": "677", "label": "E2 (GeV)", "desc": "The total energy of the electron 2 (GeV)."}
+{"id": "678", "label": "Px2 (GeV)", "desc": "First component of the momemtum of the electron 2 (GeV)."}
+{"id": "679", "label": "Py2 (GeV)", "desc": "Second component of the momemtum of the electron 2 (GeV)."}
+{"id": "680", "label": "Pz2 (GeV)", "desc": "Third component of the momemtum of the electron 2 (GeV)."}
+{"id": "681", "label": "Pt2 (GeV)", "desc": "The transverse momentum of the electron 2 (GeV)."}
+{"id": "682", "label": "Eta2", "desc": "The pseudorapidity of the electron 2."}
+{"id": "683", "label": "Phi2 (rad)", "desc": "The phi angle of the electron 2 (rad)."}
+{"id": "684", "label": "Q2", "desc": "The charge of the electron 2."}
+{"id": "685", "label": "M12 (GeV)", "desc": "The invariant mass of two electrons (GeV)."}
+{"id": "686", "label": "Year", "desc": "Year in which the quarterfinals took place"}
+{"id": "687", "label": "Team Code", "desc": "Code of the teams that took part in the corresponding year"}
+{"id": "688", "label": "Team Name", "desc": "Name of the participant teams"}
+{"id": "689", "label": "Final Round", "desc": "Final round achieved by each of the teams"}
+{"id": "690", "label": "Country", "desc": "Country of origin or the league"}
+{"id": "691", "label": "Region", "desc": "Region of the team in the league table"}
+{"id": "692", "label": "Decade", "desc": "Decade of the respective year the quarterfinals took place"}
+{"id": "693", "label": "Superliga", "desc": "Checking if the corresponding teams supported the superliga plan or opposed it"}
+{"id": "694", "label": "City", "desc": "City in which the quarterfinals took place"}
+{"id": "695", "label": "Venue Code", "desc": "Areacode of the corresponding venue"}
+{"id": "696", "label": "Metropolitan City", "desc": "The metropolitan city in which the event took place"}
+{"id": "697", "label": "City Population", "desc": "Population of that particular city"}
+{"id": "698", "label": "City GDP", "desc": "Gdp of that particular city in which it took place"}
+{"id": "699", "label": "City Country", "desc": "Country of that particular city in which the event took place"}
+{"id": "700", "label": "Eurostat Code", "desc": "Eurostat unique code of the corresponding country it took place"}
+{"id": "701", "label": "ECB Code", "desc": "Ecb code of the corresponding country"}
+{"id": "702", "label": "COWC Code", "desc": "Cowc three letter code for each of the countries"}
+{"id": "703", "label": "COWN Value", "desc": "Cown value for each of the countries selected"}
+{"id": "704", "label": "Date", "desc": "date from September 17, 2014 to November 17, 2021"}
+{"id": "705", "label": "Open", "desc": "the price at the beginning of the trading day"}
+{"id": "706", "label": "High", "desc": "the highest price reached that day"}
+{"id": "707", "label": "Low", "desc": "the lowest price reached that day"}
+{"id": "708", "label": "Close", "desc": "the price at the closing of the trading day"}
+{"id": "709", "label": "Volume", "desc": "how many Bitcoin were traded that day"}
+{"id": "710", "label": "Date", "desc": "date from September, 2014 to November, 2021"}
+{"id": "711", "label": "CPI", "desc": "he inflation index for the US for that month (cpi = consumer price index)"}
+{"id": "712", "label": "Open", "desc": "the index level at the beginning of the trading day"}
+{"id": "713", "label": "High", "desc": "the highest level reached that day"}
+{"id": "714", "label": "Low", "desc": "the lowest level reached that day"}
+{"id": "715", "label": "Close", "desc": "the level at the closing of the trading day"}
+{"id": "716", "label": "Volume", "desc": "how many shares in the companies that make up the index were traded that day"}
+{"id": "717", "label": "Date", "desc": "date of observations"}
+{"id": "718", "label": "Observed Weight", "desc": "Stone, pounds, ounces: observed weight"}
+{"id": "719", "label": "Total Ounces", "desc": "Total weight in ounces"}
+{"id": "720", "label": "Calories", "desc": "approximate calories consumed on that date. Calorie counts were taken for each food based on nutritional information and rounded up to the nearest 50 to facilitate easy record keeping. Where nutritional information was not available, calorie counts were estimated from previous experience and best guesses of ingredients and comparison to meals with available nutritional information."}
+{"id": "721", "label": "Cal/oz", "desc": "calories per ounce - calories for that day divided by weight in ounces"}
+{"id": "722", "label": "Donut Day", "desc": "day where main meal was bag of five jam donuts, 1 = TRUE, 0 = FALSE"}
+{"id": "723", "label": "Brisk Walk", "desc": "day included at least one brisk walk of over 20 minutes, 1 = TRUE, 0 = FALSE"}
+{"id": "724", "label": "Short Run", "desc": "day included at one short run of 2.5 miles, 1 = TRUE, 0 = FALSE"}
+{"id": "725", "label": "Wine Night", "desc": "day finished with at least one large glass of wine when not accompanied by other fluids, 1 = TRUE, 0 = FALSE"}
+{"id": "726", "label": "High Protein", "desc": "day involved what would be considered a high protein diet, 1 = TRUE, 0 = FALSE"}
+{"id": "727", "label": "Exercise Period", "desc": "signifies day during period of weight-based exercise; includes rest days as part of period, 1 = TRUE, 0 = FALSE"}
+{"id": "728", "label": "Weight Change", "desc": "change: resulting change in weight in oz, calculated from following day's observed weight"}
+{"id": "729", "label": "Location", "desc": "Location where the crime was reported."}
+{"id": "730", "label": "Department", "desc": "Police Department that reported the crime."}
+{"id": "731", "label": "Months Reported", "desc": "Number of months an individual agency reported for the year."}
+{"id": "732", "label": "Total Crime", "desc": "Includes sum of Murder, Rape, Robbery, Aggravated Assault, Burglary, Larceny and Motor Vehicle Theft."}
+{"id": "733", "label": "Violent Crime", "desc": "Subtotal includes Murder, Rape, Robbery and Aggravated Assault."}
+{"id": "734", "label": "Murder", "desc": "One count per victim. The willful killing of one human being by another. Excludes deaths caused by negligence, suicide, or justifiable homicides, and attempts to murder, which are classified as assault."}
+{"id": "735", "label": "Rape", "desc": "One count per victim. Penetration, no matter how slight, of the vagina or anus with any body part or object, or oral penetration by a sex organ of another person, without the consent of the victim."}
+{"id": "736", "label": "Robbery", "desc": "One count per victim. The taking or attempting to take anything of value from the care, custody, or control of a person or persons by force or threat of force or violence and/or by putting the victim in fear."}
+{"id": "737", "label": "Aggravated Assault", "desc": "One count per victim. The unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury. This type of assault is usually accompanied by the use of a weapon or by means likely to produce death or great bodily harm, and also includes attempts to commit murder."}
+{"id": "738", "label": "Property Crime", "desc": "Subtotal includes Burglary, Larceny and Motor Vehicle Theft."}
+{"id": "739", "label": "Burglary", "desc": "One count per victim. The unlawful entry of a structure to commit a felony or theft. The use of force to gain entry is not required to classify an offense as Burglary."}
+{"id": "740", "label": "Larceny", "desc": "One count per victim. The unlawful taking, carrying, leading, or riding away of property from the possession or constructive possession of another. It includes crimes such as shoplifting, purse snatching, bicycle thefts, etc., in which no use of force, violence, or fraud occurs. This offense category does not include offenses such as embezzlement, forgery, or bad checks."}
+{"id": "741", "label": "Motor Vehicle Theft", "desc": "One count per victim. The theft or attempted theft of a motor vehicle, including automobiles, trucks, buses, motorcycles, and snowmobiles."}
+{"id": "742", "label": "Region", "desc": "Region where the crime was reported. Regions include New York City (Bronx, Kings, New York, Queens, and Richmond counties) and Non-New York City (all other counties)."}
+{"id": "743", "label": "Publication Year", "desc": "Year that the journal article, book chapter was published."}
+{"id": "744", "label": "Publication Type", "desc": "Indicates whether the publication is a scientific journal article, book, book chapter, correspondence, meeting abstract, news article, proceedings paper, or a review."}
+{"id": "745", "label": "Journal Name", "desc": "Specific journal name relevant to the journal\u2019s contents."}
+{"id": "746", "label": "Publication Title", "desc": "Specific publication title of the article describing specific research done."}
+{"id": "747", "label": "Author", "desc": "Author(s) of the publication"}
+{"id": "748", "label": "Issue Number", "desc": "Issue number of the journal in which the publication appears. Journal issues are subparts of each journal volume. Blank means this field does not apply for this publication."}
+{"id": "749", "label": "Page Numbers", "desc": "The page numbers on which the publication appears within the indicated journal. Blank means this field does not apply for this publication."}
+{"id": "750", "label": "ISSN", "desc": "International Standard Serial Number (ISSN) for the publication. ISSNs are unique eight-digit numbers used to identify a publication, distinguishing between different media formats of the same content; for example, when a periodical is published in two or more different media, a different ISSN is assigned to each media type."}
+{"id": "751", "label": "Peer Reviewed", "desc": "Indicates whether the publication was subject to a peer review, which is a critique of science and discussion presented in an article by experts in the field. This Review was either done (True) or not done (False)."}
+{"id": "752", "label": "Impact Factor", "desc": "Indicates the Impact Factor (IF) for the publication. Blank means the IF is either unknown or the publication has not been rated. An IF is a systematic, objective means to critically evaluate and rank the world's leading journals, with quantifiable, statistical information based on citation data. Generally, the higher the IF, the greater the impact of the specific journal\u2019s reputation. Impact factors do not appear until 3 years after the publication of the article due to the way they are calculated."}
+{"id": "753", "label": "Customer ID", "desc": "Customer ID"}
+{"id": "754", "label": "Age", "desc": "Customer's age in completed years"}
+{"id": "755", "label": "Exp. Years", "desc": "Number of years of professional experience"}
+{"id": "756", "label": "Annual Income", "desc": "Annual income of the customer ($000)"}
+{"id": "757", "label": "ZIP Code", "desc": "Home Address ZIP code."}
+{"id": "758", "label": "Family Size", "desc": "Family size of the customer"}
+{"id": "759", "label": "CC Spend", "desc": "Avg. spending on credit cards per month ($000)"}
+{"id": "760", "label": "Education", "desc": "Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional"}
+{"id": "761", "label": "Mortgage", "desc": "Value of house mortgage if any. ($000)"}
+{"id": "762", "label": "Loan Accepted", "desc": "Did this customer accept the personal loan offered in the last campaign?"}
+{"id": "763", "label": "Securities Acct", "desc": "Does the customer have a securities account with the bank?"}
+{"id": "764", "label": "CD Acct", "desc": "Does the customer have a certificate of deposit (CD) account with the bank?"}
+{"id": "765", "label": "Internet Banking", "desc": "Does the customer use internet banking facilities?"}
+{"id": "766", "label": "Bank CC", "desc": "Does the customer use a credit card issued by this Bank?"}
+{"id": "767", "label": "Bearing ID", "desc": "Unique identifier for the bearing"}
+{"id": "768", "label": "Target Class", "desc": "Target class, 1 for good and 0 for defective bearings"}
+{"id": "769", "label": "Experiment ID", "desc": "Unique identifier of the experiment"}
+{"id": "770", "label": "First Bearing ID", "desc": "Unique identifier of the bearing on the first position"}
+{"id": "771", "label": "Second Bearing ID", "desc": "Unique identifier of the bearing on the second position"}
+{"id": "772", "label": "Time (s)", "desc": "Time, measured in seconds"}
+{"id": "773", "label": "X-Accel 1", "desc": "Acceleration along the X-axis for the first bearing. Measured in m/s^2"}
+{"id": "774", "label": "Y-Accel 1", "desc": "Acceleration along the Y-axis for the first bearing. Measured in m/s^2"}
+{"id": "775", "label": "Z-Accel 1", "desc": "Acceleration along the Z-axis for the first bearing. Measured in m/s^2"}
+{"id": "776", "label": "X-Accel 2", "desc": "Acceleration along the X-axis for the second bearing. Measured in m/s^2"}
+{"id": "777", "label": "Y-Accel 2", "desc": "Acceleration along the Y-axis for the second bearing. Measured in m/s^2"}
+{"id": "778", "label": "Z-Accel 2", "desc": "Acceleration along the Z-axis for the second bearing. Measured in m/s^2"}
+{"id": "779", "label": "RPM", "desc": "Rotation speed. Revolutions per minute"}
+{"id": "780", "label": "Speed (Hz)", "desc": "Rotation speed. Speed in Hertz"}
+{"id": "781", "label": "Motor Power (W)", "desc": "The power of the motor at a time. Measured in Watts"}
+{"id": "782", "label": "CHD/MI", "desc": "Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)"}
+{"id": "783", "label": "High Blood Pressure", "desc": "Adults who have been told they have high blood pressure by a doctor, nurse, or other health professional"}
+{"id": "784", "label": "High Cholesterol", "desc": "Have you EVER been told by a doctor, nurse or other health professional that your blood cholesterol is high?"}
+{"id": "785", "label": "Cholesterol Check", "desc": "Cholesterol check within past five years"}
+{"id": "786", "label": "BMI", "desc": "Body Mass Index (BMI)"}
+{"id": "787", "label": "Smoker", "desc": "Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes]"}
+{"id": "788", "label": "Stroke", "desc": "(Ever told) you had a stroke."}
+{"id": "789", "label": "Diabetes", "desc": "0 is no diabetes, 1 is pre-diabetes, and 2 is diabetes"}
+{"id": "790", "label": "Physical Activity", "desc": "Adults who reported doing physical activity or exercise during the past 30 days other than their regular job"}
+{"id": "791", "label": "Fruit Consumption", "desc": "Consume Fruit 1 or more times per day"}
+{"id": "792", "label": "Veg Consumption", "desc": "Consume Vegetables 1 or more times per day"}
+{"id": "793", "label": "Heavy Drinker", "desc": "Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week)"}
+{"id": "794", "label": "Health Care Coverage", "desc": "o you have any kind of health care coverage, including health insurance, prepaid plans such as HMOs, or government plans such as Medicare, or Indian Health Service?"}
+{"id": "795", "label": "Unaffordable Care", "desc": "Was there a time in the past 12 months when you needed to see a doctor but could not because of cost?"}
+{"id": "796", "label": "General Health", "desc": "Would you say that in general your health is:"}
+{"id": "797", "label": "Mental Health", "desc": "Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?"}
+{"id": "798", "label": "Physical Health", "desc": "Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?"}
+{"id": "799", "label": "Walking Difficulty", "desc": "Do you have serious difficulty walking or climbing stairs?"}
+{"id": "800", "label": "Sex", "desc": "Indicate sex of respondent."}
+{"id": "801", "label": "Age", "desc": "Fourteen-level age category"}
+{"id": "802", "label": "Education", "desc": "What is the highest grade or year of school you completed?"}
+{"id": "803", "label": "Household Income", "desc": "Is your annual household income from all sources: (If respondent refuses at any income level, code \"Refused.\")"}
+{"id": "804", "label": "Book Cover", "desc": "URLs of book covers. Use this cover to download images yourselves if you need."}
+{"id": "805", "label": "Title", "desc": "Title of a book."}
+{"id": "806", "label": "Author", "desc": "Author of a book."}
+{"id": "807", "label": "Format", "desc": "Physical format of a book (i.e. paperback)"}
+{"id": "808", "label": "Rating", "desc": "Book's rating found on the bookdepository.com(NOTE: Due to difference between scraping and download time of the dataset, this information might be different from one on the website)"}
+{"id": "809", "label": "Price", "desc": "Book's current price found on the bookdepository.com (NOTE: Due to difference between scraping and download time of the dataset, this information might be different from one on the website)"}
+{"id": "810", "label": "Currency", "desc": "Currency of prices found in the dataset."}
+{"id": "811", "label": "Old Price", "desc": "Book's old price (if exists) found on the bookdepository.com (NOTE: Due to difference between scraping and download time of the dataset, this information might be different from one on the website)"}
+{"id": "812", "label": "ISBN", "desc": "ISBN number of a book."}
+{"id": "813", "label": "Category", "desc": "Category of a book found on the bookdepository.com"}
+{"id": "814", "label": "Cover Path", "desc": "Book's cover local path (after scraping)."}
+{"id": "815", "label": "Violation Date", "desc": "Date of the traffic violation.\u8fdd\u7ae0\u53d1\u751f\u65e5\u671f"}
+{"id": "816", "label": "Violation Time", "desc": "Time of the traffic violation.\u8fdd\u7ae0\u53d1\u751f\u65f6\u95f4"}
+{"id": "817", "label": "Agency", "desc": "Agency issuing the traffic violation. (Example: MCP is Montgomery County Police)\u8fdd\u7ae0\u5904\u7406\u8b66\u5c40"}
+{"id": "818", "label": "Court Code", "desc": "Court code representing the district of assignment of the officer. R15 = 1st district, Rockville B15 = 2nd district, Bethesda SS15 = 3rd district, Silver Spring WG15 = 4th district, Wheaton G15 = 5th district, Germantown M15 = 6th district, Gaithersburg / Montgomery Village HQ15 = Headquarters and Special Operations\u8fdd\u7ae0\u5177\u4f53\u5904\u7406\u6d3e\u51fa\u6240\uff1f"}
+{"id": "819", "label": "Charge Description", "desc": "Text description of the specific charge.\u8fdd\u7ae0\u7684\u5177\u4f53\u63cf\u8ff0"}
+{"id": "820", "label": "Violation Location", "desc": "Location of the violation, usually an address or intersection.\u8fdd\u7ae0\u7684\u4f4d\u7f6e"}
+{"id": "821", "label": "Latitude", "desc": "Latitude location of the traffic violation.\u8fdd\u7ae0\u4f4d\u7f6e\u7684\u7eac\u5ea6"}
+{"id": "822", "label": "Longitude", "desc": "Longitude location of the traffic violation.\u8fdd\u7ae0\u4f4d\u7f6e\u7684\u7ecf\u5ea6"}
+{"id": "823", "label": "Accident Involved", "desc": "If traffic violation involved an accident.\u662f\u5426\u5f15\u53d1\u4e8b\u6545"}
+{"id": "824", "label": "Seat Belt Violation", "desc": "If traffic violation involved a seat belt violation.\u662f\u5426\u6d89\u53ca\u5230\u5b89\u5168\u5e26\u7684\u4f7f\u7528"}
+{"id": "825", "label": "Personal Injury", "desc": "If traffic violation involved Personal Injury.\u662f\u5426\u6709\u4eba\u5458\u53d7\u4f24"}
+{"id": "826", "label": "Property Damage", "desc": "If traffic violation involved Property Damage.\u662f\u75d8\u6709\u8d22\u4ea7\u635f\u5931"}
+{"id": "827", "label": "Fatality", "desc": "If traffic violation involved a fatality.\u662f\u5426\u6709\u4eba\u5458\u6b7b\u4ea1"}
+{"id": "828", "label": "Commercial License", "desc": "If the vehicle committing the traffic violation used Commercial License\u662f\u5426\u4e3a\u516c\u53f8\u724c\u7167"}
+{"id": "829", "label": "Hazardous Materials", "desc": "If the traffic violation involved hazardous materials.\u4e8b\u6545\u4e2d\u662f\u5426\u6d89\u53ca\u5371\u9669\u54c1"}
+{"id": "830", "label": "Commercial Vehicle", "desc": "If the vehicle committing the traffic violation is a commercial vehicle.\u8fdd\u7ae0\u8f66\u8f86\u662f\u5426\u4e3a\u5546\u52a1\u8f66"}
+{"id": "831", "label": "Alcohol Related", "desc": "If the traffic violation included an alcohol related\u662f\u5426\u6d89\u53ca\u9152\u9a7e"}
+{"id": "832", "label": "Work Zone", "desc": "If the traffic violation was in a work zone.\u8fdd\u7ae0\u662f\u5426\u53d1\u751f\u5728\u5de5\u4f5c\u533a"}
+{"id": "833", "label": "Vehicle Registration State", "desc": "State issuing the vehicle registration.\u662f\u5426\u4e3a\u56fd\u5bb6\u724c\u7167\u7684\u516c\u52a1\u8f66"}
+{"id": "834", "label": "Vehicle Type", "desc": "Type of vehicle (Examples: Automobile, Station Wagon, Heavy Duty Truck, etc.)\u8f66\u578b"}
+{"id": "835", "label": "Vehicle Year", "desc": "Year vehicle was made.\u8f66\u8f86\u51fa\u5382\u65e5\u671f"}
+{"id": "836", "label": "Vehicle Manufacturer", "desc": "Manufacturer of the vehicle (Examples: Ford, Chevy, Honda, Toyota, etc.)\u8f66\u8f86\u54c1\u724c"}
+{"id": "837", "label": "Vehicle Model", "desc": "Model of the vehicle.\u8f66\u7684\u989c\u8272"}
+{"id": "838", "label": "Vehicle Color", "desc": "Color of the vehicle.\u8fdd\u7ae0\u7c7b\u578b"}
+{"id": "839", "label": "Violation Type", "desc": "Violation type. (Examples: Warning, Citation, SERO ie SAFETY EQUIPMENT REPAIR ORDERS)\u8fdd\u7ae0\u7c7b\u578b"}
+{"id": "840", "label": "Charge Code", "desc": "Numeric code for the specific charge.\u7f5a\u6b3e\u4ee3\u7801"}
+{"id": "841", "label": "State Law Article", "desc": "Article of State Law. (TA = Transportation Article, MR = Maryland Rules)\u89e6\u72af\u6761\u4f8b\u7684\u7ea7\u522b\uff08\u56fd\u5bb6\u7ea7\u6216\u662f\u5dde\u7ea7\uff09"}
+{"id": "842", "label": "Contributing Factor", "desc": "If the traffic violation was a contributing factor in an accident.\u8fd9\u6b21\u8fdd\u7ae0\u662f\u5426\u662f\u5bfc\u81f4\u4e8b\u6545\u53d1\u751f\u7684\u539f\u56e0"}
+{"id": "843", "label": "Driver Race", "desc": "Race of the driver. (Example: Asian, Black, White, Other, etc.)\u53f8\u673a\u79cd\u65cf"}
+{"id": "844", "label": "Driver Gender", "desc": "Gender of the driver (F = Female, M = Male)\u53f8\u673a\u6027\u522b"}
+{"id": "845", "label": "Driver City", "desc": "City of the driver\u2019s home address.\u53f8\u673a\u5bb6\u5ead\u4f4f\u5740\u7684\u57ce\u5e02"}
+{"id": "846", "label": "Driver State", "desc": "State of the driver\u2019s home address.\u53f8\u673a\u5bb6\u5ead\u4f4f\u5740\u7684\u5dde"}
+{"id": "847", "label": "Driver License State", "desc": "State issuing the Driver\u2019s License.\uff08\u9881\u53d1\u9a7e\u7167\u7684\u5dde\uff09"}
+{"id": "848", "label": "Arrest Type", "desc": "Type of Arrest (A = Marked, B = Unmarked, etc.)\u662f\u5426\u88ab\u902e\u6355"}
+{"id": "849", "label": "Geo-coded Location", "desc": "Geo-coded location information.\u4f4d\u7f6e\u533a\u57df\u7801\uff0c\u7c7b\u4f3c\u4e8e\u4e2d\u56fd\u7684\u90ae\u7f16\u3002"}
+{"id": "850", "label": "NYSDOT Region", "desc": "The numeric code that identifies the NYSDOT Region responsible for managing the transportation system for a specific geographic area listed as follows: Region 1 - Capital District Region 2 - Mohawk Valley Region 3 - Central New York Region 4 - Genesee Valley Region 5 - Western New York Region 6 - Central Southern Tier Region 7 - North Country Region 8 - Hudson Valley Region 9 - Southern Tier Region 10 - Long Island Region 11 - New York City"}
+{"id": "851", "label": "Traffic Count Station ID", "desc": "Unique identifier for each Traffic Count Station concatenated from the region county code and the station number."}
+{"id": "852", "label": "Roadway ID", "desc": "Unique identifier that is coordinate based and assigned to the roadway for which the AADT was collected. Allows the segment to be mapped in GIS when referenced along with Begin/End Milepoint"}
+{"id": "853", "label": "Ramp Indicator", "desc": "Signifies by either a yes or no whether or not a ramp is included in the roadway segment"}
+{"id": "854", "label": "Begin Milepoint", "desc": "The starting milepoint of the segment of roadway for which the AADT applies"}
+{"id": "855", "label": "End Milepoint", "desc": "The ending milepoint of the segment of roadway for which the AADT applies"}
+{"id": "856", "label": "Begin Description", "desc": "The verbal description of the start of the segment of roadway for which the AADT applies"}
+{"id": "857", "label": "End Description", "desc": "The verbal description of the end of the segment of roadway for which the AADT applies"}
+{"id": "858", "label": "Municipality", "desc": "Name of the municipality in which the AADT was calculated"}
+{"id": "859", "label": "Route Type", "desc": "Designates what kind of a route or roadway the segment of roadway is INTERNY: Interstate designation commonly known as the Interstate Highway System, a network of controlled-access highways that forms a part of the National Highway System US: US designation of a set of roads typically called U.S. Routes or U.S. Highways which forms an integrated network of roads and highways numbered within a nationwide grid in the United States NY: New York State Highway designation assigned at the State level COUNTY: County Route designations assigned at the county level A blank field designates a \u2018Local\u2019 town, municipality or city roadway"}
+{"id": "860", "label": "Roadway Type", "desc": "Numerical description of the type of roadway for which the AADT was collected"}
+{"id": "861", "label": "Roadway Name", "desc": "Name of the roadway the AADT was calculated for"}
+{"id": "862", "label": "Year", "desc": "Year the Annual Average Daily Traffic value is provided"}
+{"id": "863", "label": "AADT Volume", "desc": "Annual Average Daily Traffic volume value: on any given day the average numbers of vehicles that pass the segment of roadway as described by the Begin/End Descriptions. These figures are based on an actual count taken for that year or statistically validated estimated and forecasted values"}
+{"id": "864", "label": "AADT Type", "desc": "Indicates whether the AADT for a specific year count was actual, forecasted or estimated - Actual - count reading numeric value from an actual traffic counting study - Forecast \u2013 statistical value established for years before an earlier actual count or after the last actual count and is based on earlier data only - Estimate - statistical value established for years between two actual counts and can be derived from both earlier and later data"}
+{"id": "865", "label": "L-Ankle Accel X", "desc": "acceleration from the left-ankle sensor (X axis)"}
+{"id": "866", "label": "L-Ankle Accel Y", "desc": "acceleration from the left-ankle sensor (Y axis)"}
+{"id": "867", "label": "L-Ankle Accel Z", "desc": "acceleration from the left-ankle sensor (Z axis)"}
+{"id": "868", "label": "L-Ankle Gyro X", "desc": "gyro from the left-ankle sensor (X axis)"}
+{"id": "869", "label": "L-Ankle Gyro Y", "desc": "gyro from the left-ankle sensor (Y axis)"}
+{"id": "870", "label": "L-Ankle Gyro Z", "desc": "gyro from the left-ankle sensor (Z axis)"}
+{"id": "871", "label": "R-Lower Arm Accel X", "desc": "acceleration from the right-lower-arm sensor (X axis)"}
+{"id": "872", "label": "R-Lower Arm Accel Y", "desc": "acceleration from the right-lower-arm sensor (Y axis)"}
+{"id": "873", "label": "R-Lower Arm Accel Z", "desc": "acceleration from the right-lower-arm sensor (Z axis)"}
+{"id": "874", "label": "R-Lower Arm Gyro X", "desc": "gyro from the right-lower-arm sensor (X axis)"}
+{"id": "875", "label": "R-Lower Arm Gyro Y", "desc": "gyro from the right-lower-arm sensor (Y axis)"}
+{"id": "876", "label": "R-Lower Arm Gyro Z", "desc": "gyro from the right-lower-arm sensor (Z axis)"}
+{"id": "877", "label": "Activity", "desc": "corresponding activity"}
+{"id": "878", "label": "Volunteer", "desc": "volunteer number"}
+{"id": "879", "label": "ID", "desc": "non identifiable randomly generated character id."}
+{"id": "880", "label": "Full Name", "desc": "full name of this character."}
+{"id": "881", "label": "Alias", "desc": "another way to call the character."}
+{"id": "882", "label": "Gender", "desc": "gender of the this character."}
+{"id": "883", "label": "Hair Color", "desc": "hair color of this character."}
+{"id": "884", "label": "Love Rank", "desc": "love rank based in users preference."}
+{"id": "885", "label": "Hate Rank", "desc": "hate rank based in users preference."}
+{"id": "886", "label": "Eye Color", "desc": "eye color of the character."}
+{"id": "887", "label": "Birthday", "desc": "date of his birthday."}
+{"id": "888", "label": "Blood Type", "desc": "blood type of the character."}
+{"id": "889", "label": "Tags", "desc": "comma separated list of tags for this character."}
+{"id": "890", "label": "Loves", "desc": "how many users love this character."}
+{"id": "891", "label": "Hates", "desc": "how many users hate this character."}
+{"id": "892", "label": "Description", "desc": "short text with description if this character."}
+{"id": "893", "label": "Anime Planet URL", "desc": "url to the main page of character in Anime Planet."}
+{"id": "894", "label": "User Preference", "desc": "True if the user loves the character, False if he hates it."}
+{"id": "895", "label": "Survival Months", "desc": "number of months patient survived (has survived, if patient is still alive)"}
+{"id": "896", "label": "Alive Status", "desc": "binary variable. 0=dead at end of survival period, 1 means still alive"}
+{"id": "897", "label": "Age at Heart Attack", "desc": "age in years when heart attack occurred"}
+{"id": "898", "label": "Pericardial Effusion", "desc": "binary. Pericardial effusion is fluid around the heart. 0=no fluid, 1=fluid"}
+{"id": "899", "label": "Contractility Measure", "desc": "a measure of contracility around the heart lower numbers are increasingly abnormal"}
+{"id": "900", "label": "E-point Septal Separation", "desc": "E-point septal separation, another measure of contractility. Larger numbers are increasingly abnormal."}
+{"id": "901", "label": "Left Ventricular Dimension", "desc": "left ventricular end-diastolic dimension. This is a measure of the size of the heart at end-diastole. Large hearts tend to be sick hearts."}
+{"id": "902", "label": "Segment Motion", "desc": "a measure of how the segments of the left ventricle are moving"}
+{"id": "903", "label": "Wall Motion Index", "desc": "equals wall-motion-score divided by number of segments seen. Usually 12-13 segments are seen in an echocardiogram. Use this variable INSTEAD of the wall motion score."}
+{"id": "904", "label": "Derived Var", "desc": "a derivate var which can be ignored"}
+{"id": "905", "label": "Patient Name", "desc": "the name of the patient (I have replaced them with \"name\")"}
+{"id": "906", "label": "Ignore", "desc": "meaningless, ignore it"}
+{"id": "907", "label": "1-Year Survival", "desc": "Derived from the first two attributes. 0 means patient was either dead after 1 year or had been followed for less than 1 year. 1 means patient was alive at 1 year."}
+{"id": "908", "label": "Team Code", "desc": "Code of team"}
+{"id": "909", "label": "Player Tag", "desc": "Tag of player"}
+{"id": "910", "label": "Opponent Code", "desc": "Code of opposing team in match"}
+{"id": "911", "label": "Position", "desc": "Position played by player in match"}
+{"id": "912", "label": "Champion", "desc": "Champion played by player in match"}
+{"id": "913", "label": "Kills", "desc": "Number of kills by player in match"}
+{"id": "914", "label": "Deaths", "desc": "Number of deaths by player in match"}
+{"id": "915", "label": "Assists", "desc": "Number of assists by player in match"}
+{"id": "916", "label": "Creep Score", "desc": "Number of minions and monsters killed by player in match"}
+{"id": "917", "label": "Damage %", "desc": "Gold earned by player in match"}
+{"id": "918", "label": "Kill %", "desc": "Percentage of total damage done by team to other champions done by player."}
+{"id": "919", "label": "Wards Placed", "desc": "Percentage of team kills that player was part of."}
+{"id": "920", "label": "Wards Killed", "desc": "Number of wards placed by player in match."}
+{"id": "921", "label": "Ward Score", "desc": "Number of wards killed by player in match."}
+{"id": "922", "label": "Dragon Kills", "desc": "Sum of wards placed and wards killed by player in match."}
+{"id": "923", "label": "Opp Dragon Kills", "desc": "Number of dragons team killed in match."}
+{"id": "924", "label": "Baron Kills", "desc": "Number of dragons opposing team killed in match."}
+{"id": "925", "label": "Opp Baron Kills", "desc": "Number of Barons killed in match."}
+{"id": "926", "label": "Match Result", "desc": "Number of Barons opposing team killed in match."}
+{"id": "927", "label": "Result", "desc": "Win or Lose (W/L)"}
+{"id": "928", "label": "Rank", "desc": "Rank of the billionaires in world"}
+{"id": "929", "label": "Name", "desc": "Name of the billionaires"}
+{"id": "930", "label": "Age", "desc": "Age of the billionaires"}
+{"id": "931", "label": "Income Source", "desc": "Income source of the billionaires"}
+{"id": "932", "label": "Industry", "desc": "In which industry billionaires works"}
+{"id": "933", "label": "Gender", "desc": "Gender of the billionaires"}
+{"id": "934", "label": "Continent", "desc": "Continent of the business"}
+{"id": "935", "label": "Country", "desc": "Country of the business"}
+{"id": "936", "label": "Headquarter", "desc": "Headquarter of the business"}
+{"id": "937", "label": "State", "desc": "State of the business"}
+{"id": "938", "label": "Net Worth ($B)", "desc": "Net worth of individual in $ billions"}
+{"id": "939", "label": "Position", "desc": "What is the position of individual in their business"}
+{"id": "940", "label": "Year", "desc": "Year in which the crime took place"}
+{"id": "941", "label": "Region", "desc": "Geographical administrative region names of Bangladesh Police (DMP = Dhaka Metropolitan Police, CMP = Chittagong Metropolitan Police, RMP = Rajshahi Metropolitan Police, RPMP - Rangpur Metropolitan Police, etc.)"}
+{"id": "942", "label": "Armed Robbery", "desc": "Violent robbery committed by an armed gang in a geographical unit during the year"}
+{"id": "943", "label": "Robbery", "desc": "Taking or attempting to take anything of value by force, threat of force, or by putting the victim in fear"}
+{"id": "944", "label": "Murder", "desc": "Intentional killing. Unlawful, as in not legally justified. Committed with malice aforethought,"}
+{"id": "945", "label": "Sensational Cases", "desc": "Speedy disposal of sensational and notorious cases like murder, rape, etc."}
+{"id": "946", "label": "Riot", "desc": "violent public disorder; specifically : a tumultuous disturbance of the public peace by three or more persons assembled together"}
+{"id": "947", "label": "Heinous Crimes", "desc": "Number of heinous crimes such as rape, dowry, grievous injury. domestic violence, etc."}
+{"id": "948", "label": "Kidnapping", "desc": "Unlawful taking and carrying away of a person by force or fraud or the unlawful seizure and detention of a person against his will."}
+{"id": "949", "label": "Police Attacks", "desc": "Number of attacks on Police in a geographical unit during the year"}
+{"id": "950", "label": "Burglary", "desc": "Breaking and entering and sometimes housebreaking. Illegal entry of a building with intent to commit a crime"}
+{"id": "951", "label": "Theft", "desc": "Taking of another person's property or services without that person's permission or consent with the intent to deprive the rightful owner of it."}
+{"id": "952", "label": "Other Crimes", "desc": "Number of other type of crimes in a geographical unit during the year"}
+{"id": "953", "label": "Arms Recovery", "desc": "Recovery cases under Arms Act in a geographical unit during the year"}
+{"id": "954", "label": "Explosive Recovery", "desc": "Explosive Recovery cases in a geographical unit during the year"}
+{"id": "955", "label": "Narcotics Recovery", "desc": "Narcotics Recovery cases in a geographical unit during the year"}
+{"id": "956", "label": "Smuggling Recovery", "desc": "Recovery cases of Smuggling in a geographical unit during the year"}
+{"id": "957", "label": "Total Recovery", "desc": "Total Recovery cases in a geographical unit during the year"}
+{"id": "958", "label": "Total Crimes", "desc": "Total crime cases in a geographical unit during the year"}
+{"id": "959", "label": "Statistics Year", "desc": "Year of statistics"}
+{"id": "960", "label": "Crime Rate", "desc": "Crime rate per 100,000 people of the country"}
+{"id": "961", "label": "Crime Rate Change", "desc": "% Change in crime rate compared to last year"}
+{"id": "962", "label": "Date", "desc": "the date in which the coin had that price and volume"}
+{"id": "963", "label": "Low", "desc": "the lowwst price of that day in USD dollars"}
+{"id": "964", "label": "High", "desc": "the highest price of that day in USD dollars"}
+{"id": "965", "label": "Open", "desc": "the price when that day started in the markets in USD dollars"}
+{"id": "966", "label": "Close", "desc": "the price when that day closed in the markets in USD dollars"}
+{"id": "967", "label": "Volume", "desc": "the quantity of that coin that was traded in that day"}
+{"id": "968", "label": "Volume USD", "desc": "the quantity of that coin that was traded in that day in USD dollars"}
+{"id": "969", "label": "Symbol", "desc": "the symbol of the cryptocurrency"}
+{"id": "970", "label": "Logo", "desc": "the image url containing the cryptocurrency logo"}
+{"id": "971", "label": "Name", "desc": "the full name of the cryptocurrency"}
+{"id": "972", "label": "ID", "desc": "incident identifier."}
+{"id": "973", "label": "Process Transition", "desc": "eight levels controlling the incident management process transitions from opening until closing the case."}
+{"id": "974", "label": "Status", "desc": "boolean attribute that shows whether the record is active or closed/canceled."}
+{"id": "975", "label": "Group Chg Count", "desc": "number of times the incident has the group or the support analysts changed."}
+{"id": "976", "label": "Rejection Count", "desc": "number of times the incident resolution was rejected by the caller."}
+{"id": "977", "label": "Update Count", "desc": "number of incident updates until that moment."}
+{"id": "978", "label": "SLA Exceeded", "desc": "boolean attribute that shows whether the incident exceeded the target SLA."}
+{"id": "979", "label": "Affected User", "desc": "identifier of the user affected."}
+{"id": "980", "label": "Reported By", "desc": "identifier of the user who reported the incident."}
+{"id": "981", "label": "Opened Date", "desc": "incident user opening date and time"}
+{"id": "982", "label": "Opened By", "desc": "identifier of the user who registered the incident."}
+{"id": "983", "label": "Created Date", "desc": "incident system creation date and time."}
+{"id": "984", "label": "Updated By", "desc": "identifier of the user who updated the incident and generated the current log record."}
+{"id": "985", "label": "Update Date", "desc": "incident system update date and time."}
+{"id": "986", "label": "Reported Via", "desc": "categorical attribute that shows by what means the incident was reported."}
+{"id": "987", "label": "Location ID", "desc": "identifier of the location of the place affected."}
+{"id": "988", "label": "Service Category", "desc": "first-level description of the affected service."}
+{"id": "989", "label": "Service Subcategory", "desc": "second-level description of the affected service (related to the first level description, i.e., to category)."}
+{"id": "990", "label": "Service Availability", "desc": "description of the user perception about service availability."}
+{"id": "991", "label": "Affected Item", "desc": "(confirmation item) identifier used to report the affected item (not mandatory)."}
+{"id": "992", "label": "Impact Description", "desc": "description of the impact caused by the incident."}
+{"id": "993", "label": "Urgency Level", "desc": "description of the urgency informed by the user for the incident resolution."}
+{"id": "994", "label": "Priority", "desc": "calculated by the system based on 'impact' and 'urgency'."}
+{"id": "995", "label": "Support Group", "desc": "identifier of the support group in charge of the incident."}
+{"id": "996", "label": "Assigned To", "desc": "identifier of the user in charge of the incident."}
+{"id": "997", "label": "KB Used", "desc": "boolean attribute that shows whether a knowledge base document was used to resolve the incident."}
+{"id": "998", "label": "Priority Verified", "desc": "boolean attribute that shows whether the priority field has been double-checked."}
+{"id": "999", "label": "Notifications", "desc": "categorical attribute that shows whether notifications were generated for the incident."}
+{"id": "1000", "label": "Problem ID", "desc": "identifier of the problem associated with the incident."}
+{"id": "1001", "label": "Change Request", "desc": "(request for change) identifier of the change request associated with the incident."}
+{"id": "1002", "label": "Vendor ID", "desc": "identifier of the vendor in charge of the incident."}
+{"id": "1003", "label": "RFC Responsible", "desc": "identifier of the RFC responsible by the incident."}
+{"id": "1004", "label": "Resolution ID", "desc": "identifier of the resolution of the incident."}
+{"id": "1005", "label": "Resolved By", "desc": "identifier of the user who resolved the incident."}
+{"id": "1006", "label": "Resolved Date", "desc": "incident user resolution date and time (dependent variable)."}
+{"id": "1007", "label": "Closed Date", "desc": "incident user close date and time (dependent variable)."}
+{"id": "1008", "label": "Company Resource", "desc": "DBpedia resource of the company"}
+{"id": "1009", "label": "Company Type", "desc": "Public or Private Company"}
+{"id": "1010", "label": "Founded", "desc": "Date or Year of foundation"}
+{"id": "1011", "label": "Location", "desc": "Location of the company"}
+{"id": "1012", "label": "Products/Services", "desc": "Products and services provided by the company"}
+{"id": "1013", "label": "Industry", "desc": "Sector or Industry the company works in"}
+{"id": "1014", "label": "Employees", "desc": "Number of employees in the company"}
+{"id": "1015", "label": "Assets", "desc": "Asset holdings of the company"}
+{"id": "1016", "label": "Equity", "desc": "Equity of the company"}
+{"id": "1017", "label": "Revenue", "desc": "Revenue of the company"}
+{"id": "1018", "label": "Profit", "desc": "Profit of the company"}
+{"id": "1019", "label": "Resource Link", "desc": "DBpedia resource lin"}
+{"id": "1020", "label": "Registered Name", "desc": "Registered Name"}
+{"id": "1021", "label": "Company Type", "desc": "Public or Private"}
+{"id": "1022", "label": "Founded Date", "desc": "Year or Month of Foundation"}
+{"id": "1023", "label": "Location", "desc": "Location of the Company"}
+{"id": "1024", "label": "Products/Services", "desc": "List of Products and Services"}
+{"id": "1025", "label": "Industry", "desc": "Industry the company works in"}
+{"id": "1026", "label": "Employees", "desc": "Number of Employees"}
+{"id": "1027", "label": "Assets", "desc": "Assets holdings"}
+{"id": "1028", "label": "Profit", "desc": "Profits made by the company"}
+{"id": "1029", "label": "Fiscal County", "desc": "County of fiscal responsibility, which is typically the county of recipient\u2019s residence"}
+{"id": "1030", "label": "Service Category", "desc": "Individual Medicaid chemical dependent service categories. Note: This may also include an indication of: All Medicaid Services, All Alcohol and Substance Abuse (ASA) Services, All Non-ASA Services"}
+{"id": "1031", "label": "Unique Enrollees", "desc": "Number of unique Medicaid enrollees for whom a claim was paid for a type of service received during the SFY*"}
+{"id": "1032", "label": "Service Units", "desc": "The number of service units (e.g. days, visits, weeks) for which Medicaid paid during a SFY*"}
+{"id": "1033", "label": "Avg Payment per Recipient", "desc": "The dollar amount paid by Medicaid for services rendered divided by the number of recipients who received services during the SFY*"}
+{"id": "1034", "label": "Avg Payment per Claim", "desc": "The dollar amount paid by Medicaid for services rendered divided by the number of claims submitted during the SFY*"}
+{"id": "1035", "label": "Total Payment", "desc": "The dollar amount paid by Medicaid for services rendered during the SFY * based on date of service"}
+{"id": "1036", "label": "State Fiscal Year", "desc": "4-digit State Fiscal Year, which runs from April 1st through March 31st. For example, the SFY for 2017 would occur between April 1, 2016 and March 31, 2017. Beginning with SFY 2016-2017, Medicaid billing includes both Fee for Service (FFS) and Managed Care (MC). Totals for each billing source are represented in the data beginning with SFY 2017."}
+{"id": "1037", "label": "Service Indicators", "desc": "Summary indicators for separate chemical dependence service categories as well as indicators for All Medicaid Services, All Alcohol and Substance Abuse (ASA) and All Non-ASA Services"}
+{"id": "1038", "label": "Unique Enrollees FFS", "desc": "The number of unique Medicaid enrollees for whom a claim was paid for a type of service received during the state fiscal year"}
+{"id": "1039", "label": "FFS Service Units", "desc": "The number of service units (e.g. days, visits, weeks) for which Medicaid Fee-for-Service (FFS) paid during a state fiscal year"}
+{"id": "1040", "label": "FFS Total Payment", "desc": "The dollar amount paid by Medicaid FFS for services rendered during the state fiscal year based on date of service"}
+{"id": "1041", "label": "State Fiscal Year FFS", "desc": "4-digit State Fiscal Year (SFY), which runs from April 1st through March 31st. For example, the SFY for 2003 would occur between April 1, 2002 and March 31, 2003."}
+{"id": "1042", "label": "Book ID", "desc": "A unique Identification number for each book."}
+{"id": "1043", "label": "Book Title", "desc": "The name under which the book was published."}
+{"id": "1044", "label": "Authors", "desc": "Names of the authors of the book. Multiple authors are delimited with -."}
+{"id": "1045", "label": "Average Rating", "desc": "The average rating of the book received in total."}
+{"id": "1046", "label": "ISBN", "desc": "Another unique number to identify the book, the International Standard Book Number."}
+{"id": "1047", "label": "EAN", "desc": "A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN."}
+{"id": "1048", "label": "Language", "desc": "Helps understand what is the primary language of the book. For instance, eng is standard for English."}
+{"id": "1049", "label": "Pages", "desc": "Number of pages the book contains."}
+{"id": "1050", "label": "Ratings", "desc": "Total number of ratings the book received."}
+{"id": "1051", "label": "Reviews", "desc": "Total number of written text reviews the book received."}
+{"id": "1052", "label": "Publication Date", "desc": "Date when the book was first published."}
+{"id": "1053", "label": "Publisher", "desc": "The name of the publisher."}
+{"id": "1054", "label": "Episode Title", "desc": "The title of each episode"}
+{"id": "1055", "label": "Writer", "desc": "The writer of each episode"}
+{"id": "1056", "label": "Character", "desc": "The character from the show"}
+{"id": "1057", "label": "Lines", "desc": "Character's lines"}
+{"id": "1058", "label": "Story Writer", "desc": "The story writer of each episode"}
+{"id": "1059", "label": "Air Date", "desc": "The Original air date of each episode"}
+{"id": "1060", "label": "Transcript", "desc": "The links to transcript of each episode"}
+{"id": "1061", "label": "Summary", "desc": "The links to story summary of each episode"}
+{"id": "1062", "label": "Song Title", "desc": "The name of each song"}
+{"id": "1063", "label": "Song Length", "desc": "The length of each song"}
+{"id": "1064", "label": "Air Date", "desc": "The original air date of each episode"}
+{"id": "1065", "label": "Summary", "desc": "The story summary of each episode"}
+{"id": "1066", "label": "Player", "desc": "Name of the player"}
+{"id": "1067", "label": "Phase", "desc": "Competition phase or a matchday"}
+{"id": "1068", "label": "Date", "desc": "The date when the game was played"}
+{"id": "1069", "label": "Home Team", "desc": "The host team (number in brackets represents position of that team on the table at that moment)"}
+{"id": "1070", "label": "Away Team", "desc": "The visitor team (number in brackets represents position of that team on the table at that moment)"}
+{"id": "1071", "label": "Result", "desc": "The result of the match"}
+{"id": "1072", "label": "Position", "desc": "On which position player played"}
+{"id": "1073", "label": "Goals", "desc": "The number of goals scored by the player"}
+{"id": "1074", "label": "Assists", "desc": "The number of assists made by the player"}
+{"id": "1075", "label": "Own Goals", "desc": "The number of OWN goals scored by the player"}
+{"id": "1076", "label": "Yellow Card", "desc": "Whether the player received a yellow card or not"}
+{"id": "1077", "label": "2nd Yellow", "desc": "Whether the player received a SECOND yellow card or not"}
+{"id": "1078", "label": "Red Card", "desc": "Whether the player received a DIRECT red card or not"}
+{"id": "1079", "label": "Min In", "desc": "Minute of the game when the player entered the field."}
+{"id": "1080", "label": "Min Out", "desc": "Minute of the game when the player was substituted and replaced by another player."}
+{"id": "1081", "label": "Minutes Played", "desc": "Minutes played in the match"}
+{"id": "1082", "label": "Competition", "desc": "Full name or abbreviation of the competition"}
+{"id": "1083", "label": "Spell Name", "desc": "Name of the spell"}
+{"id": "1084", "label": "Classes", "desc": "Which classes can learn this spell"}
+{"id": "1085", "label": "Spell Level", "desc": "The level of the spell (this is separate from the player's level), 0 is a cantrip"}
+{"id": "1086", "label": "Magic Type", "desc": "What type of magic the spell is"}
+{"id": "1087", "label": "Casting Time", "desc": "How long it takes the character to cast this spell"}
+{"id": "1088", "label": "Range", "desc": "How far the character can be from the target of the spell"}
+{"id": "1089", "label": "Duration", "desc": "How long the spell lasts"}
+{"id": "1090", "label": "Verbal", "desc": "Boolean - spell requires a verbal incantation"}
+{"id": "1091", "label": "Somatic", "desc": "Boolean - spell requires a precise hand motion"}
+{"id": "1092", "label": "Material", "desc": "Boolean - spell requires a physical object which is consumed"}
+{"id": "1093", "label": "Consumed", "desc": "What type of material is consumed when casting the spell"}
+{"id": "1094", "label": "Effect", "desc": "The effect casting spell creates"}
+{"id": "1095", "label": "ID", "desc": "Unique identifier of news items"}
+{"id": "1096", "label": "Official Title", "desc": "Title of the news item according to the official media sources"}
+{"id": "1097", "label": "Official Headline", "desc": "Headline of the news item according to the official media sources"}
+{"id": "1098", "label": "News Outlet", "desc": "Original news outlet that published the news item"}
+{"id": "1099", "label": "Query Topic", "desc": "Query topic used to obtain the items in the official media sources"}
+{"id": "1100", "label": "Publication Date", "desc": "Date and time of the news items' publication"}
+{"id": "1101", "label": "Facebook Popularity", "desc": "Final value of the news items' popularity according to the social media source Facebook"}
+{"id": "1102", "label": "Google+ Popularity", "desc": "Final value of the news items' popularity according to the social media source Google+"}
+{"id": "1103", "label": "LinkedIn Popularity", "desc": "Final value of the news items' popularity according to the social media source LinkedIn"}
+{"id": "1104", "label": "Title Sentiment", "desc": "Sentiment score of the title, Higher the score, better is the impact or +ve sentiment and vice-versa. (Target Variable 1)"}
+{"id": "1105", "label": "Headline Sentiment", "desc": "Sentiment score of the text in the news items' headline. Higher the score, better is the impact or +ve sentiment. (Target Variable 2)"}
+{"id": "1106", "label": "Date", "desc": "Date of observation of the row's data in YYYY-MM-DD format"}
+{"id": "1107", "label": "Country", "desc": "Country in which the the row's data was observed"}
+{"id": "1108", "label": "Cumulative Cases", "desc": "Cumulative number of confirmed cases as of the row's date, for the row's country"}
+{"id": "1109", "label": "Daily Cases", "desc": "Daily new number of confirmed cases on the row's date, for the row's country"}
+{"id": "1110", "label": "Active Cases", "desc": "Number of active cases (i.e., confirmed cases that still didn't recover nor die) on the row's date, for the row's country"}
+{"id": "1111", "label": "Cumulative Deaths", "desc": "Cumulative number of confirmed deaths as of the row's date, for the row's country"}
+{"id": "1112", "label": "Daily Deaths", "desc": "Daily new number of confirmed deaths on the row's date, for the row's country"}
+{"id": "1113", "label": "Continent", "desc": "Continent of the observed country"}
+{"id": "1114", "label": "Total Cases", "desc": "Total number of confirmed cases in the observed country"}
+{"id": "1115", "label": "Total Deaths", "desc": "Total number of confirmed deaths in the observed country"}
+{"id": "1116", "label": "Total Recoveries", "desc": "Total number of confirmed recoveries in the observed country"}
+{"id": "1117", "label": "Active Cases", "desc": "Number of active cases in the observed country"}
+{"id": "1118", "label": "Serious Cases", "desc": "Estimated number of cases in serious or critical conditions in the observed country"}
+{"id": "1119", "label": "Cases per M", "desc": "Number of total cases per 1 million population in the observed country"}
+{"id": "1120", "label": "Deaths per M", "desc": "Number of total deaths per 1 million population in the observed country"}
+{"id": "1121", "label": "Total Tests", "desc": "Number of total tests done in the observed country"}
+{"id": "1122", "label": "Tests per M", "desc": "Number of total test done per 1 million population in the observed country"}
+{"id": "1123", "label": "Population", "desc": "Population count in the observed country"}
+{"id": "1124", "label": "Title Code", "desc": "Civil Service Title Code"}
+{"id": "1125", "label": "Title", "desc": "Name/Description of title"}
+{"id": "1126", "label": "Suffix", "desc": "Suffix (number) for sub-level of title"}
+{"id": "1127", "label": "Sub-Level Desc", "desc": "Description of sub-level of title"}
+{"id": "1128", "label": "Weekly Hours", "desc": "Standard weekly hours for the title"}
+{"id": "1129", "label": "Assignment Level", "desc": "Assignment level within title"}
+{"id": "1130", "label": "Job Code", "desc": "Unique job code for entry"}
+{"id": "1131", "label": "Union Code", "desc": "Unique code for union representing title, if applicable"}
+{"id": "1132", "label": "Union Name", "desc": "Name/Description of union representing title, if applicable"}
+{"id": "1133", "label": "Bargaining Unit", "desc": "Acronym or short name for union designated as the bargaining unit for title, if applicable"}
+{"id": "1134", "label": "Min Salary", "desc": "Name/description of union designated as the bargaining unit for title, if applicable"}
+{"id": "1135", "label": "Max Salary", "desc": "Minimum salary range for the title"}
+{"id": "1136", "label": "Union Desc", "desc": "Maximum salary range for the title"}
+{"id": "1137", "label": "Id", "desc": "Row Id"}
+{"id": "1138", "label": "Product Id", "desc": "Unique identifier for the product"}
+{"id": "1139", "label": "User Id", "desc": "Unqiue identifier for the user"}
+{"id": "1140", "label": "Profile", "desc": "Profile name of the user"}
+{"id": "1141", "label": "Helpful", "desc": "Number of users who found the review helpful"}
+{"id": "1142", "label": "Votes", "desc": "Number of users who indicated whether they found the review helpful or not"}
+{"id": "1143", "label": "Rating", "desc": "Rating between 1 and 5"}
+{"id": "1144", "label": "Timestamp", "desc": "Timestamp for the review"}
+{"id": "1145", "label": "Summary", "desc": "Brief summary of the review"}
+{"id": "1146", "label": "Review", "desc": "Text of the review"}
+{"id": "1147", "label": "Apples", "desc": "Apples composted per bone meal"}
+{"id": "1148", "label": "Cacti", "desc": "Cacti composted per bone meal"}
+{"id": "1149", "label": "Carrots", "desc": "Carrots composted per bone meal"}
+{"id": "1150", "label": "Cookies", "desc": "Cookies composted per bone meal"}
+{"id": "1151", "label": "Melons", "desc": "Melons composted per bone meal"}
+{"id": "1152", "label": "Melon Seeds", "desc": "Melon seeds composted per bone meal"}
+{"id": "1153", "label": "Oak Leaves", "desc": "Oak leaves composted per bone meal"}
+{"id": "1154", "label": "Oak Saplings", "desc": "Oak saplings composted per bone meal"}
+{"id": "1155", "label": "Potatoes", "desc": "Potatoes composted per bone meal"}
+{"id": "1156", "label": "Pumpkins", "desc": "Pumpkins composted per bone meal"}
+{"id": "1157", "label": "Pumpkin Seeds", "desc": "Pumpkin seeds composted per bone meal"}
+{"id": "1158", "label": "Beetroots", "desc": "Beetroots composted per bone meal"}
+{"id": "1159", "label": "Beetroot Seeds", "desc": "Beetroot seeds composted per bone meal"}
+{"id": "1160", "label": "Sugar Canes", "desc": "Sugar canes composted per bone meal"}
+{"id": "1161", "label": "Wheat", "desc": "Wheat composted per bone meal"}
+{"id": "1162", "label": "Wheat Seeds", "desc": "Wheat seeds composted per bone meal"}
+{"id": "1163", "label": "Job", "desc": "job : type of job (categorical: \"admin.\",\"unknown\",\"unemployed\",\"management\",\"housemaid\",\"entrepreneur\", \"student\",\"blue-collar\",\"self-employed\",\"retired\",\"technician\",\"services\")"}
+{"id": "1164", "label": "Marital", "desc": "marital : marital status (categorical: \"married\",\"divorced\",\"single\"; note: \"divorced\" means divorced or widowed)"}
+{"id": "1165", "label": "Education", "desc": "education (categorical: \"unknown\",\"secondary\",\"primary\",\"tertiary\")"}
+{"id": "1166", "label": "Default", "desc": "default: has credit in default? (binary: \"yes\",\"no\")"}
+{"id": "1167", "label": "Balance", "desc": "balance: average yearly balance, in euros (numeric)"}
+{"id": "1168", "label": "Housing", "desc": "housing: has housing loan? (binary: \"yes\",\"no\""}
+{"id": "1169", "label": "Loan", "desc": "loan: has personal loan? (binary: \"yes\",\"no\")"}
+{"id": "1170", "label": "Contact", "desc": "contact: contact communication type (categorical: \"unknown\",\"telephone\",\"cellular\")"}
+{"id": "1171", "label": "Day", "desc": "day: last contact day of the month (numeric)"}
+{"id": "1172", "label": "Month", "desc": "month: last contact month of year (categorical: \"jan\", \"feb\", \"mar\", ..., \"nov\", \"dec\")"}
+{"id": "1173", "label": "Duration", "desc": "duration: last contact duration, in seconds (numeric)"}
+{"id": "1174", "label": "Campaign", "desc": "campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)"}
+{"id": "1175", "label": "Pdays", "desc": "pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)"}
+{"id": "1176", "label": "Previous", "desc": "revious: number of contacts performed before this campaign and for this client (numeric)"}
+{"id": "1177", "label": "Poutcome", "desc": "poutcome: outcome of the previous marketing campaign (categorical: \"unknown\",\"other\",\"failure\",\"success\")"}
+{"id": "1178", "label": "Subscription", "desc": "y - has the client subscribed a term deposit? (binary: \"yes\",\"no\")"}
+{"id": "1179", "label": "X Axis", "desc": "x-axis spatial coordinate within the Montesinho park map: 1 to 9"}
+{"id": "1180", "label": "Y Axis", "desc": "y-axis spatial coordinate within the Montesinho park map: 2 to 9"}
+{"id": "1181", "label": "Month", "desc": "month of the year: \"jan\" to \"dec\""}
+{"id": "1182", "label": "Day", "desc": "day of the week: \"mon\" to \"sun\""}
+{"id": "1183", "label": "FFMC", "desc": "FFMC index from the FWI system: 18.7 to 96.20"}
+{"id": "1184", "label": "DMC", "desc": "DMC index from the FWI system: 1.1 to 291.3"}
+{"id": "1185", "label": "DC", "desc": "DC index from the FWI system: 7.9 to 860.6"}
+{"id": "1186", "label": "ISI", "desc": "ISI index from the FWI system: 0.0 to 56.10"}
+{"id": "1187", "label": "Temp (C)", "desc": "temperature in Celsius degrees: 2.2 to 33.30"}
+{"id": "1188", "label": "Humidity (%)", "desc": "relative humidity in %: 15.0 to 100"}
+{"id": "1189", "label": "Wind Speed (km/h)", "desc": "wind speed in km/h: 0.40 to 9.40"}
+{"id": "1190", "label": "Rain (mm/m2)", "desc": "outside rain in mm/m2 : 0.0 to 6.4"}
+{"id": "1191", "label": "Burned Area (ha)", "desc": "the burned area of the forest (in ha): 0.00 to 1090.84"}

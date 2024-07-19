@@ -1,0 +1,1193 @@
+id,label,desc,id_no_prefix
+0,Visitor ID,A unique identifier for the visitor,VisitorID
+1,Basket Click,Did the visitor click on the shopping basket icon?,BasketClick
+2,List Add,Did the visitor add a product to their shopping cart on the 'list' page?,ListAdd
+3,Detail Add,Did the visitor add a product to their shopping cart on the 'detail' page?,DetailAdd
+4,Sort Products,Did the visitor sort products on a page?,SortProducts
+5,Image Picker,Did the visitor use the image picker?,ImagePicker
+6,Account Page,Did the visitor visit their account page?,AccountPage
+7,Promo Banner,Did the visitor click on a promo banner?,PromoBanner
+8,Wishlist Add,Did the visitor add a product to their wishlist from the 'detail' page?,WishlistAdd
+9,Product Dropdown,Did the visitor interact with a product dropdown?,ProductDropdown
+10,Mini Basket Close,Did the visitor close their mini shopping basket?,MiniBasketClose
+11,Delivery FAQ,Did the visitor view the delivery FAQ area on a product page?,DeliveryFAQ
+12,Returns FAQ,Did the visitor check the returns FAQ area on a product page?,ReturnsFAQ
+13,Sign In,Did the visitor sign in to the website?,SignIn
+14,Checkout View,Did the visitor view the checkout?,CheckoutView
+15,Size Chart,Did the visitor view a product size chart?,SizeChart
+16,Delivery FAQ Page,Did the visitor view the delivery FAQ page?,DeliveryFAQPage
+17,Account Upgrade,Did the visitor view the account upgrade page?,AccountUpgrade
+18,Homepage View,Did the visitor view the website homepage?,HomepageView
+19,Mobile Device,Was the visitor on a mobile device?,MobileDevice
+20,Desktop Device,Was the visitor on a desktop device?,DesktopDevice
+21,Tablet Device,Was the visitor on a table device?,TabletDevice
+22,New/Returning,Was the visitor new or returning?,New/Returning
+23,UK Location,"Was the visitor located in the UK, based on their IP address?",UKLocation
+24,Order Placed,Did the customer place an order?,OrderPlaced
+25,Username,"The name of the user, as they’ve defined it.",Username
+26,Location,The user-defined location for this account’s profile.,Location
+27,Bio,The user-defined UTF-8 string describing their account.,Bio
+28,Creation Date,"Time and date, when the account was created.",CreationDate
+29,Followers,The number of followers an account currently has.,Followers
+30,Friends,The number of friends an account currently has.,Friends
+31,Favourites,The number of favourites an account currently has.,Favourites
+32,Verified,"When true, indicates that the user has a verified account",Verified
+33,Tweet Date,UTC time and date when the Tweet was created,TweetDate
+34,Tweet Text,The actual UTF-8 text of the Tweet,TweetText
+35,Hashtags,All the other hashtags posted in the tweet along with #covidvaccine,Hashtags
+36,Source,"Utility used to post the Tweet, Tweets from the Twitter website have a source value - web",Source
+37,Retweeted,Indicates whether this Tweet has been Retweeted by the authenticating user.,Retweeted
+38,Tracking Number,The tracking number used to refer to this application or permit record in various DPD tracking systems.,TrackingNumber
+39,Land Use Type,"Type of Land Use components covered by the application (SEPA, Platting action, etc.).",LandUseType
+40,Address,Street address of the work site.,Address
+41,Approval Description,"Brief description of the approval that is sought with this application. This is subject to change prior to issuance of the permit, but generally more stable if an issue date exists. Very long descriptions have been truncated.",ApprovalDescription
+42,Building Use,"The broad category of use or occupancy for the building where work is proposed. Valid choices are Commercial, Industrial, Institutional, Multifamily, and Single Family/Duplex. Mixed use structures are generally represented as Commercial.",BuildingUse
+43,Master Use Permit Type,The Type of Master Use Permit (which generally indicates an increasing degree of public comment involved in the process),MasterUsePermitType
+44,Design Review,Indicates if Design Review is part of the application process for this permit.,DesignReview
+45,Work Value,"The value of the work being reviewed (generally an estimate for the value of the future work) For example, the future construction cost of the building subject to Environmental review. Value is not collected for all permit types.",WorkValue
+46,Primary Applicant,"The name of the person or company listed on the application as the “primary applicant”. This may be the property owner, contractor, design professional, or other type of agent.",PrimaryApplicant
+47,Application Date,The date the application was accepted as a complete application. If no Application Date exists this generally means the application is in a very early stage.,ApplicationDate
+48,Decision Date,"The date the Decision was published. If an Application Date exists but no Decision Date exists, this generally means the application is still under review.",DecisionDate
+49,Appeal Received,Indicates whether an appeal to the published decision has been received.,AppealReceived
+50,Issue Date,The date the application was issued as a valid Master Use Permit.,IssueDate
+51,Status,The current status in the application/review/publication lifecycle. Indicates the last process step that was fully completed.,Status
+52,Contractors,Contractor(s) who are associated with this permit.,Contractors
+53,Permit Link,Link to view full details and current status information about this permit at DPD’s website,PermitLink
+54,Latitude,Latitude of the worksite where permit activity occurs,Latitude
+55,Longitude,Longitude of the worksite where permit activity occurs,Longitude
+56,Mapping Coordinates,Mapping coordinates for the permit address.,MappingCoordinates
+57,Clinical Trial ID,clinical trial ID in clinicaltrials.gov,ClinicalTrialID
+58,Segment,segment of the original description of the entity in the clinical trial eligibility criteria source text,Segment
+59,Concept ID,mapped concept ID in the standard vocabulary of the entity,ConceptID
+60,Concept Name,mapped concept name in the standard vocabulary of the entity,ConceptName
+61,Domain,"domain ('Drug','Condition','Procedure','Device','Measurement') of the concept",Domain
+62,Start Position,the position in the criteria source text where the entity starts,StartPosition
+63,End Position,the position in the criteria source text where the entity ends,EndPosition
+64,Temporal Attribute,segment of the corresponded temporal attribute of the entity in original criteria text,TemporalAttribute
+65,Normalized Temporal Attribute,normalized temporal attribute as the number of days,NormalizedTemporalAttribute
+66,Numerical Attribute,segment of the corresponded numerical attribute of the entity in original criteria text,NumericalAttribute
+67,Lower Bound,lower bound of the normalized numerical attribute,LowerBound
+68,Upper Bound,upper bound of the normalized numerical attribute,UpperBound
+69,Criteria Type,1' for exclusion criteria and '0' for inclusion criteria,CriteriaType
+70,Activity Type,Type of activity covered by the permit.,ActivityType
+71,Work Description,"Brief description of the work that will be done under this permit. This is subject to change prior to issuance of the permit, but generally more stable if an issue date exists. Very long descriptions have been truncated.",WorkDescription
+72,Work Subclass,Subclassification for type of work being proposed. Valid choices will vary depending on the permit type.,WorkSubclass
+73,Project Complexity,An indicator of the complexity of the project proposed. Easier projects can be issued without plan review; more complex projects generally require plan submittal and review.,ProjectComplexity
+74,Work Value,"The value of the work being proposed. The value displayed (if any) represents the best available information to date, and is subject to change as more information becomes available. Value is not collected for all permit types.",WorkValue1
+75,Application Date,The date the application was accepted as a complete submittal. If no Application Date exists this generally means the application is in a very early stage.,ApplicationDate1
+76,Issue Date,"The date the application was issued as a valid permit. If an Application Date exists but no Issue Date exists, this generally means the application is still under review.",IssueDate1
+77,Final Date,"The date the permit had all its inspections completed. If an Issue Date exists but no Final Date exists, this generally means the permit is still under inspection.",FinalDate
+78,Expiration Date,"The date the application is due to expire. Generally, this is the date by which work is supposed to be completed (baring renewals or further extensions). If no Expiration Date exists, this generally means the application is has not been issued yet.",ExpirationDate
+79,Status,The current status in the application/review/inspection lifecycle. Indicates the last process step that was fully completed.,Status1
+80,Latitude,"Latitude of the worksite where permit activity occurs. May be missing for a small number of permits considered ""Unaddressable""",Latitude1
+81,Longitude,"Longitude of the worksite where permit activity occurs. May be missing for a small number of permits considered ""Unaddressable""",Longitude1
+82,Defaulted,1 = client defaulted on loan 0 = loan repaid,Defaulted
+83,Loan Amount,Amount of the loan request,LoanAmount
+84,Mortgage Due,Amount due on existing mortgage,MortgageDue
+85,Property Value,Value of current property,PropertyValue
+86,Loan Purpose,DebtCon = debt consolidation HomeImp = home improvement,LoanPurpose
+87,Occupation,Six occupational categories,Occupation
+88,Job Years,Years at present job,JobYears
+89,Derogatory Reports,Number of major derogatory reports,DerogatoryReports
+90,Delinquent Lines,Number of delinquent credit lines,DelinquentLines
+91,Oldest Trade,Age of oldest trade line in months,OldestTrade
+92,Recent Lines,Number of recent credit lines,RecentLines
+93,Total Lines,Number of credit lines,TotalLines
+94,DTI Ratio,Debt-to-income ratio,DTIRatio
+95,Index,unique index,Index
+96,File Path,relative path to the file,FilePath
+97,Has Bee,1 if the photo contains a bee,HasBee
+98,Has Wasp,1 if the photo contains a wasp,HasWasp
+99,Has Insect,1 if the photo contains other insect,HasInsect
+100,No Insect,"1 if the photo does not contain bee, wasp or insect",NoInsect
+101,High Confidence,"1 for images considered to be high confidence, 0 otherwise",HighConfidence
+102,Validation,use these observations as validation,Validation
+103,Final Validation,use these observations for final validation,FinalValidation
+104,Class Name,"text name of the class - bee, wasp, insect, other",ClassName
+105,Rank,"Official ranking, ""C"" denotes champion",Rank
+106,Fighter,Fighter name,Fighter
+107,Age,Fighter age,Age
+108,Weight,Fighter weight (in pounds),Weight
+109,Gender,Fighter gender,Gender
+110,Height,Fighter height (in inches),Height
+111,UFC Wins,Wins in UFC organization,UFCWins
+112,UFC Losses,Loses in UFC organization,UFCLosses
+113,UFC Draws,Draws in UFC organization. Blank if 0.,UFCDraws
+114,UFC NC,No contests in UFC organization. Blank if 0.,UFCNC
+115,Pro Wins,Wins in any professional MMA organization.,ProWins
+116,Pro Losses,Loses in any professional MMA organization.,ProLosses
+117,Pro Draws,Draws in any professional MMA organization. Blank if 0.,ProDraws
+118,Pro NC,No contests in any professional MMA organization. Blank if 0.,ProNC
+119,Shoe ID,Shoe identifier,ShoeID
+120,Cards Remaining,Number of cards remaining in the shoe at the start of this round,CardsRemaining
+121,Dealer Up,Dealer's Up (visible) card,DealerUp
+122,Player Cards,Player's initial 2 cards before making any decisions,PlayerCards
+123,Dealer End,Dealer's cards at the end of the round,DealerEnd
+124,Dealer Value,Value of the Dealer's hand value at the end of the round,DealerValue
+125,Player End,Player's cards at the end of the round,PlayerEnd
+126,Player Value,Player's hand(s) value(s) at the end of the round,PlayerValue
+127,Player Actions,Sequence of actions taken by the player,PlayerActions
+128,Hi-Lo Run,Hi-Lo run count at the start of the round,Hi-LoRun
+129,Hi-Lo True,Hi-Lo true count at the start of the round,Hi-LoTrue
+130,Round Result,Amount won/lost this round,RoundResult
+131,Age Group,Subject Age Group (10 year increments) as reported by the officer.,AgeGroup
+132,Subject Key,"Key, generated daily, identifying unique subjects in the dataset using a character to character match of first name and last name. ""Null"" values indicate an ""anonymous"" or ""unidentified"" subject. Subjects of a Terry Stop are not required to present identification.",SubjectKey
+133,Offense Number,"General Offense or Street Check number, relating the Terry Stop to the parent report. This field may have a one to many relationship in the data.",OffenseNumber
+134,Terry Stop Key,Key identifying unique Terry Stop reports.,TerryStopKey
+135,Stop Resolution,Resolution of the stop as reported by the officer.,StopResolution
+136,Weapon Type,"Type of weapon, if any, identified during a search or frisk of the subject. Indicates ""None"" if no weapons was found.",WeaponType
+137,Officer Key,Key identifying unique officers in the dataset.,OfficerKey
+138,Officer Birth Year,"Year of birth, as reported by the officer.",OfficerBirthYear
+139,Officer Gender,"Gender of the officer, as reported by the officer.",OfficerGender
+140,Officer Race,"Race of the officer, as reported by the officer.",OfficerRace
+141,Subject Race,"Perceived race of the subject, as reported by the officer.",SubjectRace
+142,Subject Gender,"Perceived gender of the subject, as reported by the officer.",SubjectGender
+143,Report Date,Date the report was filed in the Records Management System (RMS). Not necessarily the date the stop occurred but generally within 1 day.,ReportDate
+144,Report Time,Time the stop was reported in the Records Management System (RMS). Not the time the stop occurred but generally within 10 hours.,ReportTime
+145,Initial Call Type,Initial classification of the call as assigned by 911.,InitialCallType
+146,Final Call Type,Final classification of the call as assigned by the primary officer closing the event.,FinalCallType
+147,Call Receipt,How the call was received by the communication center.,CallReceipt
+148,Squad Assignment,Functional squad assignment (not budget) of the officer as reported by the Data Analytics Platform (DAP).,SquadAssignment
+149,Arrest Made,"Indicator of whether a ""physical arrest"" was made, of the subject, during the Terry Stop. Does not necessarily reflect a report of an arrest in the Records Management System (RMS).",ArrestMade
+150,Frisk Conducted,"Indicator of whether a ""frisk"" was conducted, by the officer, of the subject, during the Terry Stop.",FriskConducted
+151,Precinct,Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.,Precinct
+152,Sector,Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.,Sector
+153,Beat,Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.,Beat
+154,Ticker,"An arrangement of characters, often related to the company name representing publicly-traded securities on an exchange.",Ticker
+155,Trade Category,Categories for a stock under which trading can be done. EQ stands for equity and only permits intra-day transactions and equity delivery.,TradeCategory
+156,Announcement Date,"The date on which a company announces important details about a decision that has a high impact on business, or the company's share holders.",AnnouncementDate
+157,Announcement Details,"Important details about a decision that has a high impact on business, or the company's share holders announced by the company.",AnnouncementDetails
+158,Open Price,The price of a security at the beginning of the trading day.,OpenPrice
+159,High Price,The maximum price of a security in a given time period.,HighPrice
+160,Low Price,The minimum price of a security in a given time period.,LowPrice
+161,Last Trade Price,The last price that a trade occurred in a futures contract.,LastTradePrice
+162,Previous Close,A security's closing price on the preceding time period of the one being referenced.,PreviousClose
+163,Price Change,The absolute percentage price change of the security's price since the previous day's close.,PriceChange
+164,Volume Traded,The total number of shares or contracts transacted for a specified security during a specified time period.,VolumeTraded
+165,Market Activity,"How much trading activity took place on a given business day in the market as a whole or individual stock, in lakhs.",MarketActivity
+166,Retrieval Time,Time of retrieval in DD-MM-YYYY HH:MM:SS.,RetrievalTime
+167,Diabetes Status,0 = no diabetes 1 = prediabetes 2 = diabetes,DiabetesStatus
+168,High BP Status,0 = no high BP 1 = high BP,HighBPStatus
+169,High Cholesterol Status,0 = no high cholesterol 1 = high cholesterol,HighCholesterolStatus
+170,Cholesterol Check,0 = no cholesterol check in 5 years 1 = yes cholesterol check in 5 years,CholesterolCheck
+171,BMI,Body Mass Index,BMI
+172,Smoking History,Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes] 0 = no 1 = yes,SmokingHistory
+173,Stroke History,(Ever told) you had a stroke. 0 = no 1 = yes,StrokeHistory
+174,CHD/MI History,coronary heart disease (CHD) or myocardial infarction (MI) 0 = no 1 = yes,CHD/MIHistory
+175,Physical Activity,physical activity in past 30 days - not including job 0 = no 1 = yes,PhysicalActivity
+176,Fruit Consumption,Consume Fruit 1 or more times per day 0 = no 1 = yes,FruitConsumption
+177,Vegetable Consumption,Consume Vegetables 1 or more times per day 0 = no 1 = yes,VegetableConsumption
+178,Heavy Drinker,Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week) 0 = no 1 = yes,HeavyDrinker
+179,Health Care Coverage,"Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes",HealthCareCoverage
+180,Unaffordable Doctor Visit,Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes,UnaffordableDoctorVisit
+181,Self-Reported Health,Would you say that in general your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor,Self-ReportedHealth
+182,Mental Health Days,"Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? scale 1-30 days",MentalHealthDays
+183,Physical Health Days,"Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? scale 1-30 days",PhysicalHealthDays
+184,Walking Difficulty,Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes,WalkingDifficulty
+185,Gender,0 = female 1 = male,Gender1
+186,Age Category,13-level age category (_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older,AgeCategory
+187,Education Level,Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = Grades 1 through 8 (Elementary) 3 = Grades 9 through 11 (Some high school) 4 = Grade 12 or GED (High school graduate) 5 = College 1 year to 3 years (Some college or technical school) 6 = College 4 years or more (College graduate),EducationLevel
+188,Income Level,"Income scale (INCOME2 see codebook) scale 1-8 1 = less than $10,000 5 = less than $35,000 8 = $75,000 or more",IncomeLevel
+189,Heavy Drinker (Alt),(adult men >=14 drinks per week and adult women>=7 drinks per week) 0 = no 1 = yes,HeavyDrinker(Alt)
+190,Poor Mental Health Days,days of poor mental health scale 1-30 days,PoorMentalHealthDays
+191,Physical Illness Days,physical illness or injury days in past 30 days scale 1-30,PhysicalIllnessDays
+192,Education Level (Alt),Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = elementary etc.,EducationLevel(Alt)
+193,Rank,Ranking of movie,Rank1
+194,Year,IMDB Top 250 List's year,Year
+195,IMDB URL,movie's url on IMDB,IMDBURL
+196,Title,title of movie,Title
+197,Release Year,release year of movie,ReleaseYear
+198,Runtime,total runtime of movie (in movies),Runtime
+199,Genres,genres of movie,Genres
+200,IMDB Score,IMDB score of movie,IMDBScore
+201,Metascore,Metascore score of movie,Metascore
+202,Votes,total votes on IMDB for movie,Votes
+203,Gross,total gross of movie (Million Dollar),Gross
+204,Director,director of movie,Director
+205,Performer 1,performer 1 for movie,Performer1
+206,Performer 2,performer 2 for movie,Performer2
+207,Performer 3,performer 3 for movie,Performer3
+208,Performer 4,performer 4 for movie,Performer4
+209,Activity Type,"Type of activity investigated by the case (Housing/Zoning case, Unfit Buildings, etc.)",ActivityType1
+210,Address,Street address of the case investigation.,Address1
+211,Scope,A brief description of the proposed scope for the case.,Scope
+212,Case Sub-Type,"The sub-type of the Case. For example, a “HOUSING” type of CITATION, etc.",CaseSub-Type
+213,Open Date,"The date that the case was opened. (This date may have been preceded by inspections on an allegation, with the case opened only after determining that a violation exists).",OpenDate
+214,Last Inspection Date,The date of the last Compliance inspection so far.,LastInspectionDate
+215,Last Inspection Result,The result of the last Compliance inspection so far. Note that a “Failed” inspection may result when even a single item is not yet in compliance,LastInspectionResult
+216,Compliance Status,"Indicates the type of compliance achieved, or the final outcome of the case. “Open” indicates that work is still in progress to achieve compliance.",ComplianceStatus
+217,Latitude,Latitude of the address where the case is being investigated.,Latitude2
+218,Longitude,Longitude of the address where the case is being investigated.,Longitude2
+219,Coordinates,Mapping coordinates of the address where the case is being investigated.,Coordinates
+220,Movie,Name of Movie,Movie
+221,Year,Year Movie was released,Year1
+222,Duration,Time duration of Movie in minutes,Duration
+223,Genre,Different Genre of Movies,Genre
+224,Rating,Rating given to Movie,Rating
+225,Votes,Votes given to Movie,Votes1
+226,Director,Director of the Movie,Director1
+227,Actor 1,Main Actor of Movie,Actor1
+228,Actor 2,Second Main Actor of Movie,Actor2
+229,Actor 3,Third Main Actor of Movie,Actor3
+230,County/LDSS,Applicable county or Local District for Social Services (LDSS) in New York State. St. Regis Mohawk is a considered a LDSS and is reported as a separate county for this purpose.,County/LDSS
+231,Reporting Year,Reporting year for foster care activity.,ReportingYear
+232,Adoptive Home Days,This is the total number of care days provided for children in an adoptive home. Adoptive homes include adoptive and/or adoption subsidized homes.,AdoptiveHomeDays
+233,Agency Boarding Home Days,This is the total number of care days provided for children in foster care residing in an Agency Operated Boarding Home.,AgencyBoardingHomeDays
+234,Relative Foster Home Days,This is the total number of care days provided for children in foster care residing with a relative. The relative has been approved as a foster parent.,RelativeFosterHomeDays
+235,Non-Relative Foster Home Days,This is the total number of care days provided for children in foster care residing in a regular non-relative foster home.,Non-RelativeFosterHomeDays
+236,Congregate Care Home Days,This is the total number of care days provided for children in foster care residing in a Congregate Care home.,CongregateCareHomeDays
+237,Group Residence Days,This is the total number of care days provided for children in foster care residing in a group residence. These are also considered congregate care for youth.,GroupResidenceDays
+238,Institution Days,This is the total number of care days provided for children in foster care residing in an Institution. This facility type is a larger facility for congregate care.,InstitutionDays
+239,Independent Living Days,"This is the total number of care days provided for children in foster care, but living on their own. These young adults have been approved by OCFS to live on their own.",IndependentLivingDays
+240,Residential Treatment Days,"This is the total number of care days provided for children in foster care residing in residential treatment facilities, skilled nursing facilities, specialized schools, etc.",ResidentialTreatmentDays
+241,Total Facility Days,This is the total number of care days provided for children in foster care residing in all facility types.,TotalFacilityDays
+242,Admissions,Total children admitted to foster care in the calendar year.,Admissions
+243,Discharges,Total number of children discharged from care during the calendar year.,Discharges
+244,Point in Time,Total number of children in Foster Care on December 31 of the calendar year. This is point in time data.,PointinTime
+245,Children Served,"Total number of children served during the year. This includes children that were admitted in previous years as well as those admitted during the given year. As a result, this is usually higher than both admissions and point in time in care.",ChildrenServed
+246,CPS Reports Indicated,This is the total number of Child Protective Services (CPS) reports that are indicated for abuse/maltreatment during a calendar year.,CPSReportsIndicated
+247,Age,Patient's Age in years (Numeric),Age1
+248,Gender,Patient's Gender Male as 1 Female as 0 (Nominal),Gender2
+249,Chest Pain,"Type of chest pain categorized into 1 typical, 2 typical angina, 3 non-anginal pain, 4 asymptomatic (Categorical)",ChestPain
+250,Resting BP,Level of blood pressure at resting mode in mm/HG (Numerical),RestingBP
+251,Cholesterol,Serum cholestrol in mg/dl (Numeric),Cholesterol
+252,Fasting BS,Blood sugar levels on fasting > 120 mg/dl represents as 1 in case of true and 0 as false,FastingBS
+253,ECG,result of electrocardiogram while at rest are represented in 3 distinct values 0 : Normal 1: Abnormality in ST-T wave 2: Left ventricular hypertrophy,ECG
+254,Max HR,Maximum heart rate achieved (Numeric),MaxHR
+255,Angina,Angina induced by exercise 0 depicting NO 1 depicting Yes (Nominal),Angina
+256,ST Depression,Exercise induced ST-depression in comparison with the state of rest (Numeric),STDepression
+257,ST Slope,ST segment measured in terms of slope during peak exercise 0: Normal 1: Upsloping 2: Flat 3: Downsloping,STSlope
+258,Heart Risk,Heart Risk 1 means heart disease 0 means normal,HeartRisk
+259,Date,Date of observation,Date
+260,Country Code,Three-character ISO 3166-1 country code,CountryCode
+261,Currency Code,Three-character ISO 4217 currency code,CurrencyCode
+262,Country,Country name,Country
+263,Local Price,Price of a Big Mac in the local currency,LocalPrice
+264,Currency per USD,Local currency units per dollar,CurrencyperUSD
+265,USD Price,Price of a Big Mac in dollars,USDPrice
+266,Raw Index USD,"Raw index, relative to the US dollar",RawIndexUSD
+267,Raw Index EUR,"Raw index, relative to the Euro",RawIndexEUR
+268,Raw Index GBP,"Raw index, relative to the British pound",RawIndexGBP
+269,Raw Index JPY,"Raw index, relative to the Japanese yen",RawIndexJPY
+270,Raw Index CNY,"Raw index, relative to the Chinese yuan",RawIndexCNY
+271,GDP per Person,"GDP per person, in dollars",GDPperPerson
+272,GDP-Adj Price,"GDP-adjusted price of a Big Mac, in dollars",GDP-AdjPrice
+273,Adj Index USD,"Adjusted index, relative to the US dollar",AdjIndexUSD
+274,Adj Index EUR,"Adjusted index, relative to the Euro",AdjIndexEUR
+275,Adj Index GBP,"Adjusted index, relative to the British pound",AdjIndexGBP
+276,Adj Index JPY,"Adjusted index, relative to the Japanese yen",AdjIndexJPY
+277,Adj Index CNY,"Adjusted index, relative to the Chinese yuan",AdjIndexCNY
+278,Anime ID,Anime Planet ID of the anime. (e.g. 1).,AnimeID
+279,Anime Name,full name of the anime. (e.g. FLCL),AnimeName
+280,Alternate Name,another way to call the anime. (e.g. Furi Kuri),AlternateName
+281,Average Score,average score of the anime given from all users in Anime Planet database. (e.g. 8.78),AverageScore
+282,Score Count,number of users who give a score to the anime. (e.g. 1241),ScoreCount
+283,Tags,"comma separated list of tags for this anime. (e.g. Comedy, Mecha, Sci Fi, Outer Space, Original Work)",Tags
+284,Content Warnings,"comma separated list of content warning tags. (e.g. Explicit Violence, Mature Themes, Nudity)",ContentWarnings
+285,Type,"TV, movie, OVA, etc. (e.g. TV).",Type
+286,Chapter Count,number of chapters. (e.g. 26),ChapterCount
+287,Finished,True if the anime finished when I did the data scraping. False is the anime is on going in that moment.,Finished
+288,Duration,duration of the anime in minutes (e.g 60),Duration1
+289,Start Year,year when the anime start the transmission. (e.g. 2016),StartYear
+290,End Year,year when the anime finish the transmission. (e.g. 2017),EndYear
+291,Release Season,season and year of release (e.g. Fall 2000),ReleaseSeason
+292,Studios,comma separated list of studios (e.g. Sunrise),Studios
+293,Synopsis,synopsis of the anime,Synopsis
+294,Anime URL,url to the main page of anime in Anime Planet (e.g. https://www.anime-planet.com/anime/vandread),AnimeURL
+295,Recommended Anime ID,Anime Planet ID of the recommended anime. (e.g. 1).,RecommendedAnimeID
+296,Recommendation Agreement,number of users that was agreed with the recommendation.,RecommendationAgreement
+297,User ID,non identifiable randomly generated user id.,UserID
+298,Anime ID,Anime-planet ID of the anime.,AnimeID1
+299,User Score,score between 1 to 5 given by the user in scale of 0.5. 0 if the user didn't assign a score.,UserScore
+300,State ID,state ID from this anime in the anime list of this user.,StateID
+301,Episodes Watched,numbers of episodes watched by the user.,EpisodesWatched
+302,Rated Anime ID,Anime-planet ID of the anime that this user has rated.,RatedAnimeID
+303,User Rating,rating that this user has assigned.,UserRating
+304,Status ID,ID of the status,StatusID
+305,Status Description,description of the status,StatusDescription
+306,Location,Location where crime was reported.,Location1
+307,Year,Year the crime incident was reported.,Year2
+308,County Population,County population estimates provided by the FBI.,CountyPopulation
+309,Total Crimes,"Sum of the reported crimes: Murder, Rape, Robbery, Aggravated Assault, Burglary, Larceny and Motor Vehicle Theft",TotalCrimes
+310,Crime Rate,"Index Crimes reported per 100,000 population.",CrimeRate
+311,Violent Crimes,"Sum of the reported crimes: Murder, Rape, Robbery and Aggravated Assault.",ViolentCrimes
+312,Violent Crime Rate,"Violent Crimes reported per 100,000 population.",ViolentCrimeRate
+313,Property Crimes,"Sum of the reported crimes: Burglary, Larceny and Motor Vehicle Theft.",PropertyCrimes
+314,Property Crime Rate,"Property crimes reported per 100,000 population.",PropertyCrimeRate
+315,Firearm Crimes,Count of violent crimes committed with a firearm.,FirearmCrimes
+316,Firearm Crime Rate,"Firearm crimes reported per 100,000 population.",FirearmCrimeRate
+317,Pokémon,Name of the Pokemon,Pokémon
+318,Dex #,The Pokemon's Pokedex Number,Dex#
+319,Norm. Dam.,Damage Multiplier for Normal Types (attacks against the Pokemon),Norm.Dam.
+320,Fire Dam.,Damage Multiplier for Fire Types,FireDam.
+321,Water Dam.,Damage Multiplier for Water Types,WaterDam.
+322,Elec. Dam.,Damage Multiplier for Electric Types,Elec.Dam.
+323,Grass Dam.,Damage Multiplier for Grass Types,GrassDam.
+324,Ice Dam.,Damage Multiplier for Ice Types,IceDam.
+325,Fight Dam.,Damage Multiplier for Fighting Types,FightDam.
+326,Poison Dam.,Damage Multiplier for Poison Types,PoisonDam.
+327,Ground Dam.,Damage Multiplier for Ground Types,GroundDam.
+328,Fly. Dam.,Damage Multiplier for Flying Types,Fly.Dam.
+329,Psychic Dam.,Damage Multiplier for Psychic Types,PsychicDam.
+330,Bug Dam.,Damage Multiplier for Bug Types,BugDam.
+331,Rock Dam.,Damage Multiplier for Rock Types,RockDam.
+332,Ghost Dam.,Damage Multiplier for Ghost Types,GhostDam.
+333,Dragon Dam.,Damage Multiplier for Dragon Types,DragonDam.
+334,Dark Dam.,Damage Multiplier for Dark Types,DarkDam.
+335,Steel Dam.,Damage Multiplier for Steel Types,SteelDam.
+336,Fairy Dam.,Damage Multiplier for Fairy Types,FairyDam.
+337,Map Name,Names of the maps,MapName
+338,Total Bans,Total number of bans on a map,TotalBans
+339,Day 1 Bans,Bans on the map on day 1 of the tournament,Day1Bans
+340,Day 2 Bans,Bans on the map on day 2 of the tournament,Day2Bans
+341,Day 3 Bans,Bans on the map on day 3 of the tournament,Day3Bans
+342,Day 4 Bans,Bans on the map on day 4 of the tournament,Day4Bans
+343,Day 5 Bans,Bans on the map on day 5 of the tournament,Day5Bans
+344,Day 6 Bans,Bans on the map on day 6 of the tournament,Day6Bans
+345,Day 7 Bans,Bans on the map on day 7 of the tournament,Day7Bans
+346,Total Picks,Total number of times a map was chosen,TotalPicks
+347,Day 1 Picks,Number of times a map was picked on day 1,Day1Picks
+348,Day 2 Picks,Number of times a map was picked on day 2,Day2Picks
+349,Day 3 Picks,Number of times a map was picked on day 3,Day3Picks
+350,Day 4 Picks,Number of times a map was picked on day 4,Day4Picks
+351,Day 5 Picks,Number of times a map was picked on day 5,Day5Picks
+352,Day 6 Picks,Number of times a map was picked on day 6,Day6Picks
+353,Day 7 Picks,Number of times a map was picked on day 7,Day7Picks
+354,Player,Name of the player.,Player
+355,Country,The country where the player belongs to.,Country1
+356,Team,The team which the player represents.,Team
+357,Agents Used,All the agents used by each player in the tournament.,AgentsUsed
+358,Maps Played,Number of times the maps were played (with repetition).,MapsPlayed
+359,Kills,Number of kills.,Kills
+360,Deaths,Number of deaths.,Deaths
+361,Assists,Number of assists.,Assists
+362,K/D Ratio,Kill/Death ratio,K/DRatio
+363,KD+A Ratio,(Kills+(Assists/2))/Deaths ratio,KD+ARatio
+364,ACS/Map,Average Combat Score/Map ratio.,ACS/Map
+365,Kills/Map,Kills/Map ratio.,Kills/Map
+366,Deaths/Map,Deaths/Map ratio.,Deaths/Map
+367,Assists/Map,Assists/Map ratio.,Assists/Map
+368,Map Name,Names of the maps.,MapName1
+369,Attacking Wins,Number of rounds won in the Attacking phase,AttackingWins
+370,Defending Wins,Number of rounds won in the Defending phase,DefendingWins
+371,Levy Year,"The year in which school taxes are levied, generally in the Fall of the school year. For example, levy year 2014 refers to school year 2014-15.",LevyYear
+372,County,"The name of the county. “New York City” includes the counties of Bronx, Kings, New York, Queens, and Richmond.",County
+373,County Code,"The code by which a county or group of counties, in the case of New York City (NYC), is identified within the Department. These two digits are also the first two digits in a parcel’s SWIS code. NYC code 65 encompasses the codes 60 - 64 for Bronx, Kings, New York, Queens, and Richmond counties, respectively. Other State or local governmental agencies may utilize different county codes.",CountyCode
+374,Basic STAR Units,Number of residential units claiming basic STAR exemption. (Basic STAR began in levy year 1999.) For LY16 forward: This does not include the number claiming the STAR advance payment personal income tax credit.,BasicSTARUnits
+375,Basic STAR Reimbursement,Amount (in dollars) reimbursed by New York State to school districts for the reduction in school property tax revenue due to basic STAR exemptions in municipalities within that county. (Basic STAR began in levy year 1999.) For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued.,BasicSTARReimbursement
+376,Enhanced STAR Units,Number of residential units claiming enhanced STAR exemption. For LY16 forward: This does not include the number claiming the STAR advance payment personal income tax credit,EnhancedSTARUnits
+377,Enhanced STAR Reimbursement,Amount (in dollars) reimbursed by New York State to school districts for the reduction in school property tax revenue due to enhanced STAR exemptions in municipalities within that county. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued.,EnhancedSTARReimbursement
+378,Total STAR Reimbursement,Total Amount (in dollars) reimbursed by New York State to school districts for the total reduction in school property tax revenue due to basic and enhanced STAR exemptions in municipalities within that county. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued.,TotalSTARReimbursement
+379,Revision Date,The date when current data was recompiled or revised.,RevisionDate
+380,School District,"The name of the school district. “New York City School” includes school districts in the counties of Bronx, Kings, New York, Queens, and Richmond.",SchoolDistrict
+381,School District Code,"The code by which a school district is identified, as utilized by the Department’s Office of Real Property Tax Services. Other State or local governmental agencies may utilize different school district codes.",SchoolDistrictCode
+382,Basic STAR District Reimbursement,Amount (in dollars) reimbursed by New York State to the school district for the reduction in school property tax revenue due to basic STAR exemptions. (Basic STAR began in levy year 1999.) For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued.,BasicSTARDistrictReimbursement
+383,Enhanced STAR District Reimbursement,Number of residential units claiming enhanced STAR exemption. For LY16 forward: This does not include the number claiming the STAR advance payment personal income tax credit.,EnhancedSTARDistrictReimbursement
+384,Total STAR District Reimbursement,Amount (in dollars) reimbursed by New York State to the school district for the reduction in school property tax revenue due to enhanced STAR exemptions. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued.,TotalSTARDistrictReimbursement
+385,Revision Date,Total Amount (in dollars) reimbursed by New York State to the school district for the total reduction in school property tax revenue due to basic and enhanced STAR exemptions. For LY16 forward: This does not include the amount of STAR advance payment personal income tax credit issued.,RevisionDate1
+386,Active Cases India,This column contains the total number of active cases in India on a particular day.,ActiveCasesIndia
+387,Active Cases Change India,This column contains the change in number of active cases in India on a particular day. (Can be positive/negative depending on whether the caseload increased or decreased),ActiveCasesChangeIndia
+388,Recovered India,This column contains a cumulative total of people who have recovered (tested negative) from COVID-19 infection in India.,RecoveredIndia
+389,Daily Recovered India,This column contains the daily total number of people who have recovered (tested negative) from COVID-19 infection in India on a particular day.,DailyRecoveredIndia
+390,Deaths India,This column contains a cumulative total of people who have died from COVID-19 infection in India.,DeathsIndia
+391,Daily Deaths India,This column contains the daily total number of people who died from COVID-19 infection in India on a particular day.,DailyDeathsIndia
+392,Tests Taken India,This column contains total number of COVID-19 tests taken on the previous day in India.,TestsTakenIndia
+393,Total Infected India,This column contains a cumulative total of people who have been infected with the COVID-19 virus in India.,TotalInfectedIndia
+394,Source URL,"This column gives the source URL from where the API collects information, i.e., https://www.mohfw.gov.in/",SourceURL
+395,Last Updated,This column gives the data and time when the data was updated last.,LastUpdated
+396,Misc Info,"Some misc information about the API, source, etc.",MiscInfo
+397,State,This column contains names of the states of India.,State
+398,Active Cases State,This column contains total number of people who are currently infected with COVID-19 on a particular day in a particular state.,ActiveCasesState
+399,Active Cases Change State,This column contains the change in number of active cases in a particular state on a particular day.,ActiveCasesChangeState
+400,Recovered State,This column contains a cumulative total of people who have recovered (tested negative) from COVID-19 infection in a particular state.,RecoveredState
+401,Daily Recovered State,This column contains the daily total number of people who have recovered (tested negative) from COVID-19 infection in a particular state on a particular day.,DailyRecoveredState
+402,Deaths State,This column contains a cumulative total of people who have died from COVID-19 infection in a particular state.,DeathsState
+403,Daily Deaths State,This column contains the daily total number of people who died from COVID-19 infection in a particular state on a particular day. h. regionData.totalInfected: This column contains a cumulative total of people who have been infected with the COVID-19 virus in a particular state.,DailyDeathsState
+404,Total Infected State,This column contains a cumulative total of people who have been infected with the COVID-19 virus in a particular state.,TotalInfectedState
+405,Generation Date,Date and Time when data was generated (e.g. “12/19/2014 09:45:21”),GenerationDate
+406,Quarter,"Date Indicating to which calendar quarter the data pertains (e.g. 9/1/2016, 1/1/2017)",Quarter
+407,Indicator Set,The Indicator Set Name (i.e. Polypharmacy),IndicatorSet
+408,Indicator Name,Self-descriptive name of Indicator - 'Antipsychotic polypharmacy of two or more agents [2AP]’ and 'Antipsychotic polypharmacy of three or more agents [3AP]',IndicatorName
+409,Age Group,Population Age Group (i.e. 0-17 or 18+),AgeGroup1
+410,Data Level,"Level of reported data (i.e. Provider, Plan, County, Region, or Statewide)",DataLevel
+411,County,OMH County Name (contains the county name for count level of detail; contains ‘Region’ for regional data and ‘Statewide’ for statewide datasets),County1
+412,Region,"Region Name (contains Central NY, Hudson River, Long Island, New York City, Western, and Statewide values)",Region
+413,Provider,Contains the Provider name for Provider-specific data; contains ‘Region’ for regional data and ‘Statewide’ for statewide datasets),Provider
+414,Eligible Population,Number of Medicaid enrollees who are currently in the given population. Please refer to the supporting document for details on any Inclusion or Exclusion criteria.,EligiblePopulation
+415,Polypharmacy Count,Number of Medicaid enrollees who meet the threshold for each of the given Polypharmacy indicators. Please refer to the supporting document for details on any Inclusion or Exclusion criteria.,PolypharmacyCount
+416,Polypharmacy Percent,Percentage of Medicaid enrollees meeting the threshold requirement for the given indicator divided by the Eligible Population.,PolypharmacyPercent
+417,Above Statewide Avg,"For Provider-specific datasets, if the ‘% of Population’ value is greater than the Statewide percentage, then ‘Yes’ else ‘No’. N/A is used if the entry is an aggregated value or if the ELIGIBLE POPULATION value is less than 20.",AboveStatewideAvg
+418,Regional Flag,Regional percentage flagged for the given indicator,RegionalFlag
+419,Date,Date in a standard format,Date1
+420,Open,Price at time of market opening,Open
+421,High,Highest price within interval 1 Day,High
+422,Low,Lowest price within interval 1 Day,Low
+423,Close,Price at time of market closing,Close
+424,Adj Close,Adj. Price at time of market closing,AdjClose
+425,Volume,Total traded volume within interval 1 Day,Volume
+426,Open 15m,Price at beginning of interval (15 Min),Open15m
+427,High 15m,Highest price at beginning of interval (15 Min),High15m
+428,Low 15m,Lowest price at beginning of interval (15 Min),Low15m
+429,Close 15m,Price at end of interval (15 Min),Close15m
+430,Volume 15m,Total traded volume at the within interval (15 Min),Volume15m
+431,Vehicle Type,The type of vehicle. BOAT = Boat; SNOW = Snowmobile; TRL = Trailer; VEH = All other vehicles,VehicleType
+432,VIN,The Vehicles Identification Number as assigned by the vehicle manufacturer or by NYS DMV if the original VIN was compromised.,VIN
+433,Registration Class,An alpha code that is used to classify the registration. (see complete list of registration classes at the end of the data dictionary),RegistrationClass
+434,Mailing City,A city name for mailing purposes; appears in the last line of an address on a mail piece.,MailingCity
+435,Mailing State,"The official USPS abbreviation for the name of a mailing state, U.S. territory, Canadian Province, Commonwealth or armed forces ZIP Code designation. If APO/FPO/DPO, then the state abbreviation will be “AA,” “AE,” or “AP.”",MailingState
+436,ZIP Code,"A code that identifies a specific geographic mail delivery area. ZIP Codes can represent an area within a foreign country, a state, or a single building or company that has a very high mail volume. The zip code appears in the last line of the address on a mail piece. Example: 12345",ZIPCode
+437,County,The New York State county name that is the county of residence or use.,County2
+438,Model Year,The manufacturer model year of vehicle.,ModelYear
+439,Make,"The DMV code for the make of a vehicle that appears on the registration. The DMV make code is the first 5 letters of the vehicle’s make name. If the vehicle make is more than one word, the make code is the first 2 letters of the first two words with a slash in between. (Examples, CHEVR, HA/DA)",Make
+440,Body Type,The body type of a vehicle. (see the complete list of body types at the end of the data dictionary),BodyType
+441,Fuel Type,The fuel type of a vehicle.,FuelType
+442,Unloaded Weight,The weight of a passenger vehicle without any load.,UnloadedWeight
+443,Gross Weight,The maximum weight that a commercial vehicle is permitted to carry.,GrossWeight
+444,Passenger Capacity,"The number of passengers that a for-hire vehicle can transport, excluding the driver.",PassengerCapacity
+445,Registration Date,The date DMV issued the most recent registration document.,RegistrationDate
+446,Expiration Date,The date when the registration expires.,ExpirationDate1
+447,Vehicle Color,The color of the vehicle. This is the DMV code not the NCIC code. (see the color codes at the end of the data dictionary),VehicleColor
+448,Scofflaw Stop,Indicates if a parking or red light scofflaw stop is in effect. (Y/N).,ScofflawStop
+449,Suspension,Indicates if a suspension is in effect. (Y/N).,Suspension
+450,Revocation,Indicates if a revocation is in effect. (Y/N).,Revocation
+451,Bond Girl,"""Bond girl"" actor name (string)",BondGirl
+452,Age,"""Bond girl"" actor age (int)",Age2
+453,Movie,"Movie title featuring ""Bond girl"" (string)",Movie1
+454,Year,"Movie year featuring ""Bond girl"" (int)",Year3
+455,Bond Actor,"Actor portraying James Bond in movie featuring ""Bond girl"" (string)",BondActor
+456,Bond Actor Age,"Age of actor portraying James Bond in movie featuring ""Bond girl"" (int)",BondActorAge
+457,Director,"Director of movie featuring ""Bond girl"" (string)",Director2
+458,Box Office,Box office earning in U.S. dollars (float),BoxOffice
+459,Adjusted Box Office,2005 adjusted box office earning in U.S. dollars (float),AdjustedBoxOffice
+460,Budget,Film budget in U.S. dollars (string),Budget
+461,Adjusted Budget,2005 adjusted film budget in U.S. dollars (string),AdjustedBudget
+462,Trip ID,a unique identifier for each trip,TripID
+463,Provider Code,a code indicating the provider associated with the trip record,ProviderCode
+464,Meter Engaged,date and time when the meter was engaged,MeterEngaged
+465,Meter Disengaged,date and time when the meter was disengaged,MeterDisengaged
+466,Passengers,the number of passengers in the vehicle (driver entered value),Passengers
+467,Engage Lon,the longitude where the meter was engaged,EngageLon
+468,Engage Lat,the latitude where the meter was engaged,EngageLat
+469,Disengage Lon,the longitude where the meter was disengaged,DisengageLon
+470,Disengage Lat,the latitude where the meter was disengaged,DisengageLat
+471,Store & Forward,This flag indicates whether the trip record was held in the vehicle memory before sending to the vendor because the vehicle did not have a connection to the server - Y=store and forward; N=not a store and forward trip,Store&Forward
+472,Trip Duration,duration of the trip in seconds,TripDuration
+473,pH,pH of water,pH
+474,Soap Precipitation,Capacity of water to precipitate soap in mg/L,SoapPrecipitation
+475,TDS,Total dissolved solids in ppm,TDS
+476,Chloramines,Amount of Chloramines in ppm,Chloramines
+477,Sulfates,Amount of Sulfates dissolved in mg/L,Sulfates
+478,Conductivity,Electrical conductivity of water in μS/cm,Conductivity
+479,Organic Carbon,Amount of organic carbon in ppm,OrganicCarbon
+480,THMs,Amount of Trihalomethanes in μg/L,THMs
+481,Turbidity,Measure of light emiting property of water in NTU (Nephelometric Turbidity Units),Turbidity
+482,Safe for Consumption,Indicates if water is safe for human consumption,SafeforConsumption
+483,Danceability,"Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.",Danceability
+484,Energy,"Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.",Energy
+485,Key,"The key the track is in. Integers map to pitches using standard Pitch Class notation . E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on.",Key
+486,Loudness,The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.,Loudness
+487,Mode,"Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.",Mode
+488,Speechiness,Speechiness detects the presence of spoken words in a track.,Speechiness
+489,Acousticness,A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.,Acousticness
+490,Instrumentalness,Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context.,Instrumentalness
+491,Liveness,Detects the presence of an audience in the recording.,Liveness
+492,Valence,A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track.,Valence
+493,Tempo,The overall estimated tempo of a track in beats per minute (BPM),Tempo
+494,Duration,The duration of the track in milliseconds.,Duration2
+495,Time Signature,An estimated overall time signature of a track.,TimeSignature
+496,Liked,"1 for liked songs , 0 for disliked songs",Liked
+497,Serial No,Serial Number,SerialNo
+498,Gender,"Gender- Male='M',Female='F'",Gender3
+499,10th %,Secondary Education percentage- 10th Grade,10th%
+500,Board,Board of Education- Central/ Others,Board
+501,12th %,Higher Secondary Education percentage- 12th Grade,12th%
+502,HSE Spec,Specialization in Higher Secondary Education,HSESpec
+503,Degree %,Degree Percentage,Degree%
+504,Degree Type,Under Graduation(Degree type)- Field of degree education,DegreeType
+505,Work Exp,Work Experience,WorkExp
+506,Employability %,Employability test percentage ( conducted by college),Employability%
+507,MBA Spec,Post Graduation(MBA)- Specialization,MBASpec
+508,MBA %,MBA percentage,MBA%
+509,Placement,Status of placement- Placed/Not placed,Placement
+510,Salary Offered,Salary offered by corporate to candidates,SalaryOffered
+511,Country Code,ISO 3166 county code (alpha 2),CountryCode1
+512,State Code,ISO 3166 state code (alpha 2),StateCode
+513,Region,County/Region name,Region1
+514,Bed Type,"Type of beds: [TOTAL, ICU, ACUTE, PSYCHIATRIC, OTHER]",BedType
+515,Measure Type,Type of measure: 1000HAB - per 1000 inhabitants,MeasureType
+516,Beds per 1000,Number of beds per 1000 inhabitants,Bedsper1000
+517,Population,Population of location,Population
+518,Source Year,source year for beds and population,SourceYear
+519,Data Source,source of data,DataSource
+520,Source URL,URL of the original source,SourceURL1
+521,Season,Football season year,Season
+522,Position,Final position of the team for that season,Position
+523,Team,Name of the team,Team1
+524,Games,Number of games played,Games
+525,Wins,Number of wins,Wins
+526,Draws,Number of draws,Draws
+527,Losses,Number of losses,Losses
+528,Goals Scored,Number of goals scored,GoalsScored
+529,Goals Conceded,Number of goals conceded,GoalsConceded
+530,GD,Goal Difference,GD
+531,Points,Number of points in that season,Points
+532,Qualification,Qualified for European cup or relegated to a lower tier league,Qualification
+533,Facility,The name of the local correctional facility where the inmate is housed.,Facility
+534,Report Year,Year that the average daily jail census was reported.,ReportYear
+535,Total Inmates,The total number of inmates for which the county is responsible. These inmates included: Boarded Out and In House.,TotalInmates
+536,Boarded Out,The average daily census of inmates under a facility’s jurisdiction that are boarded out to another county's correctional facility. These inmates are not reflected in the In-House Census.,BoardedOut
+537,Boarded In,"The average daily census of inmates from other jurisdictions housed in a county jail who are boarded in from another county facility or other authorities. Federal prisoners are not included in this count. Boarded In inmates also are included in one of the other inmate types (e.g., Sentenced, Civil, Technical Parole Violators, etc.).",BoardedIn
+538,In-House Census,"Housed at County Facility. The average daily census that the county is responsible for housing. These inmates include: Sentenced, Civil, Federal, Technical Parole Violators, State-Readies, and Other Unsentenced.",In-HouseCensus
+539,Sentenced,Housed at County Facility. The average daily census of inmates that have been convicted and sentenced to a county jail term and are physically located in the facility at the time of the count.,Sentenced
+540,Civil,"Housed at County Facility. The average daily census of inmates in the county jail as the result of a Civil Process, Family Court, Contempt or Material Witness status who are physically located in the facility at the time of the count.",Civil
+541,Federal,Housed at County Facility. The average daily census of inmates that are physically located in the facility and are being held under an agreement with a U.S. Government Agency.,Federal
+542,Parole Violators,Housed at County Facility. The average daily census of inmates held in a local jail as a result of a violation of a condition of Parole. Inmates in this category are being held for no reason other than the Parole Warrant.,ParoleViolators
+543,State-Readies,"Housed at County Facility. The average daily census of inmates sentenced by the court to a state prison term, but have not been transported to the NYS Department of Corrections and Community Supervision (DOCCS). All paperwork for inmates in this category has been completed and they are ready for transport to DOCCS.",State-Readies
+544,Unsentenced,"Housed at County Facility. The average daily census of inmates awaiting either arraignment, trial, awaiting sentencing by the court, or are Parole Violators with New Arrests.",Unsentenced
+545,County,"Name of New York State County. In addition to New York’s 62 Counties, the dataset also includes separate entries for offshore open waters that are part of New York State but that are not within the jurisdiction of any county: Lake Ontario, Lake Erie, and Atlantic Ocean/Long Island Sound.",County3
+546,Category,"Category of the species or community: Animal, Plant, or Natural Community.",Category
+547,Taxonomic Group,"For animals and plants, the taxonomic phylum, class, or order to which the species belongs. Groups are not always equivalent to a single taxonomic group, and they are given English names. For natural communities, group is the system to which the natural community belongs. Natural communities are grouped into seven systems: marine, tidal wetlands (estuarine), rivers and streams (riverine), lakes and ponds (lacustrine), freshwater nontidal wetlands (palustrine), uplands (terrestrial), and subterranean (caves).",TaxonomicGroup
+548,Subgroup,"For animals and plants, a lower level of taxonomic group than the Taxonomic Group (above). The subgroup is the taxonomic phylum, class, order, or family to which the species belong. Subgroups are not always equivalent to a single taxonomic group, and they are given English names. For natural communities, subgroup is the subsystem to which the natural community belongs. Marine and tidal wetland systems are divided into subtidal and intertidal subsystems. The freshwater nontidal wetlands system is divided into open mineral soil wetlands, forested mineral soil wetlands, open peatlands, and forested peatlands. The uplands system is divided into open uplands, barrens and woodlands, and forested uplands. The rivers and streams, lakes and ponds, and subterranean systems each have one subsystem.",Subgroup
+549,Scientific Name,"For plants and animals, the scientific name used in the database of the New York Natural Heritage Program. Names are based on generally accepted references, augmented by recent scientific literature and expert opinion. For natural communities, the names of community types are documented in New York Natural Heritage’s “Ecological Communities of New York State, Second Edition” (draft).",ScientificName
+550,Common Name,"For plants and animals, the common name is its “plain English” name, as used in the database of the New York Natural Heritage Program. Names are based on generally accepted references, augmented by recent scientific literature and expert opinion. For natural communities, the names of community types are documented in New York Natural Heritage’s “Ecological Communities of New York State, Second Edition” (draft).",CommonName
+551,Last Observed,"The most recent year the species or community type was observed in the given county, as documented in the dataset’s source databases. A value of “2000 – 2005” indicates that the species was most recently documented during the second NYS Breeding Bird Atlas Project, conducted from 2000 to 2005. A value of “1990-1999” indicates that the species was most recently documented during the NY Amphibian and Reptile Atlas Project, conducted from 1990 to 1999. A value of “not available” indicates that the species or community type has been recorded in the given county, but no date is available.",LastObserved
+552,State Protection Status,"For animals and plants, the legal protected status under New York State Environmental Conservation Law (ECL) and under New York State regulations. The highest level of protection is given to species listed by New York State as Endangered or Threatened. Regulations regarding animals are administered by NYS DEC’s Division of Fish, Wildlife, and Marine Resources. Regulations regarding plants are administered by NYS DEC’s Division of Lands and Forests. For Animals, categories of Endangered, Threatened, and Special Concern species are defined in New York State ECL §11-0535. Endangered, Threatened, and Special Concern species are listed in regulation 6NYCRR 182.5, and at http://www.dec.ny.gov/animals/7494.html. For Plants, categories of Endangered, Threatened, Rare, and Exploitably Vulnerable are defined in ECL §9-1503. Plants in these categories are protected against picking, removal, or damaging with herbicides without the consent of the landowner. Endangered, Threatened, Rare, and Exploitably Vulnerable species are listed in regulation 6NYCRR 193.3, and at http://www.dec.ny.gov/regs/15522.html.",StateProtectionStatus
+553,Federal Protection Status,"For animals and plants, the listing status under the U.S. Endangered Species Act, as it applies to populations of the species in New York State. Listing provides legal protection for this species at the federal level. Listing categories are Endangered, Threatened, or Candidate. As defined by the Act, endangered refers to species that are ""in danger of extinction within the foreseeable future throughout all or a significant portion of its range,"" while threatened refers to “those animals and plants likely to become endangered within the foreseeable future throughout all or a significant portion of their ranges.”",FederalProtectionStatus
+554,State Conservation Rank,"A rank assigned by New York Natural Heritage to each species and community type indicating how imperiled it is in New York State. The state conservation rank is based on how rare or abundant the species or community type is in New York, its distribution, and on population trends and threats. As new information becomes available, ranks may be revised. The ranks are based on a one to five scale, ranging from S1 = critically imperiled to S5 = demonstrably secure (common and widespread). Natural Heritage conservation status ranks carry no legal or regulatory weight. Basic state conservation ranks are: S1 – Critically Imperiled in New York State S2 – Imperiled in New York State S3 – Vulnerable in New York State S4 – Apparently Secure in New York State S5 – Definitely Secure in New York State (common and widespread) SH – Historical in New York: not seen since before 1980, but could still be present SX—Extirpated: no longer present in New York SU – Unrankable: Currently unrankable due to lack of information or due to substantially conflicting information about status or trends. SNR – Not Ranked: state conservation status not yet assessed. SNA – Not Applicable, because the species is not a suitable target for conservation activities (e.g., species is a hybrid, a domesticated species, not native to New York, an accidental or infrequent visitor outside of its normal range, a transient migrant just passing through the state, or a species with only unconfirmed or doubtful reports). Variations of these ranks include: • Range ranks, such as S1S2, indicate not enough information is available to distinguish between two single ranks. • ? after a rank, such as S2?, indicates some uncertainty about the true rank, but is most likely the assigned rank. • B after a rank, such as S2B, indicates the rank applies to the breeding populations in New York of a migratory animal. • N after a rank, such as S3N, indicates the rank applies to the non-breeding populations in New York of a migratory animal.",StateConservationRank
+555,Global Conservation Rank,"A rank assigned by New York Natural Heritage to each species and community type indicating how imperiled the species or community type is throughout the world. The global conservation rank is based on how rare the species or community type is across its global range, and on population trends and threats. For species, these ranks provide an estimate of extinction risk; while for natural communities, they provide an estimate of the risk of elimination. As new information becomes available, ranks may be revised. The ranks are based on a one to five scale, ranging from G1 = critically imperiled to G5 = demonstrably secure (common and widespread). Natural Heritage conservation status ranks carry no legal or regulatory weight. Basic global conservation ranks are: G1 – Critically Imperiled (very high risk of extinction) G2 – Imperiled (high risk of extinction) G3 – Vulnerable (moderate risk of extinction) G4 – Apparently Secure (uncommon but not rare) G5 – Definitely Secure (common and widespread) GH – Possibly Extinct: not seen anywhere in last 30, but could still exist GX – Extinct: no longer present anywhere in the world GU – Unrankable: Currently unrankable due to lack of information or due to substantially conflicting information about status or trends. GNR – Not Ranked: global conservation status not yet assessed. GNA – Not Applicable, because the species is not a suitable target for conservation activities (e.g., species is a hybrid, or a domesticated species). Variations of these ranks include: • Range ranks, such as G1G2, indicate not enough information is available to distinguish between two single ranks. • ? after a rank, such as G2?, indicates some uncertainty about the true rank, but is most likely the assigned rank. • T ranks, such as T3, indicate the rank applies to a subspecies or variety, but not to the species as a whole.",GlobalConservationRank
+556,County Presence Status,"Status of the presence of the species or natural community type in the given county, as recorded in the dataset’s source databases. Values are: Recently confirmed = Documented, with confirmed identification, since 1980. Historically confirmed = Last documented, with confirmed identification, before 1980; current presence is unknown, but could still be present. Possible, but not confirmed = Has not been documented but has been confirmed nearby, or has been reported but identification has not been confirmed. Extirpated = Has been documented in the past, but is now believed to no longer occur in the given county.",CountyPresenceStatus
+557,Name,billionaires name,Name
+558,Net Worth,billionaires net worth,NetWorth
+559,Country,billionaires country,Country2
+560,Source,billionaires source of wealth,Source1
+561,Forbes Rank,billionaires rank in forbes list,ForbesRank
+562,Age,billionaires age in 2021,Age3
+563,Residency,billionaires residency,Residency
+564,Citizenship,billionaires citizenship,Citizenship
+565,Marital Status,billionaires marital status,MaritalStatus
+566,Children,no. of billionaires childeren,Children
+567,Education,billionaires educated at,Education
+568,Self Made,is billionaire self made ?,SelfMade
+569,Residency Point,point of billionaires residency,ResidencyPoint
+570,Date,Date of the Superbowl Final,Date2
+571,Title,Superbowl Title,Title1
+572,Winning Team,Name of the winning team,WinningTeam
+573,Winning Points,Points of the winning team,WinningPoints
+574,Losing Team,Name of the losing team,LosingTeam
+575,Losing Points,Points of the losing team,LosingPoints
+576,MVP,Most Valuable Player,MVP
+577,Stadium,Location - Stadium,Stadium
+578,City,Location - City,City
+579,State,Location - State,State1
+580,School,student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira),School
+581,Sex,student's sex (binary: 'F' - female or 'M' - male),Sex
+582,Age,student's age (numeric: from 15 to 22),Age4
+583,Address Type,student's home address type (binary: 'U' - urban or 'R' - rural),AddressType
+584,Family Size,family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3),FamilySize
+585,Parents Cohabitation,parent's cohabitation status (binary: 'T' - living together or 'A' - apart),ParentsCohabitation
+586,Mother's Education,"mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)",MothersEducation
+587,Father's Education,"father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)",FathersEducation
+588,Mother's Job,"mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')",MothersJob
+589,Father's Job,"father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')",FathersJob
+590,Reason to Choose School,"reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')",ReasontoChooseSchool
+591,Guardian,"student's guardian (nominal: 'mother', 'father' or 'other')",Guardian
+592,Travel Time,"home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)",TravelTime
+593,Study Time,"weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)",StudyTime
+594,Past Class Failures,"number of past class failures (numeric: n if 1<=n<3, else 4)",PastClassFailures
+595,Extra Educational Support,extra educational support (binary: yes or no),ExtraEducationalSupport
+596,Family Educational Support,family educational support (binary: yes or no),FamilyEducationalSupport
+597,Extra Paid Classes,extra paid classes within the course subject (Math or Portuguese) (binary: yes or no),ExtraPaidClasses
+598,Extra-Curricular Activities,extra-curricular activities (binary: yes or no),Extra-CurricularActivities
+599,Attended Nursery,attended nursery school (binary: yes or no),AttendedNursery
+600,Wants Higher Education,wants to take higher education (binary: yes or no),WantsHigherEducation
+601,Internet Access,Internet access at home (binary: yes or no),InternetAccess
+602,Romantic Relationship,with a romantic relationship (binary: yes or no),RomanticRelationship
+603,Family Relationships,quality of family relationships (numeric: from 1 - very bad to 5 - excellent),FamilyRelationships
+604,Free Time,free time after school (numeric: from 1 - very low to 5 - very high),FreeTime
+605,Going Out with Friends,going out with friends (numeric: from 1 - very low to 5 - very high),GoingOutwithFriends
+606,Workday Alcohol Consumption,workday alcohol consumption (numeric: from 1 - very low to 5 - very high),WorkdayAlcoholConsumption
+607,Weekend Alcohol Consumption,weekend alcohol consumption (numeric: from 1 - very low to 5 - very high),WeekendAlcoholConsumption
+608,Current Health Status,current health status (numeric: from 1 - very bad to 5 - very good),CurrentHealthStatus
+609,School Absences,number of school absences (numeric: from 0 to 93),SchoolAbsences
+610,First Period Grade,first period grade (numeric: from 0 to 20),FirstPeriodGrade
+611,Second Period Grade,second period grade (numeric: from 0 to 20),SecondPeriodGrade
+612,Final Grade,"final grade (numeric: from 0 to 20, output target)",FinalGrade
+613,Player,Player name,Player1
+614,GP,Games played,GP
+615,MPG,Mean number of minutes played,MPG
+616,PTS,Mean number of points scored,PTS
+617,FGM,Mean number of field goals scored,FGM
+618,FGA,Mean number of field goals attempted,FGA
+619,3PM,Mean number of 3-point shots made,3PM
+620,3PA,Mean number of 3-point shots attempted,3PA
+621,FTM,Mean number of free throws made,FTM
+622,FTA,Mean number of free throws attempted,FTA
+623,OREB,Mean number of offensive rebounds,OREB
+624,DREB,Mean number of defensive rebounds,DREB
+625,AST,Mean number of assists,AST
+626,STL,Mean number of steals,STL
+627,BLK,Mean number of blocks,BLK
+628,TOV,Mean number of turnovers,TOV
+629,Active,"0: not playing after 5 years, 1: playing after 5 years",Active
+630,Law Code,Law code of the violation for which the ticket was issued.,LawCode
+631,Violation Description,Description of the violation for which the ticket was issued.,ViolationDescription
+632,Year Issued,Calendar year in which the ticket was issued.,YearIssued
+633,Month Issued,Month in which the ticket was issued. 1=January; 12=December.,MonthIssued
+634,Day of Week,Day of the week on which the ticket was issued.,DayofWeek
+635,Age,"Age, in years, of the person to whom the ticket was issued on the date of ticket issuance.",Age5
+636,Gender,Gender of person to whom ticket was issued. M = Male ; F = Female; C = Organization; U = Unknown,Gender4
+637,License State,"Name of the state, district, territory, province or country that issued the driver license presented by the motorist at the time of ticket issuance.",LicenseState
+638,Agency,The name of the law enforcement agency that issued the ticket.,Agency
+639,Court,Court where the ticket was answerable.,Court
+640,Processing System,"Processing system used by the courts to record and track tickets from issuance to disposition: TSLED = “Traffic Safety Law Enforcement & Disposition Program” used by local courts throughout most of NYS. TVB = used by NYSDMV Traffic Violation Bureaus in NYC, western Suffolk County, Rochester and Buffalo.",ProcessingSystem
+641,Record Number,corresponds to the record (row) number and has no effect on the output.,RecordNumber
+642,Random Values,contains random values and has no effect on customer leaving the bank.,RandomValues
+643,Surname,the surname of a customer has no impact on their decision to leave the bank.,Surname
+644,Credit Score,"can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank.",CreditScore
+645,Location,a customer’s location can affect their decision to leave the bank.,Location2
+646,Gender,it’s interesting to explore whether gender plays a role in a customer leaving the bank.,Gender5
+647,Age,"this is certainly relevant, since older customers are less likely to leave their bank than younger ones.",Age6
+648,Years as Client,"refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank.",YearsasClient
+649,Account Balance,"also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances.",AccountBalance
+650,Number of Products,refers to the number of products that a customer has purchased through the bank.,NumberofProducts
+651,Has Credit Card,"denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank.",HasCreditCard
+652,Active Customer,active customers are less likely to leave the bank.,ActiveCustomer
+653,Salary,"as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries.",Salary
+654,Left Bank,whether or not the customer left the bank.,LeftBank
+655,Symbol,The symbol or the reference number of the company,Symbol
+656,Company,Name of the company,Company
+657,Trading Name,The trading name of the company,TradingName
+658,Sector,The sector in which the company operates,Sector1
+659,Date,The date of the stock price,Date3
+660,High,The highest price of the stock at that day,High1
+661,Low,The lowest price of the stock at that day,Low1
+662,Change,The change in price from the last day,Change
+663,Change %,The percentage of the change,Change%
+664,Volume,The volume of the trades for the day,Volume1
+665,Value,The value of the trades for the day,Value
+666,Trades,The number of trades for the day,Trades
+667,Run #,The run number of the event.,Run#
+668,Event #,The event number.,Event#
+669,E1 (GeV),The total energy of the electron 1 (GeV).,E1(GeV)
+670,Px1 (GeV),First component of the momemtum of the electron 1 (GeV).,Px1(GeV)
+671,Py1 (GeV),Second component of the momemtum of the electron 1 (GeV).,Py1(GeV)
+672,Pz1 (GeV),Third component of the momemtum of the electron 1 (GeV).,Pz1(GeV)
+673,Pt1 (GeV),The transverse momentum of the electron 1 (GeV).,Pt1(GeV)
+674,Eta1,The pseudorapidity of the electron 1.,Eta1
+675,Phi1 (rad),The phi angle of the electron 1 (rad).,Phi1(rad)
+676,Q1,The charge of the electron 1.,Q1
+677,E2 (GeV),The total energy of the electron 2 (GeV).,E2(GeV)
+678,Px2 (GeV),First component of the momemtum of the electron 2 (GeV).,Px2(GeV)
+679,Py2 (GeV),Second component of the momemtum of the electron 2 (GeV).,Py2(GeV)
+680,Pz2 (GeV),Third component of the momemtum of the electron 2 (GeV).,Pz2(GeV)
+681,Pt2 (GeV),The transverse momentum of the electron 2 (GeV).,Pt2(GeV)
+682,Eta2,The pseudorapidity of the electron 2.,Eta2
+683,Phi2 (rad),The phi angle of the electron 2 (rad).,Phi2(rad)
+684,Q2,The charge of the electron 2.,Q2
+685,M12 (GeV),The invariant mass of two electrons (GeV).,M12(GeV)
+686,Year,Year in which the quarterfinals took place,Year4
+687,Team Code,Code of the teams that took part in the corresponding year,TeamCode
+688,Team Name,Name of the participant teams,TeamName
+689,Final Round,Final round achieved by each of the teams,FinalRound
+690,Country,Country of origin or the league,Country3
+691,Region,Region of the team in the league table,Region2
+692,Decade,Decade of the respective year the quarterfinals took place,Decade
+693,Superliga,Checking if the corresponding teams supported the superliga plan or opposed it,Superliga
+694,City,City in which the quarterfinals took place,City1
+695,Venue Code,Areacode of the corresponding venue,VenueCode
+696,Metropolitan City,The metropolitan city in which the event took place,MetropolitanCity
+697,City Population,Population of that particular city,CityPopulation
+698,City GDP,Gdp of that particular city in which it took place,CityGDP
+699,City Country,Country of that particular city in which the event took place,CityCountry
+700,Eurostat Code,Eurostat unique code of the corresponding country it took place,EurostatCode
+701,ECB Code,Ecb code of the corresponding country,ECBCode
+702,COWC Code,Cowc three letter code for each of the countries,COWCCode
+703,COWN Value,Cown value for each of the countries selected,COWNValue
+704,Date,"date from September 17, 2014 to November 17, 2021",Date4
+705,Open,the price at the beginning of the trading day,Open1
+706,High,the highest price reached that day,High2
+707,Low,the lowest price reached that day,Low2
+708,Close,the price at the closing of the trading day,Close1
+709,Volume,how many Bitcoin were traded that day,Volume2
+710,Date,"date from September, 2014 to November, 2021",Date5
+711,CPI,he inflation index for the US for that month (cpi = consumer price index),CPI
+712,Open,the index level at the beginning of the trading day,Open2
+713,High,the highest level reached that day,High3
+714,Low,the lowest level reached that day,Low3
+715,Close,the level at the closing of the trading day,Close2
+716,Volume,how many shares in the companies that make up the index were traded that day,Volume3
+717,Date,date of observations,Date6
+718,Observed Weight,"Stone, pounds, ounces: observed weight",ObservedWeight
+719,Total Ounces,Total weight in ounces,TotalOunces
+720,Calories,"approximate calories consumed on that date. Calorie counts were taken for each food based on nutritional information and rounded up to the nearest 50 to facilitate easy record keeping. Where nutritional information was not available, calorie counts were estimated from previous experience and best guesses of ingredients and comparison to meals with available nutritional information.",Calories
+721,Cal/oz,calories per ounce - calories for that day divided by weight in ounces,Cal/oz
+722,Donut Day,"day where main meal was bag of five jam donuts, 1 = TRUE, 0 = FALSE",DonutDay
+723,Brisk Walk,"day included at least one brisk walk of over 20 minutes, 1 = TRUE, 0 = FALSE",BriskWalk
+724,Short Run,"day included at one short run of 2.5 miles, 1 = TRUE, 0 = FALSE",ShortRun
+725,Wine Night,"day finished with at least one large glass of wine when not accompanied by other fluids, 1 = TRUE, 0 = FALSE",WineNight
+726,High Protein,"day involved what would be considered a high protein diet, 1 = TRUE, 0 = FALSE",HighProtein
+727,Exercise Period,"signifies day during period of weight-based exercise; includes rest days as part of period, 1 = TRUE, 0 = FALSE",ExercisePeriod
+728,Weight Change,"change: resulting change in weight in oz, calculated from following day's observed weight",WeightChange
+729,Location,Location where the crime was reported.,Location3
+730,Department,Police Department that reported the crime.,Department
+731,Months Reported,Number of months an individual agency reported for the year.,MonthsReported
+732,Total Crime,"Includes sum of Murder, Rape, Robbery, Aggravated Assault, Burglary, Larceny and Motor Vehicle Theft.",TotalCrime
+733,Violent Crime,"Subtotal includes Murder, Rape, Robbery and Aggravated Assault.",ViolentCrime
+734,Murder,"One count per victim. The willful killing of one human being by another. Excludes deaths caused by negligence, suicide, or justifiable homicides, and attempts to murder, which are classified as assault.",Murder
+735,Rape,"One count per victim. Penetration, no matter how slight, of the vagina or anus with any body part or object, or oral penetration by a sex organ of another person, without the consent of the victim.",Rape
+736,Robbery,"One count per victim. The taking or attempting to take anything of value from the care, custody, or control of a person or persons by force or threat of force or violence and/or by putting the victim in fear.",Robbery
+737,Aggravated Assault,"One count per victim. The unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury. This type of assault is usually accompanied by the use of a weapon or by means likely to produce death or great bodily harm, and also includes attempts to commit murder.",AggravatedAssault
+738,Property Crime,"Subtotal includes Burglary, Larceny and Motor Vehicle Theft.",PropertyCrime
+739,Burglary,One count per victim. The unlawful entry of a structure to commit a felony or theft. The use of force to gain entry is not required to classify an offense as Burglary.,Burglary
+740,Larceny,"One count per victim. The unlawful taking, carrying, leading, or riding away of property from the possession or constructive possession of another. It includes crimes such as shoplifting, purse snatching, bicycle thefts, etc., in which no use of force, violence, or fraud occurs. This offense category does not include offenses such as embezzlement, forgery, or bad checks.",Larceny
+741,Motor Vehicle Theft,"One count per victim. The theft or attempted theft of a motor vehicle, including automobiles, trucks, buses, motorcycles, and snowmobiles.",MotorVehicleTheft
+742,Region,"Region where the crime was reported. Regions include New York City (Bronx, Kings, New York, Queens, and Richmond counties) and Non-New York City (all other counties).",Region3
+743,Publication Year,"Year that the journal article, book chapter was published.",PublicationYear
+744,Publication Type,"Indicates whether the publication is a scientific journal article, book, book chapter, correspondence, meeting abstract, news article, proceedings paper, or a review.",PublicationType
+745,Journal Name,Specific journal name relevant to the journal’s contents.,JournalName
+746,Publication Title,Specific publication title of the article describing specific research done.,PublicationTitle
+747,Author,Author(s) of the publication,Author
+748,Issue Number,Issue number of the journal in which the publication appears. Journal issues are subparts of each journal volume. Blank means this field does not apply for this publication.,IssueNumber
+749,Page Numbers,The page numbers on which the publication appears within the indicated journal. Blank means this field does not apply for this publication.,PageNumbers
+750,ISSN,"International Standard Serial Number (ISSN) for the publication. ISSNs are unique eight-digit numbers used to identify a publication, distinguishing between different media formats of the same content; for example, when a periodical is published in two or more different media, a different ISSN is assigned to each media type.",ISSN
+751,Peer Reviewed,"Indicates whether the publication was subject to a peer review, which is a critique of science and discussion presented in an article by experts in the field. This Review was either done (True) or not done (False).",PeerReviewed
+752,Impact Factor,"Indicates the Impact Factor (IF) for the publication. Blank means the IF is either unknown or the publication has not been rated. An IF is a systematic, objective means to critically evaluate and rank the world's leading journals, with quantifiable, statistical information based on citation data. Generally, the higher the IF, the greater the impact of the specific journal’s reputation. Impact factors do not appear until 3 years after the publication of the article due to the way they are calculated.",ImpactFactor
+753,Customer ID,Customer ID,CustomerID
+754,Age,Customer's age in completed years,Age7
+755,Exp. Years,Number of years of professional experience,Exp.Years
+756,Annual Income,Annual income of the customer ($000),AnnualIncome
+757,ZIP Code,Home Address ZIP code.,ZIPCode1
+758,Family Size,Family size of the customer,FamilySize1
+759,CC Spend,Avg. spending on credit cards per month ($000),CCSpend
+760,Education,Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional,Education1
+761,Mortgage,Value of house mortgage if any. ($000),Mortgage
+762,Loan Accepted,Did this customer accept the personal loan offered in the last campaign?,LoanAccepted
+763,Securities Acct,Does the customer have a securities account with the bank?,SecuritiesAcct
+764,CD Acct,Does the customer have a certificate of deposit (CD) account with the bank?,CDAcct
+765,Internet Banking,Does the customer use internet banking facilities?,InternetBanking
+766,Bank CC,Does the customer use a credit card issued by this Bank?,BankCC
+767,Bearing ID,Unique identifier for the bearing,BearingID
+768,Target Class,"Target class, 1 for good and 0 for defective bearings",TargetClass
+769,Experiment ID,Unique identifier of the experiment,ExperimentID
+770,First Bearing ID,Unique identifier of the bearing on the first position,FirstBearingID
+771,Second Bearing ID,Unique identifier of the bearing on the second position,SecondBearingID
+772,Time (s),"Time, measured in seconds",Time(s)
+773,X-Accel 1,Acceleration along the X-axis for the first bearing. Measured in m/s^2,X-Accel1
+774,Y-Accel 1,Acceleration along the Y-axis for the first bearing. Measured in m/s^2,Y-Accel1
+775,Z-Accel 1,Acceleration along the Z-axis for the first bearing. Measured in m/s^2,Z-Accel1
+776,X-Accel 2,Acceleration along the X-axis for the second bearing. Measured in m/s^2,X-Accel2
+777,Y-Accel 2,Acceleration along the Y-axis for the second bearing. Measured in m/s^2,Y-Accel2
+778,Z-Accel 2,Acceleration along the Z-axis for the second bearing. Measured in m/s^2,Z-Accel2
+779,RPM,Rotation speed. Revolutions per minute,RPM
+780,Speed (Hz),Rotation speed. Speed in Hertz,Speed(Hz)
+781,Motor Power (W),The power of the motor at a time. Measured in Watts,MotorPower(W)
+782,CHD/MI,Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI),CHD/MI
+783,High Blood Pressure,"Adults who have been told they have high blood pressure by a doctor, nurse, or other health professional",HighBloodPressure
+784,High Cholesterol,"Have you EVER been told by a doctor, nurse or other health professional that your blood cholesterol is high?",HighCholesterol
+785,Cholesterol Check,Cholesterol check within past five years,CholesterolCheck1
+786,BMI,Body Mass Index (BMI),BMI1
+787,Smoker,Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes],Smoker
+788,Stroke,(Ever told) you had a stroke.,Stroke
+789,Diabetes,"0 is no diabetes, 1 is pre-diabetes, and 2 is diabetes",Diabetes
+790,Physical Activity,Adults who reported doing physical activity or exercise during the past 30 days other than their regular job,PhysicalActivity1
+791,Fruit Consumption,Consume Fruit 1 or more times per day,FruitConsumption1
+792,Veg Consumption,Consume Vegetables 1 or more times per day,VegConsumption
+793,Heavy Drinker,Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week),HeavyDrinker1
+794,Health Care Coverage,"o you have any kind of health care coverage, including health insurance, prepaid plans such as HMOs, or government plans such as Medicare, or Indian Health Service?",HealthCareCoverage1
+795,Unaffordable Care,Was there a time in the past 12 months when you needed to see a doctor but could not because of cost?,UnaffordableCare
+796,General Health,Would you say that in general your health is:,GeneralHealth
+797,Mental Health,"Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?",MentalHealth
+798,Physical Health,"Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?",PhysicalHealth
+799,Walking Difficulty,Do you have serious difficulty walking or climbing stairs?,WalkingDifficulty1
+800,Sex,Indicate sex of respondent.,Sex1
+801,Age,Fourteen-level age category,Age8
+802,Education,What is the highest grade or year of school you completed?,Education2
+803,Household Income,"Is your annual household income from all sources: (If respondent refuses at any income level, code ""Refused."")",HouseholdIncome
+804,Book Cover,URLs of book covers. Use this cover to download images yourselves if you need.,BookCover
+805,Title,Title of a book.,Title2
+806,Author,Author of a book.,Author1
+807,Format,Physical format of a book (i.e. paperback),Format
+808,Rating,"Book's rating found on the bookdepository.com(NOTE: Due to difference between scraping and download time of the dataset, this information might be different from one on the website)",Rating1
+809,Price,"Book's current price found on the bookdepository.com (NOTE: Due to difference between scraping and download time of the dataset, this information might be different from one on the website)",Price
+810,Currency,Currency of prices found in the dataset.,Currency
+811,Old Price,"Book's old price (if exists) found on the bookdepository.com (NOTE: Due to difference between scraping and download time of the dataset, this information might be different from one on the website)",OldPrice
+812,ISBN,ISBN number of a book.,ISBN
+813,Category,Category of a book found on the bookdepository.com,Category1
+814,Cover Path,Book's cover local path (after scraping).,CoverPath
+815,Violation Date,Date of the traffic violation.违章发生日期,ViolationDate
+816,Violation Time,Time of the traffic violation.违章发生时间,ViolationTime
+817,Agency,Agency issuing the traffic violation. (Example: MCP is Montgomery County Police)违章处理警局,Agency1
+818,Court Code,"Court code representing the district of assignment of the officer. R15 = 1st district, Rockville B15 = 2nd district, Bethesda SS15 = 3rd district, Silver Spring WG15 = 4th district, Wheaton G15 = 5th district, Germantown M15 = 6th district, Gaithersburg / Montgomery Village HQ15 = Headquarters and Special Operations违章具体处理派出所？",CourtCode
+819,Charge Description,Text description of the specific charge.违章的具体描述,ChargeDescription
+820,Violation Location,"Location of the violation, usually an address or intersection.违章的位置",ViolationLocation
+821,Latitude,Latitude location of the traffic violation.违章位置的纬度,Latitude3
+822,Longitude,Longitude location of the traffic violation.违章位置的经度,Longitude3
+823,Accident Involved,If traffic violation involved an accident.是否引发事故,AccidentInvolved
+824,Seat Belt Violation,If traffic violation involved a seat belt violation.是否涉及到安全带的使用,SeatBeltViolation
+825,Personal Injury,If traffic violation involved Personal Injury.是否有人员受伤,PersonalInjury
+826,Property Damage,If traffic violation involved Property Damage.是痘有财产损失,PropertyDamage
+827,Fatality,If traffic violation involved a fatality.是否有人员死亡,Fatality
+828,Commercial License,If the vehicle committing the traffic violation used Commercial License是否为公司牌照,CommercialLicense
+829,Hazardous Materials,If the traffic violation involved hazardous materials.事故中是否涉及危险品,HazardousMaterials
+830,Commercial Vehicle,If the vehicle committing the traffic violation is a commercial vehicle.违章车辆是否为商务车,CommercialVehicle
+831,Alcohol Related,If the traffic violation included an alcohol related是否涉及酒驾,AlcoholRelated
+832,Work Zone,If the traffic violation was in a work zone.违章是否发生在工作区,WorkZone
+833,Vehicle Registration State,State issuing the vehicle registration.是否为国家牌照的公务车,VehicleRegistrationState
+834,Vehicle Type,"Type of vehicle (Examples: Automobile, Station Wagon, Heavy Duty Truck, etc.)车型",VehicleType1
+835,Vehicle Year,Year vehicle was made.车辆出厂日期,VehicleYear
+836,Vehicle Manufacturer,"Manufacturer of the vehicle (Examples: Ford, Chevy, Honda, Toyota, etc.)车辆品牌",VehicleManufacturer
+837,Vehicle Model,Model of the vehicle.车的颜色,VehicleModel
+838,Vehicle Color,Color of the vehicle.违章类型,VehicleColor1
+839,Violation Type,"Violation type. (Examples: Warning, Citation, SERO ie SAFETY EQUIPMENT REPAIR ORDERS)违章类型",ViolationType
+840,Charge Code,Numeric code for the specific charge.罚款代码,ChargeCode
+841,State Law Article,"Article of State Law. (TA = Transportation Article, MR = Maryland Rules)触犯条例的级别（国家级或是州级）",StateLawArticle
+842,Contributing Factor,If the traffic violation was a contributing factor in an accident.这次违章是否是导致事故发生的原因,ContributingFactor
+843,Driver Race,"Race of the driver. (Example: Asian, Black, White, Other, etc.)司机种族",DriverRace
+844,Driver Gender,"Gender of the driver (F = Female, M = Male)司机性别",DriverGender
+845,Driver City,City of the driver’s home address.司机家庭住址的城市,DriverCity
+846,Driver State,State of the driver’s home address.司机家庭住址的州,DriverState
+847,Driver License State,State issuing the Driver’s License.（颁发驾照的州）,DriverLicenseState
+848,Arrest Type,"Type of Arrest (A = Marked, B = Unmarked, etc.)是否被逮捕",ArrestType
+849,Geo-coded Location,Geo-coded location information.位置区域码，类似于中国的邮编。,Geo-codedLocation
+850,NYSDOT Region,The numeric code that identifies the NYSDOT Region responsible for managing the transportation system for a specific geographic area listed as follows: Region 1 - Capital District Region 2 - Mohawk Valley Region 3 - Central New York Region 4 - Genesee Valley Region 5 - Western New York Region 6 - Central Southern Tier Region 7 - North Country Region 8 - Hudson Valley Region 9 - Southern Tier Region 10 - Long Island Region 11 - New York City,NYSDOTRegion
+851,Traffic Count Station ID,Unique identifier for each Traffic Count Station concatenated from the region county code and the station number.,TrafficCountStationID
+852,Roadway ID,Unique identifier that is coordinate based and assigned to the roadway for which the AADT was collected. Allows the segment to be mapped in GIS when referenced along with Begin/End Milepoint,RoadwayID
+853,Ramp Indicator,Signifies by either a yes or no whether or not a ramp is included in the roadway segment,RampIndicator
+854,Begin Milepoint,The starting milepoint of the segment of roadway for which the AADT applies,BeginMilepoint
+855,End Milepoint,The ending milepoint of the segment of roadway for which the AADT applies,EndMilepoint
+856,Begin Description,The verbal description of the start of the segment of roadway for which the AADT applies,BeginDescription
+857,End Description,The verbal description of the end of the segment of roadway for which the AADT applies,EndDescription
+858,Municipality,Name of the municipality in which the AADT was calculated,Municipality
+859,Route Type,"Designates what kind of a route or roadway the segment of roadway is INTERNY: Interstate designation commonly known as the Interstate Highway System, a network of controlled-access highways that forms a part of the National Highway System US: US designation of a set of roads typically called U.S. Routes or U.S. Highways which forms an integrated network of roads and highways numbered within a nationwide grid in the United States NY: New York State Highway designation assigned at the State level COUNTY: County Route designations assigned at the county level A blank field designates a ‘Local’ town, municipality or city roadway",RouteType
+860,Roadway Type,Numerical description of the type of roadway for which the AADT was collected,RoadwayType
+861,Roadway Name,Name of the roadway the AADT was calculated for,RoadwayName
+862,Year,Year the Annual Average Daily Traffic value is provided,Year5
+863,AADT Volume,Annual Average Daily Traffic volume value: on any given day the average numbers of vehicles that pass the segment of roadway as described by the Begin/End Descriptions. These figures are based on an actual count taken for that year or statistically validated estimated and forecasted values,AADTVolume
+864,AADT Type,"Indicates whether the AADT for a specific year count was actual, forecasted or estimated - Actual - count reading numeric value from an actual traffic counting study - Forecast – statistical value established for years before an earlier actual count or after the last actual count and is based on earlier data only - Estimate - statistical value established for years between two actual counts and can be derived from both earlier and later data",AADTType
+865,L-Ankle Accel X,acceleration from the left-ankle sensor (X axis),L-AnkleAccelX
+866,L-Ankle Accel Y,acceleration from the left-ankle sensor (Y axis),L-AnkleAccelY
+867,L-Ankle Accel Z,acceleration from the left-ankle sensor (Z axis),L-AnkleAccelZ
+868,L-Ankle Gyro X,gyro from the left-ankle sensor (X axis),L-AnkleGyroX
+869,L-Ankle Gyro Y,gyro from the left-ankle sensor (Y axis),L-AnkleGyroY
+870,L-Ankle Gyro Z,gyro from the left-ankle sensor (Z axis),L-AnkleGyroZ
+871,R-Lower Arm Accel X,acceleration from the right-lower-arm sensor (X axis),R-LowerArmAccelX
+872,R-Lower Arm Accel Y,acceleration from the right-lower-arm sensor (Y axis),R-LowerArmAccelY
+873,R-Lower Arm Accel Z,acceleration from the right-lower-arm sensor (Z axis),R-LowerArmAccelZ
+874,R-Lower Arm Gyro X,gyro from the right-lower-arm sensor (X axis),R-LowerArmGyroX
+875,R-Lower Arm Gyro Y,gyro from the right-lower-arm sensor (Y axis),R-LowerArmGyroY
+876,R-Lower Arm Gyro Z,gyro from the right-lower-arm sensor (Z axis),R-LowerArmGyroZ
+877,Activity,corresponding activity,Activity
+878,Volunteer,volunteer number,Volunteer
+879,ID,non identifiable randomly generated character id.,ID
+880,Full Name,full name of this character.,FullName
+881,Alias,another way to call the character.,Alias
+882,Gender,gender of the this character.,Gender6
+883,Hair Color,hair color of this character.,HairColor
+884,Love Rank,love rank based in users preference.,LoveRank
+885,Hate Rank,hate rank based in users preference.,HateRank
+886,Eye Color,eye color of the character.,EyeColor
+887,Birthday,date of his birthday.,Birthday
+888,Blood Type,blood type of the character.,BloodType
+889,Tags,comma separated list of tags for this character.,Tags1
+890,Loves,how many users love this character.,Loves
+891,Hates,how many users hate this character.,Hates
+892,Description,short text with description if this character.,Description
+893,Anime Planet URL,url to the main page of character in Anime Planet.,AnimePlanetURL
+894,User Preference,"True if the user loves the character, False if he hates it.",UserPreference
+895,Survival Months,"number of months patient survived (has survived, if patient is still alive)",SurvivalMonths
+896,Alive Status,"binary variable. 0=dead at end of survival period, 1 means still alive",AliveStatus
+897,Age at Heart Attack,age in years when heart attack occurred,AgeatHeartAttack
+898,Pericardial Effusion,"binary. Pericardial effusion is fluid around the heart. 0=no fluid, 1=fluid",PericardialEffusion
+899,Contractility Measure,a measure of contracility around the heart lower numbers are increasingly abnormal,ContractilityMeasure
+900,E-point Septal Separation,"E-point septal separation, another measure of contractility. Larger numbers are increasingly abnormal.",E-pointSeptalSeparation
+901,Left Ventricular Dimension,left ventricular end-diastolic dimension. This is a measure of the size of the heart at end-diastole. Large hearts tend to be sick hearts.,LeftVentricularDimension
+902,Segment Motion,a measure of how the segments of the left ventricle are moving,SegmentMotion
+903,Wall Motion Index,equals wall-motion-score divided by number of segments seen. Usually 12-13 segments are seen in an echocardiogram. Use this variable INSTEAD of the wall motion score.,WallMotionIndex
+904,Derived Var,a derivate var which can be ignored,DerivedVar
+905,Patient Name,"the name of the patient (I have replaced them with ""name"")",PatientName
+906,Ignore,something that is meaningless or can be ignored,Ignore0
+907,1-Year Survival,Derived from the first two attributes. 0 means patient was either dead after 1 year or had been followed for less than 1 year. 1 means patient was alive at 1 year.,1-YearSurvival
+908,Team Code,Code of team,TeamCode1
+909,Player Tag,Tag of player,PlayerTag
+910,Opponent Code,Code of opposing team in match,OpponentCode
+911,Position,Position played by player in match,Position1
+912,Champion,Champion played by player in match,Champion
+913,Kills,Number of kills by player in match,Kills1
+914,Deaths,Number of deaths by player in match,Deaths1
+915,Assists,Number of assists by player in match,Assists1
+916,Creep Score,Number of minions and monsters killed by player in match,CreepScore
+917,Damage %,Gold earned by player in match,Damage%
+918,Kill %,Percentage of total damage done by team to other champions done by player.,Kill%
+919,Wards Placed,Percentage of team kills that player was part of.,WardsPlaced
+920,Wards Killed,Number of wards placed by player in match.,WardsKilled
+921,Ward Score,Number of wards killed by player in match.,WardScore
+922,Dragon Kills,Sum of wards placed and wards killed by player in match.,DragonKills
+923,Opp Dragon Kills,Number of dragons team killed in match.,OppDragonKills
+924,Baron Kills,Number of dragons opposing team killed in match.,BaronKills
+925,Opp Baron Kills,Number of Barons killed in match.,OppBaronKills
+926,Match Result,Number of Barons opposing team killed in match.,MatchResult
+927,Result,Win or Lose (W/L),Result
+928,Rank,Rank of the billionaires in world,Rank2
+929,Name,Name of the billionaires,Name1
+930,Age,Age of the billionaires,Age9
+931,Income Source,Income source of the billionaires,IncomeSource
+932,Industry,In which industry billionaires works,Industry
+933,Gender,Gender of the billionaires,Gender7
+934,Continent,Continent of the business,Continent
+935,Country,Country of the business,Country4
+936,Headquarter,Headquarter of the business,Headquarter
+937,State,State of the business,State2
+938,Net Worth ($B),Net worth of individual in $ billions,NetWorth($B)
+939,Position,What is the position of individual in their business,Position2
+940,Year,Year in which the crime took place,Year6
+941,Region,"Geographical administrative region names of Bangladesh Police (DMP = Dhaka Metropolitan Police, CMP = Chittagong Metropolitan Police, RMP = Rajshahi Metropolitan Police, RPMP - Rangpur Metropolitan Police, etc.)",Region4
+942,Armed Robbery,Violent robbery committed by an armed gang in a geographical unit during the year,ArmedRobbery
+943,Robbery,"Taking or attempting to take anything of value by force, threat of force, or by putting the victim in fear",Robbery1
+944,Murder,"Intentional killing. Unlawful, as in not legally justified. Committed with malice aforethought,",Murder1
+945,Sensational Cases,"Speedy disposal of sensational and notorious cases like murder, rape, etc.",SensationalCases
+946,Riot,violent public disorder; specifically : a tumultuous disturbance of the public peace by three or more persons assembled together,Riot
+947,Heinous Crimes,"Number of heinous crimes such as rape, dowry, grievous injury. domestic violence, etc.",HeinousCrimes
+948,Kidnapping,Unlawful taking and carrying away of a person by force or fraud or the unlawful seizure and detention of a person against his will.,Kidnapping
+949,Police Attacks,Number of attacks on Police in a geographical unit during the year,PoliceAttacks
+950,Burglary,Breaking and entering and sometimes housebreaking. Illegal entry of a building with intent to commit a crime,Burglary1
+951,Theft,Taking of another person's property or services without that person's permission or consent with the intent to deprive the rightful owner of it.,Theft
+952,Other Crimes,Number of other type of crimes in a geographical unit during the year,OtherCrimes
+953,Arms Recovery,Recovery cases under Arms Act in a geographical unit during the year,ArmsRecovery
+954,Explosive Recovery,Explosive Recovery cases in a geographical unit during the year,ExplosiveRecovery
+955,Narcotics Recovery,Narcotics Recovery cases in a geographical unit during the year,NarcoticsRecovery
+956,Smuggling Recovery,Recovery cases of Smuggling in a geographical unit during the year,SmugglingRecovery
+957,Total Recovery,Total Recovery cases in a geographical unit during the year,TotalRecovery
+958,Total Crimes,Total crime cases in a geographical unit during the year,TotalCrimes1
+959,Statistics Year,Year of statistics,StatisticsYear
+960,Crime Rate,"Crime rate per 100,000 people of the country",CrimeRate1
+961,Crime Rate Change,% Change in crime rate compared to last year,CrimeRateChange
+962,Date,the date in which the coin had that price and volume,Date7
+963,Low,the lowwst price of that day in USD dollars,Low4
+964,High,the highest price of that day in USD dollars,High4
+965,Open,the price when that day started in the markets in USD dollars,Open3
+966,Close,the price when that day closed in the markets in USD dollars,Close3
+967,Volume,the quantity of that coin that was traded in that day,Volume4
+968,Volume USD,the quantity of that coin that was traded in that day in USD dollars,VolumeUSD
+969,Symbol,the symbol of the cryptocurrency,Symbol1
+970,Logo,the image url containing the cryptocurrency logo,Logo
+971,Name,the full name of the cryptocurrency,Name2
+972,ID,incident identifier.,ID1
+973,Process Transition,eight levels controlling the incident management process transitions from opening until closing the case.,ProcessTransition
+974,Status,boolean attribute that shows whether the record is active or closed/canceled.,Status2
+975,Group Chg Count,number of times the incident has the group or the support analysts changed.,GroupChgCount
+976,Rejection Count,number of times the incident resolution was rejected by the caller.,RejectionCount
+977,Update Count,number of incident updates until that moment.,UpdateCount
+978,SLA Exceeded,boolean attribute that shows whether the incident exceeded the target SLA.,SLAExceeded
+979,Affected User,identifier of the user affected.,AffectedUser
+980,Reported By,identifier of the user who reported the incident.,ReportedBy
+981,Opened Date,incident user opening date and time,OpenedDate
+982,Opened By,identifier of the user who registered the incident.,OpenedBy
+983,Created Date,incident system creation date and time.,CreatedDate
+984,Updated By,identifier of the user who updated the incident and generated the current log record.,UpdatedBy
+985,Update Date,incident system update date and time.,UpdateDate
+986,Reported Via,categorical attribute that shows by what means the incident was reported.,ReportedVia
+987,Location ID,identifier of the location of the place affected.,LocationID
+988,Service Category,first-level description of the affected service.,ServiceCategory
+989,Service Subcategory,"second-level description of the affected service (related to the first level description, i.e., to category).",ServiceSubcategory
+990,Service Availability,description of the user perception about service availability.,ServiceAvailability
+991,Affected Item,(confirmation item) identifier used to report the affected item (not mandatory).,AffectedItem
+992,Impact Description,description of the impact caused by the incident.,ImpactDescription
+993,Urgency Level,description of the urgency informed by the user for the incident resolution.,UrgencyLevel
+994,Priority,calculated by the system based on 'impact' and 'urgency'.,Priority
+995,Support Group,identifier of the support group in charge of the incident.,SupportGroup
+996,Assigned To,identifier of the user in charge of the incident.,AssignedTo
+997,KB Used,boolean attribute that shows whether a knowledge base document was used to resolve the incident.,KBUsed
+998,Priority Verified,boolean attribute that shows whether the priority field has been double-checked.,PriorityVerified
+999,Notifications,categorical attribute that shows whether notifications were generated for the incident.,Notifications
+1000,Problem ID,identifier of the problem associated with the incident.,ProblemID
+1001,Change Request,(request for change) identifier of the change request associated with the incident.,ChangeRequest
+1002,Vendor ID,identifier of the vendor in charge of the incident.,VendorID
+1003,RFC Responsible,identifier of the RFC responsible by the incident.,RFCResponsible
+1004,Resolution ID,identifier of the resolution of the incident.,ResolutionID
+1005,Resolved By,identifier of the user who resolved the incident.,ResolvedBy
+1006,Resolved Date,incident user resolution date and time (dependent variable).,ResolvedDate
+1007,Closed Date,incident user close date and time (dependent variable).,ClosedDate
+1008,Company Resource,DBpedia resource of the company,CompanyResource
+1009,Company Type,Public or Private Company,CompanyType
+1010,Founded,Date or Year of foundation,Founded
+1011,Location,Location of the company,Location4
+1012,Products/Services,Products and services provided by the company,Products/Services
+1013,Industry,Sector or Industry the company works in,Industry1
+1014,Employees,Number of employees in the company,Employees
+1015,Assets,Asset holdings of the company,Assets
+1016,Equity,Equity of the company,Equity
+1017,Revenue,Revenue of the company,Revenue
+1018,Profit,Profit of the company,Profit
+1019,Resource Link,DBpedia resource lin,ResourceLink
+1020,Registered Name,Registered Name,RegisteredName
+1021,Company Type,Public or Private,CompanyType1
+1022,Founded Date,Year or Month of Foundation,FoundedDate
+1023,Location,Location of the Company,Location5
+1024,Products/Services,List of Products and Services,Products/Services1
+1025,Industry,Industry the company works in,Industry2
+1026,Employees,Number of Employees,Employees1
+1027,Assets,Assets holdings,Assets1
+1028,Profit,Profits made by the company,Profit1
+1029,Fiscal County,"County of fiscal responsibility, which is typically the county of recipient’s residence",FiscalCounty
+1030,Service Category,"Individual Medicaid chemical dependent service categories. Note: This may also include an indication of: All Medicaid Services, All Alcohol and Substance Abuse (ASA) Services, All Non-ASA Services",ServiceCategory1
+1031,Unique Enrollees,Number of unique Medicaid enrollees for whom a claim was paid for a type of service received during the SFY*,UniqueEnrollees
+1032,Service Units,"The number of service units (e.g. days, visits, weeks) for which Medicaid paid during a SFY*",ServiceUnits
+1033,Avg Payment per Recipient,The dollar amount paid by Medicaid for services rendered divided by the number of recipients who received services during the SFY*,AvgPaymentperRecipient
+1034,Avg Payment per Claim,The dollar amount paid by Medicaid for services rendered divided by the number of claims submitted during the SFY*,AvgPaymentperClaim
+1035,Total Payment,The dollar amount paid by Medicaid for services rendered during the SFY * based on date of service,TotalPayment
+1036,State Fiscal Year,"4-digit State Fiscal Year, which runs from April 1st through March 31st. For example, the SFY for 2017 would occur between April 1, 2016 and March 31, 2017. Beginning with SFY 2016-2017, Medicaid billing includes both Fee for Service (FFS) and Managed Care (MC). Totals for each billing source are represented in the data beginning with SFY 2017.",StateFiscalYear
+1037,Service Indicators,"Summary indicators for separate chemical dependence service categories as well as indicators for All Medicaid Services, All Alcohol and Substance Abuse (ASA) and All Non-ASA Services",ServiceIndicators
+1038,Unique Enrollees FFS,The number of unique Medicaid enrollees for whom a claim was paid for a type of service received during the state fiscal year,UniqueEnrolleesFFS
+1039,FFS Service Units,"The number of service units (e.g. days, visits, weeks) for which Medicaid Fee-for-Service (FFS) paid during a state fiscal year",FFSServiceUnits
+1040,FFS Total Payment,The dollar amount paid by Medicaid FFS for services rendered during the state fiscal year based on date of service,FFSTotalPayment
+1041,State Fiscal Year FFS,"4-digit State Fiscal Year (SFY), which runs from April 1st through March 31st. For example, the SFY for 2003 would occur between April 1, 2002 and March 31, 2003.",StateFiscalYearFFS
+1042,Book ID,A unique Identification number for each book.,BookID
+1043,Book Title,The name under which the book was published.,BookTitle
+1044,Authors,Names of the authors of the book. Multiple authors are delimited with -.,Authors
+1045,Average Rating,The average rating of the book received in total.,AverageRating
+1046,ISBN,"Another unique number to identify the book, the International Standard Book Number.",ISBN1
+1047,EAN,"A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN.",EAN
+1048,Language,"Helps understand what is the primary language of the book. For instance, eng is standard for English.",Language
+1049,Pages,Number of pages the book contains.,Pages
+1050,Ratings,Total number of ratings the book received.,Ratings
+1051,Reviews,Total number of written text reviews the book received.,Reviews
+1052,Publication Date,Date when the book was first published.,PublicationDate
+1053,Publisher,The name of the publisher.,Publisher
+1054,Episode Title,The title of each episode,EpisodeTitle
+1055,Writer,The writer of each episode,Writer
+1056,Character,The character from the show,Character
+1057,Lines,Character's lines,Lines
+1058,Story Writer,The story writer of each episode,StoryWriter
+1059,Air Date,The Original air date of each episode,AirDate
+1060,Transcript,The links to transcript of each episode,Transcript
+1061,Summary,The links to story summary of each episode,Summary
+1062,Song Title,The name of each song,SongTitle
+1063,Song Length,The length of each song,SongLength
+1064,Air Date,The original air date of each episode,AirDate1
+1065,Summary,The story summary of each episode,Summary1
+1066,Player,Name of the player,Player2
+1067,Phase,Competition phase or a matchday,Phase
+1068,Date,The date when the game was played,Date8
+1069,Home Team,The host team (number in brackets represents position of that team on the table at that moment),HomeTeam
+1070,Away Team,The visitor team (number in brackets represents position of that team on the table at that moment),AwayTeam
+1071,Result,The result of the match,Result1
+1072,Position,On which position player played,Position3
+1073,Goals,The number of goals scored by the player,Goals
+1074,Assists,The number of assists made by the player,Assists2
+1075,Own Goals,The number of OWN goals scored by the player,OwnGoals
+1076,Yellow Card,Whether the player received a yellow card or not,YellowCard
+1077,2nd Yellow,Whether the player received a SECOND yellow card or not,2ndYellow
+1078,Red Card,Whether the player received a DIRECT red card or not,RedCard
+1079,Min In,Minute of the game when the player entered the field.,MinIn
+1080,Min Out,Minute of the game when the player was substituted and replaced by another player.,MinOut
+1081,Minutes Played,Minutes played in the match,MinutesPlayed
+1082,Competition,Full name or abbreviation of the competition,Competition
+1083,Spell Name,Name of the spell,SpellName
+1084,Classes,Which classes can learn this spell,Classes
+1085,Spell Level,"The level of the spell (this is separate from the player's level), 0 is a cantrip",SpellLevel
+1086,Magic Type,What type of magic the spell is,MagicType
+1087,Casting Time,How long it takes the character to cast this spell,CastingTime
+1088,Range,How far the character can be from the target of the spell,Range
+1089,Duration,How long the spell lasts,Duration3
+1090,Verbal,Boolean - spell requires a verbal incantation,Verbal
+1091,Somatic,Boolean - spell requires a precise hand motion,Somatic
+1092,Material,Boolean - spell requires a physical object which is consumed,Material
+1093,Consumed,What type of material is consumed when casting the spell,Consumed
+1094,Effect,The effect casting spell creates,Effect
+1095,ID,Unique identifier of news items,ID2
+1096,Official Title,Title of the news item according to the official media sources,OfficialTitle
+1097,Official Headline,Headline of the news item according to the official media sources,OfficialHeadline
+1098,News Outlet,Original news outlet that published the news item,NewsOutlet
+1099,Query Topic,Query topic used to obtain the items in the official media sources,QueryTopic
+1100,Publication Date,Date and time of the news items' publication,PublicationDate1
+1101,Facebook Popularity,Final value of the news items' popularity according to the social media source Facebook,FacebookPopularity
+1102,Google+ Popularity,Final value of the news items' popularity according to the social media source Google+,Google+Popularity
+1103,LinkedIn Popularity,Final value of the news items' popularity according to the social media source LinkedIn,LinkedInPopularity
+1104,Title Sentiment,"Sentiment score of the title, Higher the score, better is the impact or +ve sentiment and vice-versa. (Target Variable 1)",TitleSentiment
+1105,Headline Sentiment,"Sentiment score of the text in the news items' headline. Higher the score, better is the impact or +ve sentiment. (Target Variable 2)",HeadlineSentiment
+1106,Date,Date of observation of the row's data in YYYY-MM-DD format,Date9
+1107,Country,Country in which the the row's data was observed,Country5
+1108,Cumulative Cases,"Cumulative number of confirmed cases as of the row's date, for the row's country",CumulativeCases
+1109,Daily Cases,"Daily new number of confirmed cases on the row's date, for the row's country",DailyCases
+1110,Active Cases,"Number of active cases (i.e., confirmed cases that still didn't recover nor die) on the row's date, for the row's country",ActiveCases
+1111,Cumulative Deaths,"Cumulative number of confirmed deaths as of the row's date, for the row's country",CumulativeDeaths
+1112,Daily Deaths,"Daily new number of confirmed deaths on the row's date, for the row's country",DailyDeaths
+1113,Continent,Continent of the observed country,Continent1
+1114,Total Cases,Total number of confirmed cases in the observed country,TotalCases
+1115,Total Deaths,Total number of confirmed deaths in the observed country,TotalDeaths
+1116,Total Recoveries,Total number of confirmed recoveries in the observed country,TotalRecoveries
+1117,Active Cases,Number of active cases in the observed country,ActiveCases1
+1118,Serious Cases,Estimated number of cases in serious or critical conditions in the observed country,SeriousCases
+1119,Cases per M,Number of total cases per 1 million population in the observed country,CasesperM
+1120,Deaths per M,Number of total deaths per 1 million population in the observed country,DeathsperM
+1121,Total Tests,Number of total tests done in the observed country,TotalTests
+1122,Tests per M,Number of total test done per 1 million population in the observed country,TestsperM
+1123,Population,Population count in the observed country,Population1
+1124,Title Code,Civil Service Title Code,TitleCode
+1125,Title,Name/Description of title,Title3
+1126,Suffix,Suffix (number) for sub-level of title,Suffix
+1127,Sub-Level Desc,Description of sub-level of title,Sub-LevelDesc
+1128,Weekly Hours,Standard weekly hours for the title,WeeklyHours
+1129,Assignment Level,Assignment level within title,AssignmentLevel
+1130,Job Code,Unique job code for entry,JobCode
+1131,Union Code,"Unique code for union representing title, if applicable",UnionCode
+1132,Union Name,"Name/Description of union representing title, if applicable",UnionName
+1133,Bargaining Unit,"Acronym or short name for union designated as the bargaining unit for title, if applicable",BargainingUnit
+1134,Min Salary,"Name/description of union designated as the bargaining unit for title, if applicable",MinSalary
+1135,Max Salary,Minimum salary range for the title,MaxSalary
+1136,Union Desc,Maximum salary range for the title,UnionDesc
+1137,Id,Row Id,Id
+1138,Product Id,Unique identifier for the product,ProductId
+1139,User Id,Unqiue identifier for the user,UserId
+1140,Profile,Profile name of the user,Profile
+1141,Helpful,Number of users who found the review helpful,Helpful
+1142,Votes,Number of users who indicated whether they found the review helpful or not,Votes2
+1143,Rating,Rating between 1 and 5,Rating2
+1144,Timestamp,Timestamp for the review,Timestamp
+1145,Summary,Brief summary of the review,Summary2
+1146,Review,Text of the review,Review
+1147,Apples,Apples composted per bone meal,Apples
+1148,Cacti,Cacti composted per bone meal,Cacti
+1149,Carrots,Carrots composted per bone meal,Carrots
+1150,Cookies,Cookies composted per bone meal,Cookies
+1151,Melons,Melons composted per bone meal,Melons
+1152,Melon Seeds,Melon seeds composted per bone meal,MelonSeeds
+1153,Oak Leaves,Oak leaves composted per bone meal,OakLeaves
+1154,Oak Saplings,Oak saplings composted per bone meal,OakSaplings
+1155,Potatoes,Potatoes composted per bone meal,Potatoes
+1156,Pumpkins,Pumpkins composted per bone meal,Pumpkins
+1157,Pumpkin Seeds,Pumpkin seeds composted per bone meal,PumpkinSeeds
+1158,Beetroots,Beetroots composted per bone meal,Beetroots
+1159,Beetroot Seeds,Beetroot seeds composted per bone meal,BeetrootSeeds
+1160,Sugar Canes,Sugar canes composted per bone meal,SugarCanes
+1161,Wheat,Wheat composted per bone meal,Wheat
+1162,Wheat Seeds,Wheat seeds composted per bone meal,WheatSeeds
+1163,Job,"job : type of job (categorical: ""admin."",""unknown"",""unemployed"",""management"",""housemaid"",""entrepreneur"", ""student"",""blue-collar"",""self-employed"",""retired"",""technician"",""services"")",Job
+1164,Marital,"marital : marital status (categorical: ""married"",""divorced"",""single""; note: ""divorced"" means divorced or widowed)",Marital
+1165,Education,"education (categorical: ""unknown"",""secondary"",""primary"",""tertiary"")",Education3
+1166,Default,"default: has credit in default? (binary: ""yes"",""no"")",Default
+1167,Balance,"balance: average yearly balance, in euros (numeric)",Balance
+1168,Housing,"housing: has housing loan? (binary: ""yes"",""no""",Housing
+1169,Loan,"loan: has personal loan? (binary: ""yes"",""no"")",Loan
+1170,Contact,"contact: contact communication type (categorical: ""unknown"",""telephone"",""cellular"")",Contact
+1171,Day,day: last contact day of the month (numeric),Day
+1172,Month,"month: last contact month of year (categorical: ""jan"", ""feb"", ""mar"", ..., ""nov"", ""dec"")",Month
+1173,Duration,"duration: last contact duration, in seconds (numeric)",Duration4
+1174,Campaign,"campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)",Campaign
+1175,Pdays,"pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)",Pdays
+1176,Previous,revious: number of contacts performed before this campaign and for this client (numeric),Previous
+1177,Poutcome,"poutcome: outcome of the previous marketing campaign (categorical: ""unknown"",""other"",""failure"",""success"")",Poutcome
+1178,Subscription,"y - has the client subscribed a term deposit? (binary: ""yes"",""no"")",Subscription
+1179,X Axis,x-axis spatial coordinate within the Montesinho park map: 1 to 9,XAxis
+1180,Y Axis,y-axis spatial coordinate within the Montesinho park map: 2 to 9,YAxis
+1181,Month,"month of the year: ""jan"" to ""dec""",Month1
+1182,Day,"day of the week: ""mon"" to ""sun""",Day1
+1183,FFMC,FFMC index from the FWI system: 18.7 to 96.20,FFMC
+1184,DMC,DMC index from the FWI system: 1.1 to 291.3,DMC
+1185,DC,DC index from the FWI system: 7.9 to 860.6,DC
+1186,ISI,ISI index from the FWI system: 0.0 to 56.10,ISI
+1187,Temp (C),temperature in Celsius degrees: 2.2 to 33.30,Temp(C)
+1188,Humidity (%),relative humidity in %: 15.0 to 100,Humidity(%)
+1189,Wind Speed (km/h),wind speed in km/h: 0.40 to 9.40,WindSpeed(km/h)
+1190,Rain (mm/m2),outside rain in mm/m2 : 0.0 to 6.4,Rain(mm/m2)
+1191,Burned Area (ha),the burned area of the forest (in ha): 0.00 to 1090.84,BurnedArea(ha)
